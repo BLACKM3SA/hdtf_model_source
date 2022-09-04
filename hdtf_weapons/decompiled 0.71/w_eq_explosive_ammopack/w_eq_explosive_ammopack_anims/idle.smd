@@ -1,0 +1,19 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "ValveBiped.explosions" -1
+  1 "ValveBiped.ValveBiped" 0
+  2 "ValveBiped.weapon_bone" 1
+  3 "ValveBiped.joint3" 2
+  4 "ValveBiped.polySurface258" 3
+  5 "ValveBiped.polySurface257" 2
+end
+skeleton
+  time 0
+    0 0.000000 0.000000 0.000000 1.570792 0.000005 -0.000005
+    1 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+    2 -5.528124 2.786034 0.000000 0.000000 0.000000 0.000000
+    3 0.590371 4.033541 0.000109 0.000000 0.000000 0.000000
+    4 -0.610198 0.884788 0.000000 0.000000 0.000000 0.000000
+    5 -0.610198 0.884788 0.000000 0.000000 0.000000 0.000000
+end

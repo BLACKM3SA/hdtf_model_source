@@ -1,0 +1,9 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "Knife" -1
+end
+skeleton
+  time 0
+    0 -0.575195 2.003906 3.292969 2.029775 1.375833 -2.674940
+end

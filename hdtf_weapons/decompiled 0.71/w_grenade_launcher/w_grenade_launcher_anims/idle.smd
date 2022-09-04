@@ -1,0 +1,19 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "ValveBiped.weapon_bone" -1
+  1 "ValveBiped.attach_shell_eject" 0
+  2 "ValveBiped.attach_muzzle" 0
+  3 "ValveBiped.weapon_bone_extra" 0
+  4 "ValveBiped.weapon_charger_slide" 3
+  5 "ValveBiped.flashlight" 4
+end
+skeleton
+  time 0
+    0 0.000000 0.000000 0.000000 1.570792 0.000005 -0.000005
+    1 0.000000 3.003862 1.610714 -1.570796 0.000000 1.570796
+    2 0.000000 0.099716 8.360892 0.000000 -1.570796 0.000000
+    3 0.018897 0.665159 9.395883 0.000000 0.000000 0.000000
+    4 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+    5 -0.018897 3.813429 12.697421 0.000000 0.000000 0.000000
+end

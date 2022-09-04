@@ -1,0 +1,11 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "ValveBiped.Bip01_R_Hand" -1
+  1 "muzzle" 0
+end
+skeleton
+  time 0
+    0 -1.541992 8.007813 -0.941895 3.133249 0.086933 -1.571161
+    1 13.915901 -1.474560 -4.683900 -3.133970 0.086934 0.000332
+end

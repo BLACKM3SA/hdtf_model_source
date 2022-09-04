@@ -1,0 +1,17 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "ValveBiped.w_pistol_A_dual" -1
+  1 "ValveBiped.weapon_bone" 0
+  2 "ValveBiped.polySurface25" 1
+  3 "ValveBiped.Bip01_L_Hand" 0
+  4 "ValveBiped.polySurface10" 3
+end
+skeleton
+  time 0
+    0 0.000000 0.472168 13.726563 1.570792 0.000003 -0.000003
+    1 0.000000 1.030776 2.840980 0.000000 0.000000 0.000000
+    2 2.157646 1.019797 4.997263 -1.570796 -0.729473 1.570796
+    3 11.161091 1.041646 -1.495376 1.767840 -1.553978 2.931601
+    4 8.371251 -2.910726 2.304233 1.590937 -0.870779 0.001045
+end
