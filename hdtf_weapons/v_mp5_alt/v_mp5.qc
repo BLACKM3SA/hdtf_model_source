@@ -13,7 +13,7 @@ $bodygroup "Arms"
 	studio "mitchell_arms_survivor.smd"
 }
 
-$origin 0.07 0 -0.87
+$origin 0.09 0 -0.87
 
 $surfaceprop "default"
 
