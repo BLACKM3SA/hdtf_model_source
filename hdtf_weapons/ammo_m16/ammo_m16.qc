@@ -1,19 +1,16 @@
-// Created by Crowbar 0.71
-
 $modelname "weapons/ammo_m16.mdl"
 
 $bodygroup "magazine"
 {
-	studio "mesh.smd"
+	studio "magazine.smd"
 }
 $bodygroup "bullet"
 {
 	studio "bullets.smd"
-	blank
+	studio "push.smd"
 }
 
-
-$surfaceprop "item"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -25,7 +22,7 @@ $cbox 0 0 0 0 0 0
 
 $bbox -3.531 -1.21 -7.729 3.493 1.216 7.626
 
-$definebone "mesh" "" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "magazine" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "bullets" "" 0 0 0 0 90.000207 0 0 0 0 0 0 0
 
 
