@@ -1,5 +1,3 @@
-// Created by Crowbar 0.71
-
 $modelname "weapons/shell_k98.mdl"
 
 $bodygroup "studio"
@@ -21,6 +19,7 @@ $cbox 0 0 0 0 0 0
 $bbox -1.154 -0.521 -0.447 2.449 0.585 0.569
 
 $definebone "shell" "" 0 0 0 0 0 0 0 0 0 0 0 0
+$attachment "smoke" "shell" 1.00 0.00 0.00 rotate -0 0 0
 
 
 $sequence "bindpose" {

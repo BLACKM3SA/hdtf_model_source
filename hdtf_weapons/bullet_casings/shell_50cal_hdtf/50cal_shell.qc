@@ -1,6 +1,4 @@
-// Created by Crowbar 0.71
-
-$modelname "weapons/shell_50cal.mdl"
+$modelname "weapons/50cal_shell.mdl"
 
 $bodygroup "studio"
 {
@@ -21,10 +19,11 @@ $cbox 0 0 0 0 0 0
 $bbox -0.785 -2.486 -0.785 0.785 2.088 0.785
 
 $definebone "mesh" "" 0 0 0 0 -90.000207 0 0 0 0 0 0 0
+$attachment "smoke" "mesh" 1.90 0.00 0.00 rotate 0 0 0
 
 
 $sequence "bindpose" {
-	"shell_50cal_anims\bindpose.smd"
+	"50cal_shell_anims\bindpose.smd"
 	activity "ACT_IDLE" -1
 	fadein 0.2
 	fadeout 0.2

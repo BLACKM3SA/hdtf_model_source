@@ -1,6 +1,4 @@
-// Created by Crowbar 0.71
-
-$modelname "weapons/50cal_shell.mdl"
+$modelname "weapons/shell_magnum.mdl"
 
 $bodygroup "studio"
 {
@@ -12,19 +10,20 @@ $surfaceprop "metal"
 
 $contents "solid"
 
-$illumposition -0.189 0.001 -0.002
+$illumposition 0 0.094 0
 
-$cdmaterials "models\weapons\hdtf\50cal\"
+$cdmaterials "models\weapons\hdtf\magnum\"
 
 $cbox 0 0 0 0 0 0
 
-$bbox -0.785 -2.486 -0.785 0.785 2.088 0.785
+$bbox -1.37 -0.499 -0.498 1.183 0.499 0.498
 
-$definebone "mesh" "" 0 0 0 0 -90.000207 0 0 0 0 0 0 0
+$definebone "shell" "" 0 0 0 0 0 0 0 0 0 0 0 0
+$attachment "smoke" "shell" 0.00 -1.00 0.00 rotate -0 0 0
 
 
 $sequence "bindpose" {
-	"50cal_shell_anims\bindpose.smd"
+	"shell_magnum_anims\bindpose.smd"
 	activity "ACT_IDLE" -1
 	fadein 0.2
 	fadeout 0.2
@@ -32,7 +31,7 @@ $sequence "bindpose" {
 	loop
 }
 
-$collisionmodel "50cal_shell_physics.smd"
+$collisionmodel "shell_magnum_physics.smd"
 {
 	$mass 1.5
 	$inertia 1
