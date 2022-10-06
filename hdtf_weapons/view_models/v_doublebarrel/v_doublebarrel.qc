@@ -1,11 +1,7 @@
-// Created by Crowbar 0.71
-
 $modelname "weapons/v_doublebarrel.mdl"
 
-$bodygroup "Weapon"
-{
-	studio "mesh.smd"
-}
+$model "Weapon" "mesh.smd"
+
 $bodygroup "Flashlight"
 {
 	blank
@@ -31,6 +27,9 @@ $cdmaterials "models\weapons\hdtf\doublebarrel\"
 $attachment "muzzle" "weapon" 0 24.97 -0.17 rotate 0 90 0
 $attachment "eject" "s1" 0 0 0 rotate 0 180 0
 $attachment "flashlight" "barrels" -23.49 0.15 0.28 rotate 0 180 0
+
+$attachment "chamber1" "barrels" 2.50 -0.20 1.00 rotate 0 0 0
+$attachment "chamber2" "barrels" 2.50 1.50 1.00 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
@@ -143,6 +142,7 @@ $sequence "reload1" {
 	{ event AE_CL_PLAYSOUND 30 "WeaponDoubleBarrel.FoleyPickShell" }
 	{ event AE_CL_PLAYSOUND 42 "WeaponDoubleBarrel.InsertShell" }
 	{ event AE_CL_PLAYSOUND 48 "WeaponDoubleBarrel.ReloadEnd" }
+	{ event AE_CL_CREATE_PARTICLE_EFFECT 18 "wpn_double_barrel_chamber_smoke follow_attachment chamber2" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -160,6 +160,8 @@ $sequence "reload2" {
 	{ event AE_CL_PLAYSOUND 30 "WeaponDoubleBarrel.InsertShell" }
 	{ event AE_CL_PLAYSOUND 50 "WeaponDoubleBarrel.InsertShell" }
 	{ event AE_CL_PLAYSOUND 65 "WeaponDoubleBarrel.ReloadEnd" }
+	{ event AE_CL_CREATE_PARTICLE_EFFECT 12 "wpn_double_barrel_chamber_smoke follow_attachment chamber1" }
+	{ event AE_CL_CREATE_PARTICLE_EFFECT 12 "wpn_double_barrel_chamber_smoke follow_attachment chamber2" }
 	fadein 0.2
 	fadeout 0.2
 	snap
