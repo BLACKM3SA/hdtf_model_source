@@ -50,7 +50,7 @@ $sequence "attack1" {
 	activity "ACT_RANGE_ATTACK_SMG1" 1
 	{ event AE_NPC_MUZZLEFLASH 0 "SMG1 MUZZLE" }
 	{ event 3002 0 "" }
-	{ event 6001 0 "0" }
+	{ event 6010 0 "0" }
 	fadein 0.2
 	fadeout 0.2
 	fps 20
