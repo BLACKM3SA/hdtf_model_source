@@ -45,7 +45,7 @@ $sequence "fire" {
 	"w_shotgun_anims\fire.smd"
 	activity "ACT_RANGE_ATTACK_SHOTGUN" 1
 	{ event AE_NPC_MUZZLEFLASH 0 "SHOTGUN MUZZLE" }
-	{ event 6001 0 "2" }
+	{ event 6010 0 "2" }
 	{ event 3004 0 "" }
 	fadein 0.2
 	fadeout 0.2

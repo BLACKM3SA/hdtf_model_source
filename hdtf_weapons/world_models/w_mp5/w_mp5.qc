@@ -38,6 +38,7 @@ $sequence "attack" {
 	"w_mp5_anims\attack.smd"
 	activity "ACT_RANGE_ATTACK_SMG1" -1
 	{ event 3002 0 "" }
+	{ event 6010 0 "0" }
 	fadein 0.2
 	fadeout 0.2
 	fps 30
@@ -47,6 +48,7 @@ $sequence "attacloffcenter" {
 	"w_mp5_anims\attacloffcenter.smd"
 	activity "ACT_RANGE_ATTACK_SMG1_LOW" -1
 	{ event 3002 0 "" }
+	{ event 6010 0 "0" }
 	fadein 0.2
 	fadeout 0.2
 	fps 30
