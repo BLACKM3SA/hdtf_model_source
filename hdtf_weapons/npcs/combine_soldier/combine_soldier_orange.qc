@@ -2,13 +2,13 @@ $modelname "Combine_Soldier2.mdl"
 
 $bodygroup "Soldier"
 {
-	studio "combine_soldier_m3sa.smd"
+	studio "combine_soldier_m3sa_orange.smd"
 }
 
 //$lod 30
 $lod 64
 {
-	replacemodel "combine_soldier_m3sa.smd" "combine_soldier_m3sa_lod1.smd"
+	replacemodel "combine_soldier_m3sa_orange.smd" "combine_soldier_m3sa_orange_lod1.smd"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
 	replacebone "ValveBiped.Anim_Attachment_RH" "ValveBiped.Bip01_R_Hand"
 	nofacial
@@ -16,7 +16,7 @@ $lod 64
 //$lod 25
 $lod 128
 {
-	replacemodel "combine_soldier_m3sa.smd" "combine_soldier_m3sa_lod2.smd"
+	replacemodel "combine_soldier_m3sa_orange.smd" "combine_soldier_m3sa_orange_lod2.smd"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
 	replacebone "ValveBiped.Anim_Attachment_RH" "ValveBiped.Bip01_R_Hand"
 	nofacial
@@ -24,7 +24,7 @@ $lod 128
 //$lod 40
 $lod 512
 {
-	replacemodel "combine_soldier_m3sa.smd" "combine_soldier_m3sa_lod3.smd"
+	replacemodel "combine_soldier_m3sa_orange.smd" "combine_soldier_m3sa_orange_lod3.smd"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
 	replacebone "ValveBiped.Anim_Attachment_RH" "ValveBiped.Bip01_R_Hand"
 	nofacial
@@ -32,7 +32,7 @@ $lod 512
 //$lod 60
 $lod 1024
 {
-	replacemodel "combine_soldier_m3sa.smd" "combine_soldier_m3sa_lod4.smd"
+	replacemodel "combine_soldier_m3sa_orange.smd" "combine_soldier_m3sa_orange_lod4.smd"
 	replacebone "ValveBiped.Bip01_L_Finger02" "ValveBiped.Bip01_L_Finger01"
 	replacebone "ValveBiped.Bip01_R_Finger02" "ValveBiped.Bip01_R_Finger01"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
@@ -41,7 +41,7 @@ $lod 1024
 }
 $shadowlod
 {
-	replacemodel "combine_soldier_m3sa.smd" "combine_soldier_m3sa_lod5.smd"
+	replacemodel "combine_soldier_m3sa_orange.smd" "combine_soldier_m3sa_orange_lod5.smd"
 	replacebone "ValveBiped.Bip01_L_Finger02" "ValveBiped.Bip01_L_Finger01"
 	replacebone "ValveBiped.Bip01_R_Finger02" "ValveBiped.Bip01_R_Finger01"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
