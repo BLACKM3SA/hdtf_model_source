@@ -5,32 +5,28 @@ $bodygroup "Soldier"
 	studio "combine_soldier_m3sa_orange.smd"
 }
 
-//$lod 30
-$lod 64
+$lod 30
 {
 	replacemodel "combine_soldier_m3sa_orange.smd" "combine_soldier_m3sa_orange_lod1.smd"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
 	replacebone "ValveBiped.Anim_Attachment_RH" "ValveBiped.Bip01_R_Hand"
 	nofacial
 }
-//$lod 25
-$lod 128
+$lod 25
 {
 	replacemodel "combine_soldier_m3sa_orange.smd" "combine_soldier_m3sa_orange_lod2.smd"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
 	replacebone "ValveBiped.Anim_Attachment_RH" "ValveBiped.Bip01_R_Hand"
 	nofacial
 }
-//$lod 40
-$lod 512
+$lod 40
 {
 	replacemodel "combine_soldier_m3sa_orange.smd" "combine_soldier_m3sa_orange_lod3.smd"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
 	replacebone "ValveBiped.Anim_Attachment_RH" "ValveBiped.Bip01_R_Hand"
 	nofacial
 }
-//$lod 60
-$lod 1024
+$lod 60
 {
 	replacemodel "combine_soldier_m3sa_orange.smd" "combine_soldier_m3sa_orange_lod4.smd"
 	replacebone "ValveBiped.Bip01_L_Finger02" "ValveBiped.Bip01_L_Finger01"

@@ -1,36 +1,34 @@
-// Created by Crowbar 0.71
-
-$modelname "Combine_Soldier.mdl"
+$modelname "Combine_Soldier3.mdl"
 
 $bodygroup "Soldier"
 {
-	studio "combine_soldier_m3sa.smd"
+	studio "combine_soldier_m3sa_green.smd"
 }
 
 $lod 30
 {
-	replacemodel "combine_soldier_m3sa.smd" "combine_soldier_m3sa_lod1.smd"
+	replacemodel "combine_soldier_m3sa_green.smd" "combine_soldier_m3sa_green_lod1.smd"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
 	replacebone "ValveBiped.Anim_Attachment_RH" "ValveBiped.Bip01_R_Hand"
 	nofacial
 }
 $lod 25
 {
-	replacemodel "combine_soldier_m3sa.smd" "combine_soldier_m3sa_lod2.smd"
+	replacemodel "combine_soldier_m3sa_green.smd" "combine_soldier_m3sa_green_lod2.smd"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
 	replacebone "ValveBiped.Anim_Attachment_RH" "ValveBiped.Bip01_R_Hand"
 	nofacial
 }
 $lod 40
 {
-	replacemodel "combine_soldier_m3sa.smd" "combine_soldier_m3sa_lod3.smd"
+	replacemodel "combine_soldier_m3sa_green.smd" "combine_soldier_m3sa_green_lod3.smd"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
 	replacebone "ValveBiped.Anim_Attachment_RH" "ValveBiped.Bip01_R_Hand"
 	nofacial
 }
 $lod 60
 {
-	replacemodel "combine_soldier_m3sa.smd" "combine_soldier_m3sa_lod4.smd"
+	replacemodel "combine_soldier_m3sa_green.smd" "combine_soldier_m3sa_green_lod4.smd"
 	replacebone "ValveBiped.Bip01_L_Finger02" "ValveBiped.Bip01_L_Finger01"
 	replacebone "ValveBiped.Bip01_R_Finger02" "ValveBiped.Bip01_R_Finger01"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
@@ -39,7 +37,7 @@ $lod 60
 }
 $shadowlod
 {
-	replacemodel "combine_soldier_m3sa.smd" "combine_soldier_m3sa_lod5.smd"
+	replacemodel "combine_soldier_m3sa_green.smd" "combine_soldier_m3sa_green_lod5.smd"
 	replacebone "ValveBiped.Bip01_L_Finger02" "ValveBiped.Bip01_L_Finger01"
 	replacebone "ValveBiped.Bip01_R_Finger02" "ValveBiped.Bip01_R_Finger01"
 	replacebone "ValveBiped.Anim_Attachment_LH" "ValveBiped.Bip01_L_Hand"
@@ -61,9 +59,9 @@ $cdmaterials "models\Combine_Soldier\"
 
 $texturegroup "skinfamilies"
 {
-	{ "combinesoldiersheet"         }
-	{ "combinesoldiersheet_shotgun" }
-	{ "combinesoldiersheet_snow"    }
+	{ "combinesoldiersheet3"         	}
+	{ "combinesoldiersheet3_shotgun" 	}
+	{ "combinesoldiersheet_snow"		}
 }
 
 $attachment "lefthand" "ValveBiped.Bip01_L_Hand" 0 0 0 rotate 0 0 0
