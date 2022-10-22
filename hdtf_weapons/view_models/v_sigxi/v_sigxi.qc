@@ -103,6 +103,7 @@ $sequence "idle" {
 $sequence "draw" {
 	"v_sigxi_anims\draw.smd"
 	activity "ACT_VM_DRAW" -1
+	{ event AE_CL_PLAYSOUND 0 "WeaponAK47.Draw" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -112,6 +113,9 @@ $sequence "draw" {
 $sequence "draw first" {
 	"v_sigxi_anims\draw first.smd"
 	activity "ACT_VM_DEPLOY" -1
+	{ event AE_CL_PLAYSOUND 0 "WeaponAK47.Draw" }
+	{ event AE_CL_PLAYSOUND 13 "WeaponAK47.BoltBack" }
+	{ event AE_CL_PLAYSOUND 18 "WeaponAK47.BoltForward" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -121,6 +125,7 @@ $sequence "draw first" {
 $sequence "holster" {
 	"v_sigxi_anims\holster.smd"
 	activity "ACT_VM_HOLSTER" -1
+	{ event AE_CL_PLAYSOUND 0 "WeaponAK47.Holster" }
 	fadein 0.2
 	fadeout 0.2
 	fps 30
@@ -175,6 +180,11 @@ $sequence "ads to idle" {
 $sequence "reload half" {
 	"v_sigxi_anims\reload half.smd"
 	activity "ACT_VM_RELOAD" 1
+	{ event AE_CL_PLAYSOUND 0 "WeaponAK47.ReloadStart" }
+	{ event AE_CL_PLAYSOUND 17 "WeaponAK47.MagOut" }
+	{ event AE_CL_PLAYSOUND 25 "WeaponAK47.MagTransition" }
+	{ event AE_CL_PLAYSOUND 35 "WeaponAK47.MagIn" }
+	{ event AE_CL_PLAYSOUND 45 "WeaponAK47.ReloadEnd" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -185,6 +195,13 @@ $sequence "reload empty" {
 	"v_sigxi_anims\reload empty.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	{ event AE_WPN_THROWMAG 23 "SIGXI mag_throw" }
+	{ event AE_CL_PLAYSOUND 0 "WeaponAK47.ReloadStart" }
+	{ event AE_CL_PLAYSOUND 17 "WeaponAK47.MagOut" }
+	{ event AE_CL_PLAYSOUND 25 "WeaponAK47.MagTransition" }
+	{ event AE_CL_PLAYSOUND 35 "WeaponAK47.MagIn" }
+	{ event AE_CL_PLAYSOUND 62 "WeaponAK47.BoltBack" }
+	{ event AE_CL_PLAYSOUND 68 "WeaponAK47.BoltForward" }
+	{ event AE_CL_PLAYSOUND 70 "WeaponAK47.ReloadEnd" }
 	fadein 0.2
 	fadeout 0.2
 	snap
