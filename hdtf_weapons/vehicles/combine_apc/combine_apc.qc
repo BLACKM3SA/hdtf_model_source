@@ -4,28 +4,34 @@ $modelname "combine_apc.mdl"
 
 $bodygroup "Body"
 {
-	studio "APC_reference.smd"
+//	studio "APC_reference.smd"
+	studio "APC_M3SA.smd"
 }
 
 $lod 35
 {
-	replacemodel "APC_reference.smd" "APC_reference_lod1.smd"
+	replacemodel "APC_M3SA.smd" "APC_reference_lod1.smd"
 	nofacial
 }
 $lod 50
 {
-	replacemodel "APC_reference.smd" "APC_reference_lod2.smd"
+	replacemodel "APC_M3SA.smd" "APC_reference_lod2.smd"
 	nofacial
 }
 $lod 80
 {
-	replacemodel "APC_reference.smd" "APC_reference_lod3.smd"
+	replacemodel "APC_M3SA.smd" "APC_reference_lod3.smd"
 	nofacial
 }
 $shadowlod
 {
-	replacemodel "APC_reference.smd" "APC_reference_lod4.smd"
+	replacemodel "APC_M3SA.smd" "APC_reference_lod4.smd"
 	nofacial
+}
+
+$texturegroup skinfamilies {
+	{	"apc01"			"glass01"			}
+	{	"apc02_snow"	"glass02_snow"	}
 }
 
 $surfaceprop "metal"
