@@ -1,0 +1,82 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "ValveBiped.Bip01_Pelvis" -1
+  1 "ValveBiped.Bip01_Spine" 0
+  2 "ValveBiped.Bip01_Spine1" 1
+  3 "ValveBiped.Bip01_Spine2" 2
+  4 "ValveBiped.Bip01_Spine4" 3
+  5 "ValveBiped.Bip01_Neck1" 4
+  6 "ValveBiped.Bip01_Head1" 5
+  7 "ValveBiped.forward" 6
+  8 "ValveBiped.Bip01_R_Clavicle" 4
+  9 "ValveBiped.hlp_r_trap" 8
+  10 "ValveBiped.Bip01_R_UpperArm" 8
+  11 "ValveBiped.Bip01_R_Forearm" 10
+  12 "ValveBiped.Bip01_R_Hand" 11
+  13 "ValveBiped.Bip01_R_Finger2" 12
+  14 "ValveBiped.Bip01_R_Finger21" 13
+  15 "ValveBiped.Bip01_R_Finger22" 14
+  16 "ValveBiped.Bip01_R_Finger4" 12
+  17 "ValveBiped.Bip01_R_Finger41" 16
+  18 "ValveBiped.Bip01_R_Finger42" 17
+  19 "ValveBiped.weapon_bone" 12
+  20 "ValveBiped.weapon_bone_Clip" 19
+  21 "ValveBiped.weapon_bone_extra" 19
+  22 "ValveBiped.Bip01_R_Finger1" 12
+  23 "ValveBiped.Bip01_R_Finger11" 22
+  24 "ValveBiped.Bip01_R_Finger12" 23
+  25 "ValveBiped.Bip01_R_Finger3" 12
+  26 "ValveBiped.Bip01_R_Finger31" 25
+  27 "ValveBiped.Bip01_R_Finger32" 26
+  28 "ValveBiped.Bip01_R_Finger0" 12
+  29 "ValveBiped.Bip01_R_Finger01" 28
+  30 "ValveBiped.Bip01_R_Finger02" 29
+  31 "ValveBiped.Bip01_L_Clavicle" 4
+  32 "ValveBiped.Bip01_L_UpperArm" 31
+  33 "ValveBiped.Bip01_L_Forearm" 32
+  34 "ValveBiped.Bip01_L_Hand" 33
+  35 "ValveBiped.Bip01_L_Finger3" 34
+  36 "ValveBiped.Bip01_L_Finger31" 35
+  37 "ValveBiped.Bip01_L_Finger32" 36
+  38 "ValveBiped.Bip01_L_Finger4" 34
+  39 "ValveBiped.Bip01_L_Finger41" 38
+  40 "ValveBiped.Bip01_L_Finger42" 39
+  41 "ValveBiped.L_weapon_bone" 34
+  42 "ValveBiped.Bip01_L_Finger1" 34
+  43 "ValveBiped.Bip01_L_Finger11" 42
+  44 "ValveBiped.Bip01_L_Finger12" 43
+  45 "ValveBiped.Bip01_L_Finger2" 34
+  46 "ValveBiped.Bip01_L_Finger21" 45
+  47 "ValveBiped.Bip01_L_Finger22" 46
+  48 "ValveBiped.Bip01_L_Finger0" 34
+  49 "ValveBiped.Bip01_L_Finger01" 48
+  50 "ValveBiped.Bip01_L_Finger02" 49
+  51 "ValveBiped.Bip01_R_Thigh" 0
+  52 "ValveBiped.Bip01_R_Calf" 51
+  53 "ValveBiped.Bip01_R_Foot" 52
+  54 "ValveBiped.Bip01_L_Thigh" 0
+  55 "ValveBiped.Bip01_L_Calf" 54
+  56 "ValveBiped.Bip01_L_Foot" 55
+  57 "ValveBiped.Bip01_R_Wrist" 11
+  58 "ValveBiped.hlp_r_ulna" 11
+  59 "ValveBiped.Bip01_R_Bicep" 10
+  60 "ValveBiped.hlp_r_shoulder" 10
+  61 "ValveBiped.hlp_r_elbow" 10
+  62 "ValveBiped.hlp_l_trap" 31
+  63 "ValveBiped.Bip01_L_Wrist" 33
+  64 "ValveBiped.hlp_l_ulna" 33
+  65 "ValveBiped.hlp_l_shoulder" 32
+  66 "ValveBiped.hlp_l_elbow" 32
+  67 "ValveBiped.Bip01_L_Bicep" 32
+  68 "ValveBiped.hlp_r_quad" 51
+  69 "ValveBiped.Bip01_R_Toe0" 53
+  70 "ValveBiped.hlp_r_knee" 51
+  71 "ValveBiped.hlp_l_quad" 54
+  72 "ValveBiped.Bip01_L_Toe0" 56
+  73 "ValveBiped.hlp_l_knee" 54
+end
+skeleton
+  time 0
+    0 0.000000 0.000000 0.000000 0.000000 0.000000 -1.570796
+end
