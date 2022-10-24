@@ -118,6 +118,7 @@ $sequence "low to idle" {
 $sequence "draw" {
 	"v_wrench_anims\draw.smd"
 	activity "ACT_VM_DRAW" -1
+	{ event AE_CL_PLAYSOUND 0 "WeaponWrench.Draw" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -127,6 +128,7 @@ $sequence "draw" {
 $sequence "draw first" {
 	"v_wrench_anims\draw first.smd"
 	activity "ACT_VM_DEPLOY" -1
+	{ event AE_CL_PLAYSOUND 0 "WeaponWrench.DrawFirst" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -136,6 +138,7 @@ $sequence "draw first" {
 $sequence "holster" {
 	"v_wrench_anims\holster.smd"
 	activity "ACT_VM_HOLSTER" -1
+	{ event AE_CL_PLAYSOUND 0 "WeaponWrench.Holster" }
 	fadein 0.2
 	fadeout 0.2
 	fps 30
