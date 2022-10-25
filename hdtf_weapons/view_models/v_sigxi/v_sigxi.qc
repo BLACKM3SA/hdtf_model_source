@@ -180,11 +180,14 @@ $sequence "ads to idle" {
 $sequence "reload half" {
 	"v_sigxi_anims\reload half.smd"
 	activity "ACT_VM_RELOAD" 1
-	{ event AE_CL_PLAYSOUND 0 "WeaponAK47.ReloadStart" }
-	{ event AE_CL_PLAYSOUND 17 "WeaponAK47.MagOut" }
-	{ event AE_CL_PLAYSOUND 25 "WeaponAK47.MagTransition" }
-	{ event AE_CL_PLAYSOUND 35 "WeaponAK47.MagIn" }
-	{ event AE_CL_PLAYSOUND 45 "WeaponAK47.ReloadEnd" }
+	{ event AE_CL_PLAYSOUND 0 "WeaponSig552.ReloadStart" }
+	{ event AE_CL_PLAYSOUND 7 "WeaponSig552.MagGrab" }
+	{ event AE_CL_PLAYSOUND 16 "WeaponSig552.MagRelease" }
+	{ event AE_CL_PLAYSOUND 18 "WeaponSig552.MagOut" }
+	{ event AE_CL_PLAYSOUND 21 "WeaponSig552.MagOutFoley" }
+	{ event AE_CL_PLAYSOUND 34 "WeaponSig552.MagInserting" }
+	{ event AE_CL_PLAYSOUND 39 "WeaponSig552.MagIn" }
+	{ event AE_CL_PLAYSOUND 48 "WeaponSig552.EndReload" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -195,13 +198,15 @@ $sequence "reload empty" {
 	"v_sigxi_anims\reload empty.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	{ event AE_WPN_THROWMAG 23 "SIGXI mag_throw" }
-	{ event AE_CL_PLAYSOUND 0 "WeaponAK47.ReloadStart" }
-	{ event AE_CL_PLAYSOUND 17 "WeaponAK47.MagOut" }
-	{ event AE_CL_PLAYSOUND 25 "WeaponAK47.MagTransition" }
-	{ event AE_CL_PLAYSOUND 35 "WeaponAK47.MagIn" }
-	{ event AE_CL_PLAYSOUND 62 "WeaponAK47.BoltBack" }
-	{ event AE_CL_PLAYSOUND 68 "WeaponAK47.BoltForward" }
-	{ event AE_CL_PLAYSOUND 70 "WeaponAK47.ReloadEnd" }
+	{ event AE_CL_PLAYSOUND 0 "WeaponSig552.ReloadStart" }
+	{ event AE_CL_PLAYSOUND 7 "WeaponSig552.MagGrab" }
+	{ event AE_CL_PLAYSOUND 16 "WeaponSig552.MagRelease" }
+	{ event AE_CL_PLAYSOUND 18 "WeaponSig552.MagOut" }
+	{ event AE_CL_PLAYSOUND 21 "WeaponSig552.MagOutFoley" }
+	{ event AE_CL_PLAYSOUND 34 "WeaponSig552.MagInserting" }
+	{ event AE_CL_PLAYSOUND 39 "WeaponSig552.MagIn" }
+	{ event AE_CL_PLAYSOUND 61 "WeaponSig552.BoltClose" }
+	{ event AE_CL_PLAYSOUND 72 "WeaponSig552.EndReload" }
 	fadein 0.2
 	fadeout 0.2
 	snap

@@ -109,7 +109,6 @@ $sequence "to idle raised" {
 	{ event AE_CL_PLAYSOUND 0 "WeaponM9.GunRaise" }
 	fadein 0.2
 	fadeout 0.2
-	snap
 	fps 30
 }
 
@@ -307,7 +306,6 @@ $sequence "idle ads" {
 	blendwidth 2
 	fadein 0.2
 	fadeout 0.2
-	snap
 	fps 60
 	loop
 }
@@ -382,7 +380,8 @@ $sequence "reload half" {
 	{ event AE_CL_PLAYSOUND 20 "WeaponM9.MagOut" }
 	{ event AE_CL_PLAYSOUND 39 "WeaponM9.FoleyMagOut" }
 	{ event AE_CL_PLAYSOUND 77 "WeaponM9.MagInsert" }
-	{ event AE_CL_PLAYSOUND 88 "WeaponM9.MagIn" }
+	{ event AE_CL_PLAYSOUND 88 "WeaponM9.MagIn" 
+	{ event AE_CL_PLAYSOUND 100 "WeaponM9.EndReload" }
 	fadein 0.2
 	fadeout 0.2
 	fps 60

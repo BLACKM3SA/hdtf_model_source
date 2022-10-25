@@ -152,7 +152,6 @@ $sequence "idle_iron" {
 	activity "ACT_VM_IDLE_IRONSIGHTS" 1
 	fadein 0.2
 	fadeout 0.2
-	snap
 	fps 10
 	loop
 }
@@ -170,7 +169,7 @@ $sequence "draw" {
 $sequence "holster" {
 	"v_magnum_anims\holster.smd"
 	activity "ACT_VM_HOLSTER" 1
-	{ event AE_CL_PLAYSOUND 8 "WeaponRevolver.Holster" }
+	{ event AE_CL_PLAYSOUND 0 "WeaponRevolver.Holster" }
 	fadein 0.2
 	fadeout 0.2
 	fps 30
