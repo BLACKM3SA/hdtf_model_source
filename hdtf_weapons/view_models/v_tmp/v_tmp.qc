@@ -25,7 +25,7 @@ $cdmaterials "models\weapons\hdtf\tmp\"
 
 $attachment "muzzle" "weapon" 0 0.45 6.97 rotate -90 0 0
 $attachment "eject" "weapon" -0.67 0.79 -1.8 rotate 0 170 180
-$attachment "muzzle" "magazine" 0 0 0 rotate 0 -90 0
+$attachment "mag_throw" "magazine" 0 0 0 rotate 0 -90 0
 
 $cbox 0 0 0 0 0 0
 

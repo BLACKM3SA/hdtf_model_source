@@ -32,6 +32,17 @@ $sequence "bindpose" {
 	loop
 }
 
+$sequence "attack1" {
+	"w_k98_anims\attack1.smd"
+	activity "ACT_RANGE_ATTACK_AR2" -1
+	{ event 3007 0 "" }
+	{ event 6010 0 "0" }
+	{ event AE_NPC_MUZZLEFLASH 0 "556MM MUZZLE" }
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
 $collisionmodel "w_k98_physics.smd"
 {
 	$mass 1

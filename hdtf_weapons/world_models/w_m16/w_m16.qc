@@ -41,6 +41,7 @@ $sequence "attack1" {
 	"w_m16_anims\attack1.smd"
 	activity "ACT_RANGE_ATTACK_AR2" -1
 	{ event 3007 0 "" }
+	{ event 6010 0 "3" }
 	{ event AE_NPC_MUZZLEFLASH 0 "556MM MUZZLE" }
 	fadein 0.2
 	fadeout 0.2
