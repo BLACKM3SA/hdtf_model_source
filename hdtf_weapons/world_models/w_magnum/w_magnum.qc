@@ -4,7 +4,7 @@ $modelname "weapons/w_magnum.mdl"
 
 $bodygroup "studio"
 {
-	studio "worldmodel.smd"
+	studio "mesh.smd"
 }
 
 
