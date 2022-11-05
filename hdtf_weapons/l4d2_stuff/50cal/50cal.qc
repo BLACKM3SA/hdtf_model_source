@@ -22,8 +22,9 @@ $cdmaterials ""
 $attachment "muzzle_flash" "ValveBiped.flash" 30 0 3.5 rotate 0 0 0
 $attachment "Link" "ValveBiped.link_eject" -12 3 7 rotate 0 45 0
 $attachment "Shell" "ValveBiped.shell_eject" -9 -6 0 rotate 60 180 180
-$attachment "Hand_R" "ValveBiped.right_hand" 0 0 0 rotate 0 0 0
-$attachment "Hand_L" "ValveBiped.left_hand" 0 0 0 rotate 0 0 0
+$attachment "R_hand" "ValveBiped.right_hand" 0 0 0 rotate 0 0 0
+$attachment "L_hand" "ValveBiped.left_hand" 0 0 0 rotate 0 0 0
+$attachment "aimrotation" "ValveBiped.ValveBiped" 1.50 0.00 43.0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 

@@ -1,5 +1,3 @@
-// Created by Crowbar 0.71
-
 $modelname "weapons/w_grenade.mdl"
 
 $bodygroup "ring"
@@ -19,7 +17,7 @@ $contents "solid"
 
 $illumposition -0.086 -0.116 0.317
 
-$cdmaterials "models\weapons\hdtf\hl2grenade\"
+$cdmaterials "models\weapons\hdtf\MK3A2\"
 
 $attachment "fuse" "grenade" 3.2 -2 -3.5 rotate 0 0 0
 
