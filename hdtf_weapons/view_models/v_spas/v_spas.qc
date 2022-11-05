@@ -1,6 +1,4 @@
-// Created by Crowbar 0.68
-
-$modelname "weapons/v_shotgun.mdl"
+$modelname "weapons/v_shotgun_spas.mdl"
 
 $bodygroup "Weapon"
 {

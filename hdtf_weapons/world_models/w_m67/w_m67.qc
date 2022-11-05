@@ -28,6 +28,7 @@ $bbox -2.755 -2.675 -2.515 3.643 2.933 3.678
 $definebone "ValveBiped.Bip01_R_Hand" "" 1.51999 -3.6433 0 0 75.000176 179.999855 0 0 0 0 0 0
 $definebone "grenade" "ValveBiped.Bip01_R_Hand" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "pins" "ValveBiped.Bip01_R_Hand" 3.125755 -2.411155 -1.51798 0 -160.000187 -179.999855 0 0 0 0 0 0
+$attachment "smoke" "grenade" 3.00 -2.30 -3.00 rotate 0 20 0
 
 
 $sequence "bindpose" {
