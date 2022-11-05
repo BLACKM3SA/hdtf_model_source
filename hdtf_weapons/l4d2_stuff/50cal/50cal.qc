@@ -1,6 +1,4 @@
-// Created by Crowbar 0.71
-
-$modelname "w_models\Weapons\50cal.mdl"
+$modelname "weapons\50cal.mdl"
 
 $bodygroup "studio"
 {
@@ -22,6 +20,7 @@ $cdmaterials ""
 $attachment "muzzle_flash" "ValveBiped.flash" 30 0 3.5 rotate 0 0 0
 $attachment "Link" "ValveBiped.link_eject" -12 3 7 rotate 0 45 0
 $attachment "Shell" "ValveBiped.shell_eject" -9 -6 0 rotate 60 180 180
+$attachment "eject" "ValveBiped.shell_eject" -9 -6 0 rotate 60 180 180
 $attachment "R_hand" "ValveBiped.right_hand" 0 0 0 rotate 0 0 0
 $attachment "L_hand" "ValveBiped.left_hand" 0 0 0 rotate 0 0 0
 $attachment "aimrotation" "ValveBiped.ValveBiped" 1.50 0.00 43.0 rotate 0 0 0
@@ -91,73 +90,61 @@ $animation "a_W_MiniGun_AimMatrix_neutral" "50cal_anims\a_W_MiniGun_AimMatrix_ne
 
 $animation "a_W_MiniGun_AimMatrix_down_right" "50cal_anims\a_W_MiniGun_AimMatrix_down_right.smd" {
 	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_W_MiniGun_AimMatrix_down_right_corrective_animation" 0
 }
 
 $animation "a_W_MiniGun_AimMatrix_down_center" "50cal_anims\a_W_MiniGun_AimMatrix_down_center.smd" {
 	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_W_MiniGun_AimMatrix_down_center_corrective_animation" 0
 }
 
 $animation "a_W_MiniGun_AimMatrix_down_left" "50cal_anims\a_W_MiniGun_AimMatrix_down_left.smd" {
 	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_W_MiniGun_AimMatrix_down_left_corrective_animation" 0
 }
 
 $animation "a_W_MiniGun_AimMatrix_middown_right" "50cal_anims\a_W_MiniGun_AimMatrix_middown_right.smd" {
 	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_W_MiniGun_AimMatrix_middown_right_corrective_animation" 0
 }
 
 $animation "a_W_MiniGun_AimMatrix_middown_center" "50cal_anims\a_W_MiniGun_AimMatrix_middown_center.smd" {
 	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_W_MiniGun_AimMatrix_middown_center_corrective_animation" 0
 }
 
 $animation "a_W_MiniGun_AimMatrix_middown_left" "50cal_anims\a_W_MiniGun_AimMatrix_middown_left.smd" {
 	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_W_MiniGun_AimMatrix_middown_left_corrective_animation" 0
 }
 
 $animation "a_W_MiniGun_AimMatrix_mid_right" "50cal_anims\a_W_MiniGun_AimMatrix_mid_right.smd" {
 	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_W_MiniGun_AimMatrix_mid_right_corrective_animation" 0
 }
 
 $animation "a_W_MiniGun_AimMatrix_mid_center" "50cal_anims\a_W_MiniGun_AimMatrix_mid_center.smd" {
 	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_W_MiniGun_AimMatrix_mid_center_corrective_animation" 0
 }
 
 $animation "a_W_MiniGun_AimMatrix_mid_left" "50cal_anims\a_W_MiniGun_AimMatrix_mid_left.smd" {
 	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_W_MiniGun_AimMatrix_mid_left_corrective_animation" 0
 }
 
 $animation "a_W_MiniGun_AimMatrix_up_right" "50cal_anims\a_W_MiniGun_AimMatrix_up_right.smd" {
 	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_W_MiniGun_AimMatrix_up_right_corrective_animation" 0
 }
 
 $animation "a_W_MiniGun_AimMatrix_up_center" "50cal_anims\a_W_MiniGun_AimMatrix_up_center.smd" {
 	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_W_MiniGun_AimMatrix_up_center_corrective_animation" 0
 }
 
 $animation "a_W_MiniGun_AimMatrix_up_left" "50cal_anims\a_W_MiniGun_AimMatrix_up_left.smd" {
 	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_W_MiniGun_AimMatrix_up_left_corrective_animation" 0
 }
 
@@ -200,14 +187,14 @@ $sequence "W_MiniGun_AimMatrix" {
 	hidden
 }
 
-$collisionmodel "50cal_physics.smd"
-{
-	$mass 15
-	$inertia 1
-	$damping 0
-	$rotdamping 0
-	$rootbone " "
-	$concave
-	$maxconvexpieces 8
-
+$sequence "fire" {
+	"50cal_anims\idle.smd"
+	activity "ACT_BUNKER_GUN_FIRE" 1
+	{ event AE_NPC_MUZZLEFLASH 0 "556MM muzzle" }
+	{ event AE_CL_PLAYSOUND 0 "Weapon50CAL.Shot" }
+	{ event 6001 0 "3" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 45
 }
