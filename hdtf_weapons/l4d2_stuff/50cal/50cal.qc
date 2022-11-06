@@ -25,6 +25,9 @@ $attachment "R_hand" "ValveBiped.right_hand" -1 0 0 rotate 0 0 0
 $attachment "L_hand" "ValveBiped.left_hand" -1 0 0 rotate 0 0 0
 $attachment "aimrotation" "ValveBiped.ValveBiped" 1.50 0.00 43.0 rotate 0 0 0
 
+$attachment "muzzle" "ValveBiped.flash" 0 0 0 rotate 0 0 0
+$attachment "eject" "ValveBiped.shell_eject" 0 0 0 rotate 0 0 0
+
 $cbox 0 0 0 0 0 0
 
 $bbox -17.155 -17.274 -4.157 54.216 23.049 47.766
@@ -188,7 +191,7 @@ $sequence "W_MiniGun_AimMatrix" {
 }
 
 $sequence "fire" {
-	"50cal_anims\idle.smd"
+	"50cal_anims\shoot.smd"
 	activity "ACT_BUNKER_GUN_FIRE" 1
 	{ event AE_NPC_MUZZLEFLASH 0 "556MM muzzle" }
 	{ event AE_CL_PLAYSOUND 0 "Weapon50CAL.Shot" }
@@ -196,5 +199,5 @@ $sequence "fire" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 45
+	fps 60
 }
