@@ -122,15 +122,6 @@ $weightlist "weights_barrel_rotation" {
 }
 
 $animation "a_rot_0_corrective_animation" "v_kitchen_knife_anims\a_rot_0_corrective_animation.smd" {
-}
-
-$animation "a_rot_120_corrective_animation" "v_kitchen_knife_anims\a_rot_120_corrective_animation.smd" {
-}
-
-$animation "a_rot_240_corrective_animation" "v_kitchen_knife_anims\a_rot_240_corrective_animation.smd" {
-}
-
-$animation "a_rot_0_corrective_animation" "v_kitchen_knife_anims\a_rot_0_corrective_animation.smd" {
 	fps 30
 }
 
