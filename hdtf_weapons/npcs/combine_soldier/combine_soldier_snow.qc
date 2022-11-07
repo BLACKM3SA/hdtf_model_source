@@ -45,6 +45,12 @@ $shadowlod
 	nofacial
 }
 
+$bodygroup "it_chrismas"
+{
+	blank
+	studio xms_santa_hat_soldier
+}
+
 $surfaceprop "flesh"
 
 $contents "solid"
