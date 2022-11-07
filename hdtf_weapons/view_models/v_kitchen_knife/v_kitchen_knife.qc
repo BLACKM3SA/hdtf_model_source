@@ -1,6 +1,6 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons/v_kitchen_knife.mdl"
+$modelname "weapons/v_minigun.mdl"
 
 $bodygroup "Weapon"
 {
