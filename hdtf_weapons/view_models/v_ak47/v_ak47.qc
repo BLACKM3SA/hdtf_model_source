@@ -28,6 +28,11 @@ $attachment "eject" "AK47_Body" -0.81 -2.25 0.67 rotate -10 180 0
 $attachment "laser" "AK47_Body" -1.1 -10.64 1.26 rotate 0 -90 0
 $attachment "mag_throw" "AK47_Magazine1" 0 0 0 rotate 30 90 0
 
+$texturegroup skinfamilies {
+	{	"body.vmt"	}
+	{	"body_gold.vmt"	}
+}
+
 $cbox 0 0 0 0 0 0
 
 $bbox -6.877 -16.554 -19.281 32.59 12.329 2.058

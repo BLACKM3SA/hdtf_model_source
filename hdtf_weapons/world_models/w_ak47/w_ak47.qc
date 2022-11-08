@@ -25,6 +25,11 @@ $bbox -17.525 -2.05 -7.777 16.809 2.43 3.095
 
 $definebone "ValveBiped.Bip01_R_Hand" "" 25.84 -0.09 -3.61 -0.043545 2.801477 -179.622091 0 0 0 0 0 0
 
+$texturegroup skinfamilies {
+	{	"body.vmt"	}
+	{	"body_gold.vmt"	}
+}
+
 
 $sequence "bindpose" {
 	"w_ak47_anims\bindpose.smd"
