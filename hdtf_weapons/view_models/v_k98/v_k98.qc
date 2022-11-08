@@ -11,6 +11,7 @@ $bodygroup "Arms"
 	studio "mitchell_arms.smd"
 	studio "mitchell_arms_coat.smd"
 	studio "mitchell_arms_survivor.smd"
+	studio "camp_hands.smd"
 }
 
 
@@ -98,7 +99,6 @@ $sequence "idle to low" {
 	activity "ACT_VM_IDLE_TO_LOWERED" -1
 	fadein 0.2
 	fadeout 0.2
-	snap
 	fps 30
 }
 
@@ -182,7 +182,6 @@ $sequence "idle ads" {
 	activity "ACT_VM_IDLE_IRONSIGHTS" 1
 	fadein 0.2
 	fadeout 0.2
-	snap
 	fps 30
 	loop
 }

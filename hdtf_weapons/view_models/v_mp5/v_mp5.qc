@@ -11,6 +11,7 @@ $bodygroup "Arms"
 	studio "mitchell_arms.smd"
 	studio "mitchell_arms_coat.smd"
 	studio "mitchell_arms_survivor.smd"
+	studio "camp_hands.smd"
 }
 
 
@@ -101,7 +102,6 @@ $sequence "idle to idle low" {
 	{ event AE_CL_PLAYSOUND 0 "WeaponMP5.Lower" }
 	fadein 0.2
 	fadeout 0.2
-	snap
 	fps 30
 }
 
@@ -110,7 +110,6 @@ $sequence "idle low" {
 	activity "ACT_VM_IDLE_LOWERED" -1
 	fadein 0.2
 	fadeout 0.2
-	snap
 	fps 10
 	loop
 }
