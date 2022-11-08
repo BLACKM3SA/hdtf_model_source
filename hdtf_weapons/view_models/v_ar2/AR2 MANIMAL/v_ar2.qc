@@ -1,11 +1,7 @@
-// Created by Crowbar 0.71
-
 $modelname "weapons/v_ar2.mdl"
 
-$bodygroup "Weapon"
-{
-	studio "mesh.smd"
-}
+$model "Weapon" "mesh.smd"
+
 $bodygroup "Arms"
 {
 	studio "mitchell_arms.smd"
@@ -23,7 +19,7 @@ $illumposition 0 0 0
 $cdmaterials "models\weapons\hdtf\hands\"
 $cdmaterials "models\weapons\hdtf\ar2\"
 
-$attachment "muzzle" "main" 0 -17.77 1.28 rotate 0 -90 0
+$attachment "muzzle" "main" 0.30 1.50 15.00 rotate -90 0 0
 
 $cbox 0 0 0 0 0 0
 
