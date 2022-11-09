@@ -21,7 +21,7 @@ $contents "solid"
 $illumposition 0 0 0
 
 $cdmaterials "models\weapons\hdtf\hands\"
-$cdmaterials "models\weapons\hdtf\hl2grenade\"
+$cdmaterials "models\weapons\hdtf\MK3A2\"
 
 $cbox 0 0 0 0 0 0
 
