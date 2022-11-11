@@ -1,0 +1,5863 @@
+<!-- dmx encoding keyvalues2 1 format preset 3 -->
+"DmePresetGroup"
+{
+	"id" "elementid" "f976eb60-f61e-4113-90fd-01abed32428f"
+	"name" "string" "phoneme"
+	"presets" "element_array" 
+	[
+		"DmePreset"
+		{
+			"id" "elementid" "ac4022d0-dcf4-4c14-bd76-41d580c0e207"
+			"name" "string" "p_uw"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "f0a0a565-013e-4127-9f30-ea3f6dc4181b"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6818450689"
+					"rightValue" "float" "0.6409299374"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c4e232b6-c039-47ba-bcce-57d8a56c1598"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.8744999766"
+					"rightValue" "float" "0.8744999766"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5cce1c20-baba-4b5e-8b5d-bdbcf6768704"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.8669999242"
+					"rightValue" "float" "0.8669999242"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "db548091-c2cc-4168-8041-beba3d096ee3"
+					"name" "string" "JawV"
+					"value" "float" "0.6831443906"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "93731589-9e84-4926-8baf-8c569ae85a24"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.5"
+					"rightValue" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1a047300-1e66-4c15-871b-6ecc39066d99"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.628171742"
+					"rightValue" "float" "0.628171742"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "32be0fa4-5c02-4a2b-97ae-360cc9b95d62"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.6254228354"
+					"rightValue" "float" "0.6254228354"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ba79a133-12bf-43ea-bbc0-87c36754e5f0"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.5"
+					"rightValue" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c05b01ea-d84e-4eb4-bf9b-3815a7b13cc5"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6a65b38c-c6bb-4550-901c-2b60489e4824"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2705de58-fd1b-4a6d-963e-65696dae3ea5"
+					"name" "string" "PuffLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "830ac49e-f64d-44ff-9e24-dccebf63a1a6"
+					"name" "string" "JawD"
+					"value" "float" "0.5547263622"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "f7077a83-3fc9-4c24-a088-90e84cbf1eb1"
+			"name" "string" "p_uh"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "14c79d57-4272-4d2c-a94d-d5c807ff59d6"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.5897800326"
+					"rightValue" "float" "0.5897800326"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f5e96de7-9ac9-4bce-8733-1b89c2326b8f"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.5656599998"
+					"rightValue" "float" "0.5656599998"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "34c44d04-7e78-4834-a138-a44fcbb66b75"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.0442200042"
+					"rightValue" "float" "0.0442200042"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8f4f9ce1-c03d-44d6-bd54-271c7a674be2"
+					"name" "string" "JawV"
+					"value" "float" "0.6936917305"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "852106f1-6efe-4ca1-9f73-7b50d37c1337"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.0241199993"
+					"rightValue" "float" "0.0241199993"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "14ab4f56-96b5-4ee7-9a20-7fb39c703fca"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.7671105862"
+					"rightValue" "float" "0.7371607423"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d0ac7739-ee87-4ef0-b0c1-30e7b2a1443b"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5737217069"
+					"rightValue" "float" "0.5737217069"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1dfb0cbd-41b2-4276-b848-151412557633"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.5717095137"
+					"rightValue" "float" "0.5717095137"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8e7ca5cc-5f9d-49e6-b28e-ee33f6a8b6f3"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.8109839559"
+					"rightValue" "float" "0.8109839559"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f9ff2d4d-5be4-4716-969f-7655afbc32f8"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.7250939608"
+					"rightValue" "float" "0.7250939608"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d4ceca28-cbc2-4fbe-aeb8-d12f803393b4"
+					"name" "string" "JawD"
+					"value" "float" "0.5400596857"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "eb234bd0-f6b0-41ed-9a76-ffeec08062a4"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2edc2c49-cdd2-4077-a5aa-6faa706d013c"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5039e752-3c29-4b5d-9314-21c946cf90b7"
+					"name" "string" "PuffLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "0c4c1dd9-0c58-48d6-9fc7-eb86a7aa2843"
+			"name" "string" "p_w"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "2bc23159-8ed7-4957-9686-856c72bc82a6"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.8098233938"
+					"rightValue" "float" "0.8098233938"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a962a7de-b269-4e96-a8ec-cc39241ae1ff"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.8271989226"
+					"rightValue" "float" "0.8271989226"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ba189fd0-4f1a-4bc2-b543-a8de577f416c"
+					"name" "string" "JawV"
+					"value" "float" "0.7726966143"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c244677d-1fe1-4504-aebc-4cb69f4af898"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6470192075"
+					"rightValue" "float" "0.6409299374"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b47600f5-ee2f-4658-ac78-e1c24d9e2f8d"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.5796019435"
+					"rightValue" "float" "0.5796019435"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "27b42598-ca62-442c-95ad-044612c1cbd5"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.5646765828"
+					"rightValue" "float" "0.5646765828"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2cc8f93e-c14a-4a9c-9edc-683e30aa3844"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.4651741385"
+					"rightValue" "float" "0.4651741385"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "bb4299b8-d492-44fc-a057-b07e426d21af"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.4502487481"
+					"rightValue" "float" "0.4502487481"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c746cc78-45f5-4921-b52a-efe10dba28ea"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "aae0e1fa-ea7e-4668-8496-83fc760477ac"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6029f0d0-b434-4453-aa81-bba4a8141ddf"
+					"name" "string" "PuffLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ed0d1a74-73ad-40bc-95cb-0cdfc92f3615"
+					"name" "string" "JawD"
+					"value" "float" "0.5547263622"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "480a8668-2668-478c-a6ad-30916086cde6"
+			"name" "string" "p_ow"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "328d9218-629c-4b87-95e1-dce4fe61bda2"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.7269399762"
+					"rightValue" "float" "0.7119650841"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7b46541e-fa9b-4dda-b8d4-9bfa7dd3a266"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.6218162775"
+					"rightValue" "float" "0.6218162775"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a6969d4f-bce2-4742-887e-0dd862863fea"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.618550837"
+					"rightValue" "float" "0.618550837"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "de6e2a73-ba4e-4a4b-a4be-2dcf8678e9c7"
+					"name" "string" "JawV"
+					"value" "float" "0.8001835346"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "805658b9-dec7-48f3-aeed-07dc7b650351"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6174161434"
+					"rightValue" "float" "0.6110142469"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a64af730-f8cb-4659-ad67-ed1d82296c63"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.6376343966"
+					"rightValue" "float" "0.6376343966"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1daeae34-bbeb-4884-baad-5d2497419eab"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.694768548"
+					"rightValue" "float" "0.694768548"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1241bd96-ea8f-49e5-a733-11df1881152d"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.6366727352"
+					"rightValue" "float" "0.6308102608"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "06e19400-908a-4dc0-a3d0-c55e9b7687bc"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3bc41d9d-db26-41e5-abd1-49056041eaf1"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9cf635d2-089b-4857-8c22-7f2be036e6be"
+					"name" "string" "PuffLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b295b2e4-596a-4ce3-a85d-2fb38d8c1e3f"
+					"name" "string" "JawD"
+					"value" "float" "0.551572144"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "aba3efd4-f4c1-4234-b6b9-48b63b1f77f4"
+					"name" "string" "Smile"
+					"leftValue" "float" "0.0999023095"
+					"rightValue" "float" "0.0999023095"
+					"multilevel" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1a286b16-95bc-418e-ae5f-7ff450019177"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.0536218882"
+					"rightValue" "float" "0.0536218882"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "c2063126-a96e-4207-a1ff-830f975b53d7"
+			"name" "string" "p_ao"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "ad965197-be31-40c1-9b47-c0c510614236"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.7098596692"
+					"rightValue" "float" "0.7040390372"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "160cbd04-b38f-4504-af68-91f0c45a883f"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.4472175837"
+					"rightValue" "float" "0.4472175837"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1a4f5b6f-9a33-4402-a842-acc540b647b4"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.4443120062"
+					"rightValue" "float" "0.4443120062"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9f6db2e1-fbc3-4c37-b380-70b3e73b5fd0"
+					"name" "string" "JawV"
+					"value" "float" "0.8158398271"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f2b3768b-58ab-41b8-9131-8bb96a3eef66"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6473966241"
+					"rightValue" "float" "0.6441060305"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ae4c9d0f-da5e-4a84-af50-1e1368ceb01d"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.6863094568"
+					"rightValue" "float" "0.683296144"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c1586f9e-bf6b-4fe0-811c-f8f77a32c908"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.1383945644"
+					"rightValue" "float" "0.1383945644"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1dbda4f0-f1b6-4446-9d55-ea6e79eb0aeb"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.6432814002"
+					"rightValue" "float" "0.6432814002"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3f396c50-6bbf-4a0b-9d9b-c4ec8cd66497"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.6605587602"
+					"rightValue" "float" "0.6605587602"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6c560ceb-90d1-48a2-82d0-a12cc34c0762"
+					"name" "string" "JawD"
+					"value" "float" "0.5748662949"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a5675ff9-e34e-4a1f-9e83-9f2091b43da2"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.1726362854"
+					"rightValue" "float" "0.1726362854"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9c3ba758-b558-473b-9f14-8810e73fbd0a"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e9732088-295d-4f4d-95d2-5fa55023fc92"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9f252766-8184-4713-97dd-1f751711caf7"
+					"name" "string" "PuffLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "605e9dfb-a660-4a79-b017-a0b89fc17ee1"
+			"name" "string" "p_ax"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "50abb8c8-271a-4482-a1d5-a353fa9ebe1d"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7031705379"
+					"rightValue" "float" "0.7031705379"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "70d5d22e-5a8f-4edc-b905-135cf45d9cb8"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.7582471371"
+					"rightValue" "float" "0.7582471371"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "eef82ab1-fa4b-4b50-953c-5217d8e8366f"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3316449821"
+					"rightValue" "float" "0.3316449821"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "923e1d6b-cc3d-4a62-a0e3-3fef8f2fc33b"
+					"name" "string" "JawV"
+					"value" "float" "0.8268437386"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4d6deebe-f724-4309-ab40-e7140fe72491"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.1627056748"
+					"rightValue" "float" "0.1627056748"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "eaa8981d-450f-4491-8e79-febdc7347429"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6821535826"
+					"rightValue" "float" "0.6842848659"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "424677cb-0016-4e56-a979-ad9e8156db20"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5984915495"
+					"rightValue" "float" "0.5984915495"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "610c06e2-9835-4c4e-8fee-2652f1cb439c"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.6696907878"
+					"rightValue" "float" "0.6696907878"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e3023652-b5db-4279-9ee8-6a1cf9847dfa"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.2370515764"
+					"rightValue" "float" "0.2370515764"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f032e3b1-3378-499c-897e-72bc64a1d64b"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1861214787"
+					"rightValue" "float" "0.1861214787"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5ccf24bb-9d8a-4696-b7d9-d0d1e702d468"
+					"name" "string" "JawD"
+					"value" "float" "0.659085393"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ddd5c640-ebfe-42b4-ae33-e134aef6e9f1"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "62e9c3b7-1dfb-4e83-b1f3-6422e235b0b2"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "54a1993a-cfea-4ec4-8ea9-48d345d234d4"
+					"name" "string" "PuffLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "240afaa5-3c32-484f-a415-9545f569b7e9"
+					"name" "string" "TongueV"
+					"value" "float" "0.0111442795"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "53d7eb48-f915-48fb-a934-7070456ae510"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.5824676752"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5ffa3f22-108b-4892-975b-ff87d8cecdf3"
+					"name" "string" "TongueD"
+					"value" "float" "0.6315025091"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "f2c083e3-9181-4aaf-b5f1-ee60a0db00d4"
+			"name" "string" "p_ah"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "b8a5e89d-f667-4c46-85b9-497a3117c5d6"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7000000477"
+					"rightValue" "float" "0.7000000477"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "35d28bfa-8476-4d25-bddd-409266b0c682"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.7525000572"
+					"rightValue" "float" "0.7525000572"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "82771d88-ca58-4575-8f8c-5cc850cf0e8d"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.1650000066"
+					"rightValue" "float" "0.1650000066"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b1f042b7-c51b-44bd-89ce-7ecec53a5365"
+					"name" "string" "JawV"
+					"value" "float" "0.8199999928"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "0e495490-b074-4ab5-b654-5d93761722be"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.0899999961"
+					"rightValue" "float" "0.0899999961"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "179800c0-e073-43ca-851b-d4b3069763b5"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6874999404"
+					"rightValue" "float" "0.6874999404"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "74df67d7-76ff-4ed4-9a53-51e15656902e"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.4250000119"
+					"rightValue" "float" "0.4250000119"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "029c3012-7c17-4cae-a58f-250088d4409d"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.4250000119"
+					"rightValue" "float" "0.4250000119"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e7831e3b-a96a-4337-851a-cb8abc808ba2"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.0974999964"
+					"rightValue" "float" "0.0974999964"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "deeae51f-f798-48f2-99b7-7f03d7673889"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.0599999987"
+					"rightValue" "float" "0.0599999987"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "8106754e-39ed-4c2b-9fcf-154d14c30bf6"
+			"name" "string" "p_er"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "25b769e4-7299-410b-9183-2355f40b85fd"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.5799999833"
+					"rightValue" "float" "0.5799999833"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "91977d72-d0f0-4584-a6c7-526de1904e32"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7bf5ef50-08e4-4715-81c2-9cf2d7301aaa"
+					"name" "string" "JawD"
+					"value" "float" "0.5974999666"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "843142f9-5f4d-4cff-aab7-1946ed5a81b9"
+					"name" "string" "JawV"
+					"value" "float" "0.6349999905"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f90f36c2-af70-4f6b-a321-2548c030e982"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.8224999905"
+					"rightValue" "float" "0.8224999905"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9abd7c05-4920-459f-ad83-59446dd81ab2"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.2549999952"
+					"rightValue" "float" "0.2549999952"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3750910e-6dcc-4bf6-b4c6-f2d8a8770c3a"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.717500031"
+					"rightValue" "float" "0.717500031"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fff4142e-21a5-463f-ac7b-c63d18a8240b"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.1350000054"
+					"rightValue" "float" "0.1350000054"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1e228235-8641-4ada-9b08-9711d178a9b3"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.6650000215"
+					"rightValue" "float" "0.6650000215"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "dc7151fc-9a1c-458e-a9dd-f80b4800a400"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.6949999928"
+					"rightValue" "float" "0.6949999928"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "3f8d46ed-2159-4178-a85b-982c84fd7ee6"
+			"name" "string" "p_r"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "7ae1a30c-5fe3-4c90-a9e4-4d12009a0c53"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6296024323"
+					"rightValue" "float" "0.6296024323"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c30138d9-692b-4e65-92c4-478393a71100"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.6830000281"
+					"rightValue" "float" "0.6830000281"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "35e60bd4-365b-4fd2-a0cd-081e634ad0ea"
+					"name" "string" "JawD"
+					"value" "float" "0.587305963"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4a85f05d-76f4-417a-898b-d95d1922dd9b"
+					"name" "string" "JawV"
+					"value" "float" "0.6456871629"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3f4af634-82e1-4eae-a781-97efd9ce1a6b"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6048893929"
+					"rightValue" "float" "0.6048893929"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4ebfc52d-206e-4629-8b6a-afcea68861bb"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.2392124832"
+					"rightValue" "float" "0.2392124832"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "773b4cbd-6bf3-4c17-aa63-f17fb8926a48"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.7874173522"
+					"rightValue" "float" "0.7874173522"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4282763f-64a9-40dc-80e7-bcbcb817017a"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.2893581986"
+					"rightValue" "float" "0.2893581986"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "78e0b6b9-c84a-43f9-aaf6-8db09b89589d"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.584264338"
+					"rightValue" "float" "0.584264338"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "32a8f385-f701-45cd-988b-dc178b916642"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.771645844"
+					"rightValue" "float" "0.771645844"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "920e9751-54a5-42ed-889a-884293075937"
+					"name" "string" "Smile"
+					"leftValue" "float" "0.0781542286"
+					"rightValue" "float" "0.0781542286"
+					"multilevel" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e99ab046-c81b-4fdc-a63b-99c3f0eedada"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "e7df2e91-986a-40aa-9f47-af76aabf6a57"
+			"name" "string" "p_sh"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "b516899c-08e4-4940-a167-3de1cf75db46"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.8030746579"
+					"rightValue" "float" "0.8030746579"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "aeda757b-caea-4109-9f8c-320951d41f46"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.8188508153"
+					"rightValue" "float" "0.8188508153"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "914ec2af-0a7f-49c8-855a-d36bb6224ca8"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.6620697379"
+					"rightValue" "float" "0.6620697379"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8be89133-08d6-4dd6-afc7-d5dddfca06f1"
+					"name" "string" "JawD"
+					"value" "float" "0.5904278755"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f35bcb3c-e3f4-4deb-8925-4cb35c707d3a"
+					"name" "string" "JawV"
+					"value" "float" "0.5289005041"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "402e7b7a-ade4-4da9-8797-135a3092cee1"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6904999614"
+					"rightValue" "float" "0.6904999614"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1df33c17-86ea-4937-9ac8-d72c61b371f6"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.8789303303"
+					"rightValue" "float" "0.8789303303"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a7e949b0-9016-43ae-933b-82e8c0d23840"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.7214303017"
+					"rightValue" "float" "0.7214303017"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "25930d4c-b93e-494c-8552-dffdf3741a69"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.5070821047"
+					"rightValue" "float" "0.5070821047"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "52531942-8184-4005-8616-ede9c2394443"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.3390547037"
+					"rightValue" "float" "0.3390547037"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "e203d2ab-8ac7-4c05-92d6-eea9320dde31"
+			"name" "string" "p_jh"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "fb064b35-db71-4f3b-be8c-4ac874567fa8"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.5070821047"
+					"rightValue" "float" "0.5070821047"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "de29cc06-b869-4a71-9266-2187e91e909c"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.3390547037"
+					"rightValue" "float" "0.3390547037"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7a7eeeac-2599-4205-9ac5-605597cf5712"
+					"name" "string" "JawV"
+					"value" "float" "0.5637263656"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7b3fe608-0ffe-4e98-8d8d-7ed482e52e4f"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6904999614"
+					"rightValue" "float" "0.6904999614"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d5d5e283-99e9-4014-8f3e-6f7ff4bd1eb1"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.8789303303"
+					"rightValue" "float" "0.8789303303"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9f5d1f70-c5aa-4675-9e6a-978af77d59df"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.7214303017"
+					"rightValue" "float" "0.7214303017"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6d8ceb2c-27b9-4b11-a7d5-cb845a0f6628"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.8188508153"
+					"rightValue" "float" "0.8188508153"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "767dac7b-981b-4c67-b43b-5f9a8c1973aa"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.6620697379"
+					"rightValue" "float" "0.6620697379"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f936ba8a-9115-445e-963b-cacf8d8d0840"
+					"name" "string" "JawD"
+					"value" "float" "0.6302288771"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f4926825-757d-4e29-b431-43e8cc69b4c7"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.8030746579"
+					"rightValue" "float" "0.8030746579"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "58b65c2e-d562-4a58-a64a-40d96faa499f"
+			"name" "string" "p_ch"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "b18b1318-e7da-438c-a7e5-d13459e5d85c"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.6089072227"
+					"rightValue" "float" "0.6089072227"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7e09786f-c89b-4ee2-b7fd-1b079ab46a8c"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.7940632105"
+					"rightValue" "float" "0.7940632105"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "581b203d-2690-48bf-a88b-d1453af169ce"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.6700252891"
+					"rightValue" "float" "0.6700252891"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b69e5fb4-f54b-4cd1-8f7d-86252b0681b2"
+					"name" "string" "JawD"
+					"value" "float" "0.5469551086"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "626b0e3b-83a8-47b0-a1e9-6ab07480e56d"
+					"name" "string" "JawV"
+					"value" "float" "0.5229104757"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5ca78a66-f2d7-45f6-a51f-928b56f19226"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.7085599303"
+					"rightValue" "float" "0.7085599303"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "93a8a433-3d6b-4313-a379-150ddc72bbb3"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.8393698335"
+					"rightValue" "float" "0.8393698335"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "850cd6bd-fb13-4bef-91dc-c7c920ad2add"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.6299473047"
+					"rightValue" "float" "0.6299473047"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f8e79eb1-9e85-4ee0-be2e-27f514ef7c5d"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.4330114126"
+					"rightValue" "float" "0.4330114126"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3807dc83-99f3-4736-a74d-1e19f69c7bb7"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.3047242463"
+					"rightValue" "float" "0.3047242463"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "1ab4b005-fbef-48f4-b8a9-b5c93ee437f6"
+			"name" "string" "p_zh"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "cb2ee580-14d3-4b95-b1fb-152312b1253a"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.8789303303"
+					"rightValue" "float" "0.8789303303"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "85a494ad-71aa-42f9-b7e0-0816e4e28f64"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.7214303017"
+					"rightValue" "float" "0.7214303017"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5e13cb79-04e9-47d8-b72a-40ee6319bfc8"
+					"name" "string" "JawV"
+					"value" "float" "0.5637263656"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "26ce447b-1798-43cd-a3da-65872adab8dd"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6904999614"
+					"rightValue" "float" "0.6904999614"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d08460c8-f5ec-41d8-b11f-bbd9718b852a"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.8188508153"
+					"rightValue" "float" "0.8188508153"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "64a8f6ae-e3d2-4821-b863-944a942d8be4"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.6620697379"
+					"rightValue" "float" "0.6620697379"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5c8d6439-3be2-4fa1-9d01-9d83480a6e72"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.5070821047"
+					"rightValue" "float" "0.5070821047"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9ca05487-0913-4727-8191-fc775375120f"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.3390547037"
+					"rightValue" "float" "0.3390547037"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a89ff2f6-c688-4731-acb9-37f0b4bb00b4"
+					"name" "string" "JawD"
+					"value" "float" "0.6302288771"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f3aee48b-bd58-405c-a16d-ed8539bd30a6"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.8030746579"
+					"rightValue" "float" "0.8030746579"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "96d81a08-cd57-4d04-857f-bb5d3510e9db"
+			"name" "string" "p_g"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "543b67c1-cae8-41df-bf66-6a0234cb47e1"
+					"name" "string" "JawD"
+					"value" "float" "0.7014303207"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "26d0cdde-401a-44b4-b8f6-2b5d3b5c2da0"
+					"name" "string" "JawV"
+					"value" "float" "0.5750746131"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "17325cf4-29df-4d65-9eba-0eb4ffb700e3"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6102985144"
+					"rightValue" "float" "0.6102985144"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7353e56a-ca7d-452b-a9f5-4419dd16ead8"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.618221283"
+					"rightValue" "float" "0.618221283"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f632ab6d-a93b-4237-b7a8-fe1678ac6c8e"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8325497508"
+					"rightValue" "float" "0.8325497508"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "24dfac94-fc9b-416f-a934-d28c87713ddb"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.400547266"
+					"rightValue" "float" "0.400547266"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "96fae823-b9a6-40e1-9377-860c4153cec6"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3165547252"
+					"rightValue" "float" "0.3165547252"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "95691b76-f510-485e-86b9-846fd3c0d41e"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5"
+					"rightValue" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "02e42cd7-95cd-4f82-82c8-b00fed47c0a1"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.7728233337"
+					"rightValue" "float" "0.7728233337"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7b3836c6-88ee-48ce-8fec-0dcb9c0bce45"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.045820877"
+					"rightValue" "float" "0.045820877"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5a9e6df0-1b0c-4220-a4cb-a03649575eb5"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.3880597055"
+					"rightValue" "float" "0.3880597055"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4bb8737b-7629-408b-a25b-bde3377a8cd4"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0.3299999833"
+					"rightValue" "float" "0.3299999833"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "695e5edf-465c-4f49-8d3c-b903d70235bc"
+					"name" "string" "TongueV"
+					"value" "float" "0.3582089841"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d6b4378c-aca9-45ac-9641-71544d42ad33"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.9875621796"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8085cff8-cf24-4142-b88f-14a51b46937f"
+					"name" "string" "TongueD"
+					"value" "float" "0.4601990283"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "56554cbe-1877-4f67-a8a9-fa903bd4dc15"
+			"name" "string" "p_c"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "1734da57-99eb-4fdd-84e5-c152ce2264af"
+					"name" "string" "JawD"
+					"value" "float" "0.6516790986"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b8f4e78d-f862-42a1-b800-02be8417622f"
+					"name" "string" "JawV"
+					"value" "float" "0.5750746131"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9fd90310-5d25-4071-b441-c1e336521c7c"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6102985144"
+					"rightValue" "float" "0.6102985144"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a01e6a48-3d0d-4c1a-9125-4ca559dcf7cf"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.618221283"
+					"rightValue" "float" "0.618221283"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5d126c26-a5c2-45a9-85ef-3737e19dc8c5"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8325497508"
+					"rightValue" "float" "0.8325497508"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ceb12001-d0b2-49e9-a151-b68dad6241a3"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.400547266"
+					"rightValue" "float" "0.400547266"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c0428b5e-d78e-4e54-ae59-039a10fa00b8"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3165547252"
+					"rightValue" "float" "0.3165547252"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9d5292f8-5e18-46c5-a884-60e1b2ff12d0"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5"
+					"rightValue" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3fdfb61a-edae-404a-b3a2-d8c1b025e9f8"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.7728233337"
+					"rightValue" "float" "0.7728233337"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1f5e19e3-bb6b-4c93-8648-56b74f13ba01"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.045820877"
+					"rightValue" "float" "0.045820877"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1d52e500-0711-43ff-aca8-90ee36276c38"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.3880597055"
+					"rightValue" "float" "0.3880597055"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c22c4ff9-a4b9-47b6-bc69-b10a4f5a2f94"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0.3299999833"
+					"rightValue" "float" "0.3299999833"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "93c9bb0b-5ce5-4090-bf8a-bd4191e86a8f"
+					"name" "string" "TongueV"
+					"value" "float" "0.3582089841"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e465f9d8-544d-4eba-b483-804d6208c230"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.9875621796"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c19ffebb-fc1b-48f1-876d-06c02446ea61"
+					"name" "string" "TongueD"
+					"value" "float" "0.4601990283"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "9f794c42-c972-4590-a283-f25f36c5f65b"
+			"name" "string" "p_k"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "0d61dfa1-a3f4-4507-aa1c-393964d7fdef"
+					"name" "string" "JawD"
+					"value" "float" "0.6516790986"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "48449b18-bb11-4ea2-b5ee-3ead9dc73355"
+					"name" "string" "JawV"
+					"value" "float" "0.5750746131"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "38d99fc2-3736-47d6-aa9e-9936b28d8dad"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6102985144"
+					"rightValue" "float" "0.6102985144"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "aa7b9c4c-090e-4cf5-a94f-409a1d3dab08"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.618221283"
+					"rightValue" "float" "0.618221283"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5b4b36bd-13c3-4f42-a794-bb56eb06eed9"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8325497508"
+					"rightValue" "float" "0.8325497508"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c03eca9a-c12c-46e1-a340-5cdde7282b49"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.400547266"
+					"rightValue" "float" "0.400547266"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "eedeae3d-f2b0-4564-9bd8-edeea7c8de9a"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3165547252"
+					"rightValue" "float" "0.3165547252"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8fb7ed67-99aa-41e7-80f0-e34fdd810ee4"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5"
+					"rightValue" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1809e4eb-ec10-4e2b-8f29-7bf4d6d109ac"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.7728233337"
+					"rightValue" "float" "0.7728233337"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "cf66fb68-8a0a-40a0-b3e5-c2d05f1f70a5"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.045820877"
+					"rightValue" "float" "0.045820877"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7738c4f3-01a6-4fb4-9b16-b94befaa0761"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.3880597055"
+					"rightValue" "float" "0.3880597055"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d8f7b836-95c0-4bb4-aa6a-6f6f8f9e4fe0"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0.3299999833"
+					"rightValue" "float" "0.3299999833"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "567b85de-50f7-4c91-965b-5abe73c795a7"
+					"name" "string" "TongueV"
+					"value" "float" "0.3582089841"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1f3cc49f-5078-42fa-ab19-1bf93bbdb06f"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.9875621796"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7a0b73a5-02fa-49c9-b3d7-df6c42b09eb2"
+					"name" "string" "TongueD"
+					"value" "float" "0.4601990283"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "723a166d-da06-4623-8ca8-4c02e4688684"
+			"name" "string" "p_d"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "915ee590-10c5-42fc-9941-e2216404e9a8"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6802487969"
+					"rightValue" "float" "0.6802487969"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ce865924-d5ae-4470-859f-a013c598c10a"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8176989555"
+					"rightValue" "float" "0.8176989555"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ebed874b-28ce-495f-b093-f4c1ed8ec634"
+					"name" "string" "JawD"
+					"value" "float" "0.6044775844"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d0ea83ec-68e1-4a1d-8e23-fa8fce5d656b"
+					"name" "string" "JawV"
+					"value" "float" "0.5249502063"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a64efa63-c4c4-40c7-ba37-900aff35c153"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6251989603"
+					"rightValue" "float" "0.6228496432"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "afcdf2aa-5efe-4076-b36d-9a40b8dd7185"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8b90e106-89ed-4e03-b9b0-5fb176b68030"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3975746036"
+					"rightValue" "float" "0.3975746036"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f00f3fb1-84c9-417e-b6a0-0cc827747963"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3473756015"
+					"rightValue" "float" "0.3473756015"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d6615412-3f4c-4b04-be4a-6f827a9ad3ba"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.3125746548"
+					"rightValue" "float" "0.3125746548"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6c6fd699-dff0-40ea-b944-0f9bfb86ec79"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.2901492417"
+					"rightValue" "float" "0.2901492417"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f3792b34-8b2d-461a-a54c-0957ba71fc94"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5cf64d9a-628b-4162-856e-5ad081368563"
+					"name" "string" "TongueD"
+					"value" "float" "0.3275000155"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "270b2169-a861-4178-b212-881a7e05983e"
+					"name" "string" "TongueV"
+					"value" "float" "0.5400000215"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4040c4f5-0538-431b-9072-de2245615998"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5d8db6e4-b58b-45be-bf0f-60efe78a9330"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "c15760fe-4f22-40b3-9c44-fc154fbaa89c"
+			"name" "string" "p_s"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "3778b024-e88a-4a04-a802-fb6cd6709d94"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.7001492977"
+					"rightValue" "float" "0.7001492977"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6c31def0-6964-4b11-b4ff-794c8c4a2737"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8674501777"
+					"rightValue" "float" "0.8674501777"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "0e93ece8-6eb2-40f4-83a0-79c79031de08"
+					"name" "string" "JawD"
+					"value" "float" "0.6044775844"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "036ddb3d-f314-4bc3-85d1-3193fbef385e"
+					"name" "string" "JawV"
+					"value" "float" "0.5249502063"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8f92c1f6-d88b-46da-9d42-49c36ba3d529"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6898756027"
+					"rightValue" "float" "0.6875262856"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f9669932-7fa3-4451-adb7-7300151988b5"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3dc55ce1-dd61-43fe-bddf-a79bec6a607c"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3975746036"
+					"rightValue" "float" "0.3975746036"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a486f9c1-59a7-410e-90af-bc935b80ede7"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3473756015"
+					"rightValue" "float" "0.3473756015"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fd8fe0d7-e7b1-423b-abcd-6d6a45c2d444"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.267798543"
+					"rightValue" "float" "0.267798543"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c4f0143a-cc6a-4d2a-b92d-255b492d9a8f"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.2453731298"
+					"rightValue" "float" "0.2453731298"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1a2a731f-e3c0-44a7-a50c-941b810edf24"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b2ba4c70-c7c2-4d3e-be78-5c70623280f1"
+					"name" "string" "TongueD"
+					"value" "float" "0.3275000155"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "94554760-a1b2-46d7-babe-1d1b642d2f3d"
+					"name" "string" "TongueV"
+					"value" "float" "0.5400000215"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5691bb80-2125-4a8b-9cd7-cd1e345eb66b"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c34e4d26-818a-4b1d-a9a6-319ac139231b"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "e19ca0b4-2b65-45dd-bacc-c93c34a30af4"
+			"name" "string" "p_z"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "e81eba19-ad00-4bf1-b513-6c5f40fbbbf9"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.7001492977"
+					"rightValue" "float" "0.7001492977"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c7e1b525-137c-40d9-96e1-22eb6dc8add1"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8276491761"
+					"rightValue" "float" "0.8276491761"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "23ba4159-2235-409f-8671-451c83986c65"
+					"name" "string" "JawD"
+					"value" "float" "0.6442785859"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "24b712a4-3659-43e2-97f2-73dfa6dccda8"
+					"name" "string" "JawV"
+					"value" "float" "0.539875567"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "952e7dbb-6ec4-4a03-bc2a-7626f44806a2"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6699751019"
+					"rightValue" "float" "0.6676257849"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fb49acf5-31c4-4d84-9659-376d6a66e62a"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f610abc9-ad12-4352-a57e-e7940320178d"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3627487421"
+					"rightValue" "float" "0.3627487421"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "19889a72-9e8b-4899-86c0-851a88c8931d"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.4468780756"
+					"rightValue" "float" "0.4468780756"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5baa8235-7e28-4a2b-9f3c-2cbf116eedf0"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.267798543"
+					"rightValue" "float" "0.267798543"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "12e6cb8b-06f1-4afb-9759-7ada758f9a5a"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.2453731298"
+					"rightValue" "float" "0.2453731298"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2446f112-3290-4293-abc0-aae0b15da473"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "469926a9-6f0a-4fd5-b375-4f6c3767af0b"
+					"name" "string" "TongueD"
+					"value" "float" "0.3275000155"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d0f2f49b-115d-4ff0-89a7-fa341b8d9232"
+					"name" "string" "TongueV"
+					"value" "float" "0.5400000215"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4f68ade0-7286-493f-ba1d-06c58e4a68c6"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fe7c4358-d49a-4e53-b316-1f85b1b55cde"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "7c7b021e-5f32-4820-8bbc-b802fba548c7"
+			"name" "string" "p_t"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "dda8f5fa-24fb-41b5-b4e5-512a27cdcd26"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6802487969"
+					"rightValue" "float" "0.6802487969"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8db00275-08fb-4122-aaf9-e13cff0f4692"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8674501777"
+					"rightValue" "float" "0.8674501777"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5693d19d-d0b1-4ec7-81ef-5629db4a6332"
+					"name" "string" "JawV"
+					"value" "float" "0.5995770693"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "71d49bef-b752-4ec8-9b49-c78de6b47493"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6500746012"
+					"rightValue" "float" "0.6477252841"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "622b2826-a2e6-4ef6-b618-80c3143c8704"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3473756015"
+					"rightValue" "float" "0.3473756015"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "438f457b-e023-47bb-90ef-03b8222a0801"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "18aa168d-d43c-4baf-9efe-cc504d8dde3a"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3975746036"
+					"rightValue" "float" "0.3975746036"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d92efa7c-a3a7-4e72-a799-6321d47ec97e"
+					"name" "string" "JawD"
+					"value" "float" "0.6741293073"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4015eb85-0f6f-4501-926a-b1b7e39d3bfc"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "381ffd94-4abe-4cd9-9172-f2def8dafda0"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.3971517682"
+					"rightValue" "float" "0.3971517682"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3dcd6bfd-f43b-47eb-a65a-9bceaf7f360e"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.2403979897"
+					"rightValue" "float" "0.2403979897"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "93397ec3-0b36-4b77-85ac-1c307d214773"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "03e2e3d4-88f2-4025-a892-e8b6c2d2fbb3"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "97dc7e40-7036-4443-b058-c4db16d710ba"
+					"name" "string" "TongueV"
+					"value" "float" "0.4056716859"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a6650046-80ae-4b25-a382-e8162f87d499"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.4601989985"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "daba44fb-007d-4f77-8b09-5bf93d7f2404"
+					"name" "string" "TongueD"
+					"value" "float" "0.574626863"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "ed18275a-6497-47d8-983e-676e9230ade5"
+			"name" "string" "p_n"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "fae927a4-c28f-4b1a-b3a1-aa245dbf8586"
+					"name" "string" "JawD"
+					"value" "float" "0.6990049481"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7595226e-1119-4836-830c-05179dfde50d"
+					"name" "string" "JawV"
+					"value" "float" "0.7090297937"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9479d4bf-b5fd-4a59-a8db-5e327331c0e6"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6802487969"
+					"rightValue" "float" "0.6802487969"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "88c4ce82-7cfb-4edf-9f74-3df96c6d18be"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6998258233"
+					"rightValue" "float" "0.6974765062"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "cda64416-5868-43f1-a7be-9825ff037439"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8326243162"
+					"rightValue" "float" "0.8326243162"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4d2e6ea9-1896-400d-85d2-b165207fdb63"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.4572761059"
+					"rightValue" "float" "0.4572761059"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4cd44c7c-9c94-49f9-90e8-d749d0396dfe"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3075746"
+					"rightValue" "float" "0.3075746"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3a0fdc65-3c9d-459e-b982-9c5250bd23e5"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b40b72cf-8493-407d-8fdc-77b18e0265b7"
+					"name" "string" "TongueD"
+					"value" "float" "0.5945273638"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5edd2e2d-e6d0-4655-a7de-3dc42511a0d9"
+					"name" "string" "TongueV"
+					"value" "float" "0.6992040277"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8c867002-2372-413c-9797-eaf891b98084"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.3175497651"
+					"rightValue" "float" "0.3175497651"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9c56645e-f0a5-4fb2-8cc3-380994823a81"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3747263551"
+					"rightValue" "float" "0.3747263551"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8ec7d629-7d9e-476b-947d-12ec0fe27334"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9265238b-c47c-4ecb-aa2a-2fdc981f41b8"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2b058b57-c495-469c-b26c-959bc9c2bb0e"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d338ee61-81ff-4a94-a28f-69e5b22ff1e3"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.5348258615"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "a6cb3ca5-6a50-4210-ba03-00e0883c68c1"
+			"name" "string" "p_nx"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "169cd695-08ac-48e9-a5b7-870b4cc41a04"
+					"name" "string" "JawD"
+					"value" "float" "0.6393034458"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "537e71dd-cc03-4314-8697-cd8c782318f1"
+					"name" "string" "JawV"
+					"value" "float" "0.7090297937"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f6cd72d1-639a-49ef-97c5-e8b5abf93333"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6802487969"
+					"rightValue" "float" "0.6802487969"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b30b9f06-897a-4a85-b56a-3545281fa3a9"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6998258233"
+					"rightValue" "float" "0.6974765062"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "eff65c84-de7a-40f8-9664-aade1a740982"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8326243162"
+					"rightValue" "float" "0.8326243162"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "627cf1e1-4131-42c2-8142-2ce8ef699473"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.4572761059"
+					"rightValue" "float" "0.4572761059"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ad853d58-0c9b-4745-8db7-9bd0ad3965c8"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3075746"
+					"rightValue" "float" "0.3075746"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "18f8276d-a88f-4ce6-a499-7c995e63c569"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.3175497651"
+					"rightValue" "float" "0.3175497651"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "dc186275-67b9-4219-b4da-61581cdda776"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3747263551"
+					"rightValue" "float" "0.3747263551"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "95c5e2fa-82bf-4868-8c93-7c0453527d89"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5ae30d98-fd82-4fa0-84a3-0f2ff9f0d94e"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2af8e3d0-cefe-44d3-bf57-b679fa60ca39"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "63fd543b-f9bd-4f9f-89ab-4903888d5ea0"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "78139ae6-016c-4a16-a6c5-cf1b571573e7"
+					"name" "string" "TongueV"
+					"value" "float" "0.6743283868"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c98d33ab-0bc5-4905-886c-64616ca2c60b"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.7338308096"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "40b1cf35-127c-4ac0-a293-fc7afc78f26f"
+					"name" "string" "TongueD"
+					"value" "float" "0.4950249195"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "01c51f28-650c-42ce-a8d2-eeca26e519c3"
+			"name" "string" "p_l"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "928e59a6-a1c7-4347-a3dc-bb6a7d5bb931"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6802487969"
+					"rightValue" "float" "0.6802487969"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "78c6fcc6-34f6-4b78-9f63-9f8e8c81a07f"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "261993fd-93bd-49c7-9e5e-f60530e5725b"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "94bdb4d3-e3e8-461e-a4cc-3239a28987db"
+					"name" "string" "JawV"
+					"value" "float" "0.7289302945"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "df2dae33-c88c-4737-99ac-1c4c2c04f53a"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6998258233"
+					"rightValue" "float" "0.6974765062"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "834d61f0-ea5f-4828-965e-2e380c1dc8a4"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8326243162"
+					"rightValue" "float" "0.8326243162"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "15f621f1-8754-4130-8c2f-f9796f3958f6"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.3175497651"
+					"rightValue" "float" "0.3175497651"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3bb917cc-a1f0-4e48-9cbc-ccc79e2350f1"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3747263551"
+					"rightValue" "float" "0.3747263551"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4a7cb7ec-8a54-4f58-a8ba-57852e03ea8e"
+					"name" "string" "JawD"
+					"value" "float" "0.6990049481"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c1f9cdc6-0edb-45a7-bbf3-c538276aab2b"
+					"name" "string" "Smile"
+					"leftValue" "float" "0.4572761059"
+					"rightValue" "float" "0.4572761059"
+					"multilevel" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "11e9117e-8f2b-49cd-8cc9-b244851f6df1"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3075746"
+					"rightValue" "float" "0.3075746"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "161bc4d6-996b-4d1f-a062-db68ef5dad85"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "33afceb2-0509-41f9-abf0-ad1841ab345f"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "504abbce-96f3-434d-abc3-2c154c4e1e9b"
+					"name" "string" "TongueV"
+					"value" "float" "0.6743283868"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "79c40e33-0b0b-451a-9274-ffccc56a90ab"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.4950248599"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2c869293-ba69-4afe-af13-f97f14db1ffa"
+					"name" "string" "TongueD"
+					"value" "float" "0.649253726"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "7e5d4641-d481-4356-b1b3-eb1386976aa5"
+			"name" "string" "p_dh"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "f9123a91-79d7-4464-bc68-7f86a8409247"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6100000143"
+					"rightValue" "float" "0.6100000143"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4caa4e1a-8fc9-400f-b2a4-5ffd1ea62726"
+					"name" "string" "JawV"
+					"value" "float" "0.6098259687"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d44a404f-1c56-46b3-8d5a-2b6a4a4d9d7b"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7024999857"
+					"rightValue" "float" "0.7024999857"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "648c98b1-8673-4e40-9085-5427c5f53fa4"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8525000215"
+					"rightValue" "float" "0.8525000215"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "31c145ce-ee9d-4e9f-8157-e0df08e37855"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.392624408"
+					"rightValue" "float" "0.392624408"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a59f8e7b-19f4-451b-9223-8f30343d6da5"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.137524873"
+					"rightValue" "float" "0.137524873"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "40e3ddac-994b-4f66-bd16-c9065f3d9734"
+					"name" "string" "JawD"
+					"value" "float" "0.6398258805"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "24ac09ac-af2b-422f-bdf1-8677485abee8"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3796019554"
+					"rightValue" "float" "0.3796019554"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "08916c4a-91ff-4fc7-b060-77c181a84212"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.2599004805"
+					"rightValue" "float" "0.2599004805"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "327d367f-3b60-4340-907c-0cce4dedae27"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3955224156"
+					"rightValue" "float" "0.3955224156"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "78c37d0f-7382-4322-b39e-d0062bac4b9d"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.1199999973"
+					"rightValue" "float" "0.1199999973"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1874fb3a-4a96-4e6d-86ec-be53ed4dc5bb"
+					"name" "string" "TongueD"
+					"value" "float" "0.6961069703"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "67724c04-2a70-4928-b736-b91a9db7c7d7"
+					"name" "string" "TongueV"
+					"value" "float" "0.214092046"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7a5a8ca3-4f78-4ef7-aab6-32ad8ef4e1cd"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0.2699253559"
+					"rightValue" "float" "0.2699253559"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f9455278-c32c-44be-b467-13869f4f73e5"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.383171618"
+					"rightValue" "float" "0.383171618"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "216b000b-4a70-47b6-b34a-5309062046f1"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.4751243591"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "aa5db440-678a-444f-b2e4-a68404f40acc"
+					"name" "string" "TongueWide"
+					"value" "float" "0.4427860677"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "a2992d9f-a094-44f9-a1cc-7e8a1e29816b"
+			"name" "string" "p_th"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "bf990a9f-60bc-4f31-a60b-f279214463d9"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6100000143"
+					"rightValue" "float" "0.6100000143"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f6e4e3a8-84cc-4d88-9286-f9b48fbf2bb6"
+					"name" "string" "JawV"
+					"value" "float" "0.6098259687"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "49a6cc93-c3d2-484e-a68a-9834fad7f31c"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7024999857"
+					"rightValue" "float" "0.7024999857"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b8fb8df7-702b-4fb3-b309-7aedca9d0619"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8525000215"
+					"rightValue" "float" "0.8525000215"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e6ed45ba-a82a-4298-ba31-d7523316c279"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.392624408"
+					"rightValue" "float" "0.392624408"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5cdfdd8e-e4dd-476d-95b8-d81722f92f12"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.137524873"
+					"rightValue" "float" "0.137524873"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4e41083e-c530-4028-ae72-fbfac00d7d63"
+					"name" "string" "JawD"
+					"value" "float" "0.6398258805"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4368caa3-4d4e-4c0d-8b15-2165424dd51b"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3796019554"
+					"rightValue" "float" "0.3796019554"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ae22f871-676a-4eb9-861d-ef24d3d81a80"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.2599004805"
+					"rightValue" "float" "0.2599004805"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "99e4a59a-9aa5-4b3f-bcf7-3f81f1036db8"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3955224156"
+					"rightValue" "float" "0.3955224156"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "12726a61-3e3c-4918-b8c1-25cc82662650"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.1199999973"
+					"rightValue" "float" "0.1199999973"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6f244e8b-1e7c-46e5-b842-278269c0aeee"
+					"name" "string" "TongueD"
+					"value" "float" "0.6961069703"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c479524e-d392-48c3-b63c-ee516f80805d"
+					"name" "string" "TongueV"
+					"value" "float" "0.214092046"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c3ecbaf7-aa03-4cab-9c41-14c5a7daa941"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0.2699253559"
+					"rightValue" "float" "0.2699253559"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b4cf55df-76fa-4022-92a9-ff11962e2e33"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.383171618"
+					"rightValue" "float" "0.383171618"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3d899d78-4759-4b32-9ca5-e5bc1bd657e5"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.4751243591"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8a5f2db0-c74d-45bc-bf47-19d2860b118d"
+					"name" "string" "TongueWide"
+					"value" "float" "0.4427860677"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "d8f5af8a-b9f4-4d90-bba3-b89f071fa821"
+			"name" "string" "p_iy"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "3d7befaf-24da-47f3-9cb7-019e7eb1f7f8"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6407462358"
+					"rightValue" "float" "0.6407462358"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "50873117-7955-4ad2-b471-33a660cf4da4"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.5570522547"
+					"rightValue" "float" "0.5570522547"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b145b484-5d6a-424e-8132-d94065107350"
+					"name" "string" "JawV"
+					"value" "float" "0.5499751568"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f5a3fe4e-482b-4524-9c34-de5791950e0a"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6583209038"
+					"rightValue" "float" "0.6599724293"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "af09a68f-5a08-418a-9d89-7dd69de8ddc0"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.821977675"
+					"rightValue" "float" "0.821977675"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2e6afeaa-ece1-4ef5-9582-2d7892071a69"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.4883209169"
+					"rightValue" "float" "0.4883209169"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c13c9550-14fd-4bbf-90db-c25aabbe0bcf"
+					"name" "string" "JawD"
+					"value" "float" "0.5605970025"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "bba9566f-1f9a-4322-8779-63adc1222ec0"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.3855721354"
+					"rightValue" "float" "0.3855721354"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e8c0a7cf-24ea-4699-b0cd-c125c48f017e"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3855721354"
+					"rightValue" "float" "0.3855721354"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "79ead6af-12df-4169-a8b8-71c9d9f9f471"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.1200000048"
+					"rightValue" "float" "0.1200000048"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "ebeb0569-ad1e-4cf3-bec3-93e83189406d"
+			"name" "string" "p_y"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "6ecc85e5-5ba0-4431-89a2-291417649bac"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.7258631587"
+					"rightValue" "float" "0.6840191483"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "67a2635b-8754-45dd-8ca9-bb8dd4885362"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.204464972"
+					"rightValue" "float" "0.204464972"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "76f29218-ec97-40f5-9ed0-180054ec9e22"
+					"name" "string" "JawV"
+					"value" "float" "0.6056419611"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "40097105-ffac-4c36-98c5-a90641986ef8"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.72437042"
+					"rightValue" "float" "0.7249748707"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1474a484-4a23-49d3-bdcb-8f071c10dccb"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.842869699"
+					"rightValue" "float" "0.842869699"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "91f1d2bf-5e6b-455e-a036-ddeb64c889fd"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.5210854411"
+					"rightValue" "float" "0.5210854411"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a93f176b-b74a-446e-90dd-7ff7e24d67bb"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3273787498"
+					"rightValue" "float" "0.3273787498"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6f8cc5ad-84dc-41ca-a5ca-dd83fc7acbe9"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3175829053"
+					"rightValue" "float" "0.3175829053"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9b31a0c4-39dc-4d92-990e-d9a0ed5f6efe"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.042794995"
+					"rightValue" "float" "0.042794995"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e463cf0f-3bfe-427f-88e7-1223dbe8b7ff"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.0439200066"
+					"rightValue" "float" "0.0439200066"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "896b0825-6d25-41cd-8555-24b02e5d5714"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.3772844076"
+					"rightValue" "float" "0.3772844076"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9ce37c32-eeb1-4974-8f08-ca4768c5a7b4"
+					"name" "string" "JawD"
+					"value" "float" "0.6938865185"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c8513b14-1269-4fa9-b1f4-610324c058e1"
+					"name" "string" "CheekH"
+					"leftValue" "float" "0.5237750411"
+					"rightValue" "float" "0.5237750411"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "93887537-f170-4c02-86cd-c093398c6e99"
+					"name" "string" "TongueV"
+					"value" "float" "0.3681592047"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "948ff61c-1374-4059-bf11-efdf1825cd64"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.8283581734"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "467741a3-0718-4b93-8dea-5e6643f701e5"
+					"name" "string" "TongueD"
+					"value" "float" "0.4054726362"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "85875623-62ac-4e2c-90ca-675281d7e844"
+			"name" "string" "p_ey"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "d6daaa10-61c8-429a-9b8b-b9ee63249c54"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.691374898"
+					"rightValue" "float" "0.6643854976"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f132b690-4462-4c75-86a7-cb6b9c9b3092"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3028151989"
+					"rightValue" "float" "0.3028151989"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b7b32eb4-7bc2-4e6e-a731-cb3946bd4f62"
+					"name" "string" "JawV"
+					"value" "float" "0.69443959"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9a2fe7a2-e03b-4063-b408-0e5db7965ece"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7194197774"
+					"rightValue" "float" "0.7166839242"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d0e3b95d-5382-4bb5-b41c-982e507806cb"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.840768218"
+					"rightValue" "float" "0.840768218"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c3915383-d908-4cd3-a21c-44c8658c9453"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.4278372228"
+					"rightValue" "float" "0.4242601991"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7b20c88d-822a-4b0e-9716-21c5a129373f"
+					"name" "string" "JawD"
+					"value" "float" "0.6250568032"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9b5044bf-dfe4-4ef1-ae85-a231759227a8"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.4467812181"
+					"rightValue" "float" "0.4467812181"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4a0c6c77-e009-4889-bdad-36c7a08c3724"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3955602646"
+					"rightValue" "float" "0.3955602646"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "49104dbc-1278-4581-984e-582a15f43c32"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.0283284038"
+					"rightValue" "float" "0.0283284038"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2397aab6-fa30-4c3d-8439-c4b2d2527274"
+					"name" "string" "CheekH"
+					"leftValue" "float" "0.5153349042"
+					"rightValue" "float" "0.5153349042"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "83908294-07dd-4a18-ba80-6cfc6e9412e3"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.0835339054"
+					"rightValue" "float" "0.0835339054"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3f69601d-8317-42ca-89ac-fbfe6991bb04"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1707356274"
+					"rightValue" "float" "0.1707356274"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b6ca5749-9f16-47a9-959e-87ddc7a3d588"
+					"name" "string" "TongueV"
+					"value" "float" "0.075945273"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7c75741b-349f-4343-b82b-1800aa62e7b7"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.5936069489"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "32ae7b47-0adf-425c-90dd-bc424a1dbbf1"
+					"name" "string" "TongueD"
+					"value" "float" "0.5724129081"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "0c653f4c-98c4-4934-ab60-cf9b5aa945b3"
+					"name" "string" "TongueWide"
+					"value" "float" "0.1730845869"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "b5ec2e98-e27b-4311-8a36-779f5318526d"
+			"name" "string" "p_ae"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "c320465e-8896-4526-a716-3e6a056ffaa1"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7104250193"
+					"rightValue" "float" "0.7016200423"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "0e3d874f-f3d5-4756-9d4f-5b43a0d6d9a8"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8369500637"
+					"rightValue" "float" "0.8369500637"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6288b2f5-9888-4aed-a760-956f62aac18f"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.2581856251"
+					"rightValue" "float" "0.2581856251"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "77153727-dabb-4af2-9c94-231f29635064"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.2584143877"
+					"rightValue" "float" "0.2483383268"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "620e31ad-80d6-420f-b904-0eb6d8f69f5d"
+					"name" "string" "JawV"
+					"value" "float" "0.8557761312"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "11ae24da-8202-4d55-9532-23d0e89f4ade"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5730500221"
+					"rightValue" "float" "0.5730500221"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d688828b-fafd-4182-9fd7-6443d2cd9729"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.5372374654"
+					"rightValue" "float" "0.5372374654"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "bd309064-f680-4a67-af90-af84617b5ba4"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.1575524807"
+					"rightValue" "float" "0.1575524807"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e830a2b4-7751-49a7-b66c-d7868eabd0a3"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1094527319"
+					"rightValue" "float" "0.1094527319"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "dcc3f79a-13ef-4350-b29f-bb4bc1999112"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.628713131"
+					"rightValue" "float" "0.628713131"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "cbce40cf-a7ef-4401-bf86-9ffd2e1b52bc"
+					"name" "string" "TongueV"
+					"value" "float" "0.2139303386"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4facf9b7-c1a3-4fcd-b004-9750f1eaab52"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.7636815906"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8c9d813d-76b0-4262-98ce-8bd0e52d11aa"
+					"name" "string" "TongueD"
+					"value" "float" "0.7039800882"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b6cd38fb-f925-460c-be67-1d40a0e46b3d"
+					"name" "string" "TongueWide"
+					"value" "float" "0.4875621796"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "02a28ee1-d763-4453-8692-b21e609d27a3"
+			"name" "string" "p_ih"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "da164adb-41da-497a-8dda-bd7bede8bf9e"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.628713131"
+					"rightValue" "float" "0.628713131"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "071afd16-0180-47e2-85ef-a9a76bf8d277"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.4223647118"
+					"rightValue" "float" "0.4223647118"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fdf87de1-14a1-422f-83ec-75e4680265ef"
+					"name" "string" "JawV"
+					"value" "float" "0.696572125"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8360292e-3ebc-4eb9-ad77-6e89e6c9f6d0"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7104250193"
+					"rightValue" "float" "0.7016200423"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "91822354-972d-4717-a7f1-4e6753ea2b09"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8369500637"
+					"rightValue" "float" "0.8369500637"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "cfe84a1a-e05d-41d1-b073-b778201b19af"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.467369616"
+					"rightValue" "float" "0.45729357"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9cbf3b57-9cf4-4fbf-a936-985b1ce1963d"
+					"name" "string" "JawD"
+					"value" "float" "0.6442785859"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c30c809b-c11e-40dd-9ca6-d128b85fcfcf"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5730500221"
+					"rightValue" "float" "0.5730500221"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b6af4d5f-7f62-41a6-9e6c-d9015879b776"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.5372374654"
+					"rightValue" "float" "0.5372374654"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3f2fad4c-6341-4e6f-b88f-0ac1d982cb45"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.1575524807"
+					"rightValue" "float" "0.1575524807"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7e3188a5-abd4-4106-bcb8-9d8408001164"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1094527319"
+					"rightValue" "float" "0.1094527319"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "712e513b-95ee-4d41-89b4-c3a37525d045"
+					"name" "string" "TongueV"
+					"value" "float" "0.2835820913"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e6707788-ff47-4301-8efc-8fd00728bfe9"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.7587064505"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ab88846e-54b7-4036-a8e5-fbf49ee877fa"
+					"name" "string" "TongueD"
+					"value" "float" "0.4054726064"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a94dee40-5af1-43b3-a211-3717df50dcd8"
+					"name" "string" "TongueWide"
+					"value" "float" "0.4875621796"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "ee0ba88f-0f26-4fac-8819-0c7f1bfb6c75"
+			"name" "string" "p_hh"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "06151e47-60b6-4f98-a24c-291d0345ec59"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.628713131"
+					"rightValue" "float" "0.628713131"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fbcafa37-4b86-4492-a25d-87624cd000be"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.1575524807"
+					"rightValue" "float" "0.1575524807"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "97919f35-b438-4002-b7ce-ab10ec16618d"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1094527319"
+					"rightValue" "float" "0.1094527319"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "bd156911-c9c3-4f38-9c64-dffe24be8588"
+					"name" "string" "JawV"
+					"value" "float" "0.6468209028"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "73bee478-7088-4024-8d94-51bd91f7e591"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7104250193"
+					"rightValue" "float" "0.7016200423"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "69a9e47b-05b4-484e-a995-5c968547396c"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8369500637"
+					"rightValue" "float" "0.8369500637"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1c905295-a138-40c7-a2f2-12967572ca1c"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.4223647118"
+					"rightValue" "float" "0.4223647118"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "71de1e46-ad64-440c-b337-7ac76ca2e397"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5730500221"
+					"rightValue" "float" "0.5730500221"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c62e8637-4e7a-4e65-9848-e44158ecac09"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.5372374654"
+					"rightValue" "float" "0.5372374654"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "64d1348a-d1cf-41b9-aeb3-00bd70eca1e6"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.467369616"
+					"rightValue" "float" "0.45729357"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5081a0ca-788b-4a20-b4fb-bdff170f7898"
+					"name" "string" "JawD"
+					"value" "float" "0.6990049481"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e7230d7d-8dc5-4b66-83fa-9a7a4acb34a0"
+					"name" "string" "TongueV"
+					"value" "float" "0.3980099559"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a6d08a61-81f4-435c-b4d2-424c918a3aaa"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.8582089543"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "73d261c5-7eea-4697-b7d0-5b1aa2e2e28e"
+					"name" "string" "TongueD"
+					"value" "float" "0.4054726064"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "86ee5623-c984-41ff-8e63-5b6159125f2e"
+					"name" "string" "TongueWide"
+					"value" "float" "0.4875621796"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "c6b879e2-0c31-4047-a9c8-abeec8f01c93"
+			"name" "string" "p_eh"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "6fa7a98d-b9f6-45c4-a35d-bcd24d316bd5"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7104250193"
+					"rightValue" "float" "0.7016200423"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f867c6e8-9dbd-430c-abe0-5526e1e75ea5"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8369500637"
+					"rightValue" "float" "0.8369500637"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "93f272e0-16d6-4963-92b2-2aafd336f58a"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3433945775"
+					"rightValue" "float" "0.3433945775"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "29aaa143-918b-4fe2-a470-404c0db133d5"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.366862148"
+					"rightValue" "float" "0.3567861021"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "72f8da0d-d8e5-484d-8886-9639bdc1665c"
+					"name" "string" "JawV"
+					"value" "float" "0.747328341"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d586307b-6f5a-4d9e-9781-e01481d67532"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5730500221"
+					"rightValue" "float" "0.5730500221"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e8346016-1969-4a91-b87a-47822a99864f"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.5372374654"
+					"rightValue" "float" "0.5372374654"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d5d77e6b-041d-457a-9f13-da737373c67b"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.1575524807"
+					"rightValue" "float" "0.1575524807"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "0a32224a-74e0-4651-8639-797fbf8bed13"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1094527319"
+					"rightValue" "float" "0.1094527319"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3f11b68f-1ea6-4d53-957b-c819276f76b4"
+					"name" "string" "JawD"
+					"value" "float" "0.6032835841"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b072102c-d217-4d9b-a694-fbe30469c990"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.628713131"
+					"rightValue" "float" "0.628713131"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "98bc6859-eb52-4bcf-ba5a-8a68828c15dc"
+					"name" "string" "TongueV"
+					"value" "float" "0.3094676733"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f13d98f9-882c-4110-a168-87bdfa5f1650"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.8127412796"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8a4288a4-740b-440c-8595-3006e92073ab"
+					"name" "string" "TongueD"
+					"value" "float" "0.5490546823"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "dff6c003-f632-44bf-83c5-c60f9206410f"
+					"name" "string" "TongueWide"
+					"value" "float" "0.4875621796"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "8f0c134a-adf4-4914-9707-1fc42f26fa4c"
+			"name" "string" "p_aa"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "0bfb28ad-4ac8-4410-81a9-0a90faf513b5"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6378483772"
+					"rightValue" "float" "0.616060853"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "eacc1d96-13b4-4de6-ae6f-09fe4d6d2aad"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8774005771"
+					"rightValue" "float" "0.8774005771"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "32cdfc91-d2e4-4ce9-a61b-5f6e1ea67c78"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.2174999863"
+					"rightValue" "float" "0.2174999863"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "cb82795a-fdf3-4bc2-8539-d1ce3bf28082"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.1650000066"
+					"rightValue" "float" "0.1377750039"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e0105cc3-b6d2-4a91-a645-352fb6f5b84d"
+					"name" "string" "JawV"
+					"value" "float" "0.9599004984"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3658f503-ee0b-4dfb-8638-3c09a7378b2e"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5946019888"
+					"rightValue" "float" "0.5946019888"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7bd5e6c0-2bb6-4418-aeca-e00e22d8ebf6"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.574626863"
+					"rightValue" "float" "0.574626863"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3a3fd82f-e09e-4bab-97fa-957462bf6746"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.1691542268"
+					"rightValue" "float" "0.1691542268"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "533b8844-0512-418c-94bb-62101acededc"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1890547276"
+					"rightValue" "float" "0.1890547276"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d07fef3b-c32e-4514-9ce9-7b845c848b88"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.7924998999"
+					"rightValue" "float" "0.7924998999"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2f59f5cb-3b29-4f58-98fe-2486efa1063f"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.7786069512"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "18aea1ed-31b9-4ad3-be5c-1d5ce7c4cb63"
+					"name" "string" "TongueD"
+					"value" "float" "0.843283534"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "de9e8cd2-1b3c-43c0-8f47-25dd7f00f5a9"
+					"name" "string" "TongueWide"
+					"value" "float" "0.5024875402"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "4797c2b5-780f-4b9f-b9af-9c280ee0c5d3"
+			"name" "string" "p_b"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "3d4e022d-7c1b-479e-a0f7-82f090deb237"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.3846081197"
+					"rightValue" "float" "0.3846081197"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "eb1e43fd-1b56-4fcc-97ea-9444042670b2"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3445735276"
+					"rightValue" "float" "0.3445735276"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "83636b33-764b-4d9b-bcf5-ed25e1c0e473"
+					"name" "string" "JawV"
+					"value" "float" "0.649253726"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a56d9c3b-5b0c-42d6-b605-4f0c4599ab19"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6318522692"
+					"rightValue" "float" "0.6318522692"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "02a0c2fe-c225-47de-85c1-3a9fcd586445"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.2746670246"
+					"rightValue" "float" "0.2746670246"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "90899f9b-423d-4d05-b61d-0f8f1d1a4187"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0.1994474977"
+					"rightValue" "float" "0.1994474977"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "35c5b519-f9d1-461d-9844-22f540f14672"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.2448258698"
+					"rightValue" "float" "0.2448258698"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "69a18f7e-13ea-429f-bb4a-42cb68c88655"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.2571517229"
+					"rightValue" "float" "0.2571517229"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8ef5f564-4c61-4cf8-a966-12a39e6f4d7b"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.5"
+					"rightValue" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7bd68e5f-e26d-41d9-83da-b85c8d0bc689"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.0149999978"
+					"rightValue" "float" "0.0149999978"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fc49ac1e-3f3d-4e5d-8e46-fc08c3489459"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5736225e-b76a-418e-8c88-a8467c67a720"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0.1026990041"
+					"rightValue" "float" "0.1026990041"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9277c30f-fee3-4677-8e40-e111d507ae1a"
+					"name" "string" "JawD"
+					"value" "float" "0.5497512221"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "f5a5efe3-b737-4e7f-99b8-edc9fc828ecd"
+			"name" "string" "p_m"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "77ce50a9-fbef-4a98-9bcc-6ecf095073e0"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.331993252"
+					"rightValue" "float" "0.331993252"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4f2126e8-22de-4e6d-ba22-6014991f89f7"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3293297291"
+					"rightValue" "float" "0.3293297291"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "34ef892a-de2c-4e83-bfa3-f8545da5a2ec"
+					"name" "string" "JawV"
+					"value" "float" "0.5497288108"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d78f5677-4812-4939-bb7b-8b9583027ddb"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7082426548"
+					"rightValue" "float" "0.7082426548"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c2a730fe-3134-49ee-96c8-c2b05278cbf9"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.2060700059"
+					"rightValue" "float" "0.2060700059"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ce045feb-7958-472e-9f84-95002669ea79"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0.1994474977"
+					"rightValue" "float" "0.1994474977"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6c579eeb-da5a-4a9a-be13-b67e9000e8d4"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.2314875573"
+					"rightValue" "float" "0.2314875573"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "60b3a058-dce6-40f3-8871-d0b57ebfc377"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.2304751128"
+					"rightValue" "float" "0.2304751128"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "879b493b-fc5a-41c6-bb9d-c7b70452a0a8"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.4712750018"
+					"rightValue" "float" "0.4712750018"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "276a44e0-cee0-48c2-ac5f-042a1d248f99"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.0781949982"
+					"rightValue" "float" "0.0781949982"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d83e5975-f5d2-4642-82f8-d163084c5b20"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.0402150005"
+					"rightValue" "float" "0.0402150005"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "bd7cf9aa-760f-475d-9db6-f45edcb02497"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0.1581577957"
+					"rightValue" "float" "0.1581577957"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a7d488be-9a12-4d16-9fcf-2d8586aaa72e"
+					"name" "string" "JawD"
+					"value" "float" "0.5306965113"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "7d445ac5-b0d8-432d-8821-498dfa46957c"
+			"name" "string" "p_p"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "e18f3b59-8a10-4573-9c20-3236ee9eadf8"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.5"
+					"rightValue" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9a6951e2-8b2b-4228-89a0-49f99b6dbce5"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.3194431365"
+					"rightValue" "float" "0.3194431365"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e5742dff-cf11-41a9-a690-bbf96f7d6584"
+					"name" "string" "JawV"
+					"value" "float" "0.6194030046"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "85b9964c-5538-4226-b36e-60bb4a243a99"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.4203979969"
+					"rightValue" "float" "0.4203979969"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f11b52a8-067a-48e7-bac9-342b58e5aae6"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.6776616573"
+					"rightValue" "float" "0.6776616573"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ab4cd5dd-f2c6-4381-9973-878ceca7ad43"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6d702ecd-56ba-4741-b48c-036b8e5e5cc3"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.4045086503"
+					"rightValue" "float" "0.4045086503"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e4d96ee8-1bd3-4315-97d3-b69f3e533045"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.2351208031"
+					"rightValue" "float" "0.2351208031"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b400c306-b1cf-4767-9020-6b8fa5d53e0a"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.4611318111"
+					"rightValue" "float" "0.4611318111"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "587c978e-f0e7-4a6c-b960-810c936d9e8c"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7f30d572-cc18-4f7d-b6d6-0ac074ee0af5"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0.6969599128"
+					"rightValue" "float" "0.6969599128"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f2e0fb40-5233-4cf5-b509-0a7eb689881d"
+					"name" "string" "JawD"
+					"value" "float" "0.5497512221"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4a590196-b9ba-463a-8558-8ebe9b6ae0a4"
+					"name" "string" "PuffLipLo"
+					"leftValue" "float" "0.6417909861"
+					"rightValue" "float" "0.6417909861"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "2c6cc509-a07d-48b1-b292-18b210ece35c"
+			"name" "string" "p_f"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "b77f63fc-d9df-4588-9d9e-d7e816490cab"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.7409999967"
+					"rightValue" "float" "0.7409999967"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7693a3eb-36cf-4aeb-90f4-d2ed4e862db4"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7036442757"
+					"rightValue" "float" "0.7073466182"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d9229bcd-5377-4716-b5ea-b8915987e8d0"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0.2427985221"
+					"rightValue" "float" "0.2427985221"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "26da7008-3ec1-4539-8faf-efe58eb756bd"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.1667785943"
+					"rightValue" "float" "0.1667785943"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "649f54b7-6c12-4170-892e-46142f50ef96"
+					"name" "string" "NoseV"
+					"leftValue" "float" "0.5525000095"
+					"rightValue" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "0db5b2b7-2a87-4c1f-a1b9-c4879938bbab"
+					"name" "string" "JawV"
+					"value" "float" "0.6044775844"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "21bf23b5-93f2-44a7-9bc7-677a6e031d8c"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.3280970156"
+					"rightValue" "float" "0.3351845145"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b61c2e15-3bab-4044-ae8e-675825da23f9"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.0900746211"
+					"rightValue" "float" "0.0900746211"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ddd79554-fa7b-44ce-bca3-c8944b5a6974"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.4477736354"
+					"rightValue" "float" "0.4477736354"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9104fe45-db88-44be-b917-96114def982e"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.4692288637"
+					"rightValue" "float" "0.4692288637"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5e7aa1e6-af6e-4fb0-92e8-ff9f2089430c"
+					"name" "string" "JawD"
+					"value" "float" "0.4621268809"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c69879e2-dd5e-4dc2-b7c7-ec008010b229"
+					"name" "string" "JawH"
+					"value" "float" "0.5074999928"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a22cd480-50b6-4457-8af0-e1343c00cee6"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "418513ec-68b1-46af-90cf-ea33807515e8"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5623010397"
+					"rightValue" "float" "0.5623010397"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "326283f3-eb87-4e6a-9700-d333d21ae377"
+			"name" "string" "p_v"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "cce2503a-c052-4905-b784-24b0ce556890"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.7409999967"
+					"rightValue" "float" "0.7409999967"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e98c5d8c-3618-4943-a4bf-51e709eed05b"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.658868134"
+					"rightValue" "float" "0.6625704765"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f237d287-c11f-40ae-9146-8520c0cda40c"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0.1432960331"
+					"rightValue" "float" "0.1432960331"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "cc4c80ed-2129-41c4-b025-905f9a428efb"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3508582115"
+					"rightValue" "float" "0.3508582115"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "78455534-8867-421b-a71f-92e72b20c97a"
+					"name" "string" "NoseV"
+					"leftValue" "float" "0.5525000095"
+					"rightValue" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b8ddc861-e85f-42df-92fb-1de96cdaf3fc"
+					"name" "string" "JawV"
+					"value" "float" "0.574626863"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d88dd0b6-6f53-4086-9fcf-e1bd952345bc"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.3927736282"
+					"rightValue" "float" "0.3998611271"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6b4ba80b-5c04-4065-aaa5-919a49f09382"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.1796268523"
+					"rightValue" "float" "0.1796268523"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7ce35b3a-6098-48af-8201-f3abbae79864"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.4825994968"
+					"rightValue" "float" "0.4825994968"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "41d18a52-9078-43bb-a4e5-b2e4c972e719"
+					"name" "string" "JawD"
+					"value" "float" "0.4621268809"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "00f1f9bc-9e9e-4d2f-9895-14896f6a31bc"
+					"name" "string" "JawH"
+					"value" "float" "0.5074999928"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "40cb3065-8e74-4aef-83e9-9097c0825dea"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "67f32b64-8c3c-4e87-9b05-e2fdbae420d2"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5324503183"
+					"rightValue" "float" "0.5324503183"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9c33a3f2-de40-40a7-81c2-7e305837dea4"
+					"name" "string" "Smile"
+					"leftValue" "float" "0.5239552259"
+					"rightValue" "float" "0.5239552259"
+					"multilevel" "float" "0.5"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "9cb5d60b-7bc7-4ace-ab8d-772c270115a2"
+			"name" "string" "p_a"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "2cc38e04-f2cc-4daf-b94f-2c660307741a"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7071053386"
+					"rightValue" "float" "0.7033468485"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c0b84939-b21a-4cf4-a399-39e591a3ed82"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.7704818845"
+					"rightValue" "float" "0.771573782"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b8f488fd-c420-47c4-8830-302faa00c629"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3220702112"
+					"rightValue" "float" "0.3220702112"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "0ad6fc75-d950-4674-9853-0c5185738652"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3056858778"
+					"rightValue" "float" "0.3005026877"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3b585548-9c66-40f9-903c-8c0df7581a2b"
+					"name" "string" "JawV"
+					"value" "float" "0.7295347452"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b36229ab-fd68-4d39-8a3d-13e6c46379d3"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5018929839"
+					"rightValue" "float" "0.5018929839"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c41a713b-b835-4a36-8fde-33fc138d4ad2"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.4357014298"
+					"rightValue" "float" "0.4357014298"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ab4cc700-ad50-489e-aac6-d82fe9eb7f69"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.1229077503"
+					"rightValue" "float" "0.1229077503"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "79e691a4-3d8f-4e9c-afee-cc3028ef2ae1"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1984398663"
+					"rightValue" "float" "0.1984398663"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1bd0ca6a-de5a-4050-96b0-35e9da4ae447"
+					"name" "string" "NoseV"
+					"leftValue" "float" "0.5080882311"
+					"rightValue" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6556f9bf-660e-4513-b571-1c710938cc8f"
+					"name" "string" "CheekH"
+					"leftValue" "float" "0.5078821182"
+					"rightValue" "float" "0.5078821182"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e42ec43f-5f4c-427d-9210-3651cd17a50e"
+					"name" "string" "JawD"
+					"value" "float" "0.5584443808"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9f317b0a-2896-4729-8c27-ede163624fb5"
+					"name" "string" "JawH"
+					"value" "float" "0.5011554956"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f3a0bb9f-2c84-46e8-abf8-8a96238dc39c"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6782203913"
+					"rightValue" "float" "0.664347887"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "70576457-f837-4a15-9cd9-c95a7492a023"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0.0220764708"
+					"rightValue" "float" "0.0220764708"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c8cdee57-34ea-44eb-a98f-abd34a285e87"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.0145607991"
+					"rightValue" "float" "0.0145607991"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d3490b05-fe4d-4955-a900-737ff28fbe59"
+					"name" "string" "TongueV"
+					"value" "float" "0.110047482"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "0b284a8d-8129-468d-94e7-8bc910189f2f"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.6356399059"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "bb179099-cee9-4f46-b925-5470afaabf2e"
+					"name" "string" "TongueD"
+					"value" "float" "0.6049289703"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8f787e7d-a7b4-4140-b80a-f4e15c531c41"
+					"name" "string" "TongueWide"
+					"value" "float" "0.2508058846"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "417b159b-c07e-4f19-8598-a8c6ec11fb93"
+			"name" "string" "p_e"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "92ef6a5c-07d3-47f2-9a04-50dfd0f74964"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6407462358"
+					"rightValue" "float" "0.6407462358"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "50e963ed-f038-4f38-b785-c7404fb67416"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.5570522547"
+					"rightValue" "float" "0.5570522547"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "da1c3649-363c-4742-abc3-ca44f426aee0"
+					"name" "string" "JawV"
+					"value" "float" "0.5748507977"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "aa5f5301-894a-4cc6-bd28-a41aed449de7"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6583209038"
+					"rightValue" "float" "0.6599724293"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e2954c3d-ceac-4fec-b4f1-18c80bb5f911"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.821977675"
+					"rightValue" "float" "0.821977675"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "51087d77-72e6-47e1-8ed7-9094ca7a7ef9"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.4883209169"
+					"rightValue" "float" "0.4883209169"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "df6a3423-8e99-433c-85b2-474f03871f23"
+					"name" "string" "JawD"
+					"value" "float" "0.5605970025"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2bfae193-9f7e-4c65-bc14-1573981a436a"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.3855721354"
+					"rightValue" "float" "0.3855721354"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ba1fe6f8-7930-4d32-95f6-75e2a9fefa93"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3855721354"
+					"rightValue" "float" "0.3855721354"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "46a2a3c3-a5f7-46f9-8003-f97bbe3651b0"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.1200000048"
+					"rightValue" "float" "0.1200000048"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "67b5f96d-374d-48a2-92ee-ecc0c4014e71"
+			"name" "string" "p_i"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "38d82e96-aa7e-41da-9681-cfa7abcd9cc0"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.691042304"
+					"rightValue" "float" "0.6861271262"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4d8adf17-37d0-463a-8183-d7ae2e3aaaf1"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8313803077"
+					"rightValue" "float" "0.8313803077"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "978e027c-bc94-4594-a19b-59302565bf24"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3439396024"
+					"rightValue" "float" "0.3376118541"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1504f497-4f36-40bf-aaf1-ff07f7a1a391"
+					"name" "string" "JawV"
+					"value" "float" "0.7420181632"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "989f04e1-d119-4ce5-b6b9-67ec67d1b71b"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3693639934"
+					"rightValue" "float" "0.3693639934"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "793619b7-fb7a-4529-a70c-e94f1aa05bb6"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6331894398"
+					"rightValue" "float" "0.6331894398"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c1c4b4ae-71d2-47d6-8b40-aedcc4bc159f"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5033082366"
+					"rightValue" "float" "0.5033082366"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "36a20a38-013b-4b4d-93de-fe5ade28dcfd"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.4808179736"
+					"rightValue" "float" "0.4808179736"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "45dc82dd-1fc4-4897-bfa0-844db7e8ea58"
+					"name" "string" "JawD"
+					"value" "float" "0.5225420594"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7ec07bff-16c8-4bec-b708-5b157eaa69e2"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.0446400009"
+					"rightValue" "float" "0.0446400009"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f899e87d-081c-459f-9980-a19a53cd95f8"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.0989429578"
+					"rightValue" "float" "0.0989429578"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4fd82c63-77eb-4c1d-929e-c64f4c9f3304"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.0687363148"
+					"rightValue" "float" "0.0687363148"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2461ec08-5f1c-4b97-a00b-b3430612a9d3"
+					"name" "string" "TongueV"
+					"value" "float" "0.1343482584"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6a0be8e1-2bd3-4b4c-93b4-efe0f3db800c"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.6655920148"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8b04e918-327e-4b7a-9864-408adb20379c"
+					"name" "string" "TongueD"
+					"value" "float" "0.6280995011"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a58e99b8-9933-4693-9828-22b1cd4445dc"
+					"name" "string" "TongueWide"
+					"value" "float" "0.3061890602"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "89fa0a84-e015-4cc1-a687-4f6c327307f7"
+			"name" "string" "p_o"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "5e90141a-e699-426a-a40d-bfffa39205a7"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.7269399762"
+					"rightValue" "float" "0.7119650841"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6754c6cd-f6d7-458a-98ac-e9516127aab0"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.6218162775"
+					"rightValue" "float" "0.6218162775"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ff89c23d-06f6-4336-ae88-a378616e85e7"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.618550837"
+					"rightValue" "float" "0.618550837"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "0d9ffe8f-7766-419f-98f5-3f83422af3d2"
+					"name" "string" "JawV"
+					"value" "float" "0.8001835346"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c6327543-9ed1-44bd-9dc4-7ff54e371eb4"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6174161434"
+					"rightValue" "float" "0.6110142469"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f4e57859-c7ea-4f8f-910a-be4482519eae"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.6366727352"
+					"rightValue" "float" "0.6308102608"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "65e255d5-8844-465f-b785-76e52d982909"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.0999023095"
+					"rightValue" "float" "0.0999023095"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5c22ad4e-0e77-4f65-b7f8-4d54cd858fd5"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.6376343966"
+					"rightValue" "float" "0.6376343966"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d1cdad50-81c5-4032-ae2c-40d9e804333d"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.694768548"
+					"rightValue" "float" "0.694768548"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "aaf2793a-137b-4f98-ab1d-724987b7b747"
+					"name" "string" "JawD"
+					"value" "float" "0.551572144"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "06e7808b-4bfc-491d-a9c7-eb832da48f39"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.0536218882"
+					"rightValue" "float" "0.0536218882"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "aea8c65b-01c1-4766-afcf-6ae66441faf3"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3c671aad-06e2-4616-9eb3-0f3e79698d1a"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9bcfeb45-d029-4172-b93f-c7e4af28bdd3"
+					"name" "string" "PuffLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "25f3bcfe-e640-46dc-a299-b3d42879cbdb"
+			"name" "string" "p_u"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "d3fdf931-1e95-448a-b27d-3351ef027ef1"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6646231413"
+					"rightValue" "float" "0.6409299374"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9dfb56d9-2f08-4788-8ab4-0c25981f9c26"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.8425164223"
+					"rightValue" "float" "0.8425164223"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a4a08ac4-dbf6-459b-b8c5-5565efa3c679"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.8473177552"
+					"rightValue" "float" "0.8473177552"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "79464754-271c-4a1d-9000-27d09fddb247"
+					"name" "string" "JawV"
+					"value" "float" "0.7274293303"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "472e785d-77f8-4a50-b2b5-c994b18437a6"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.5393643975"
+					"rightValue" "float" "0.5393643975"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f25a74e7-b34a-4d2d-a5c8-20b9821fa785"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5475669503"
+					"rightValue" "float" "0.5475669503"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1664bf02-46c2-43dd-8840-8e0d3436d845"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.5387966037"
+					"rightValue" "float" "0.5387966037"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6e36faf7-c8a0-4069-b31e-12fce04c5ad9"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.5319835544"
+					"rightValue" "float" "0.5319835544"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "39c5a720-4e17-44d8-85e8-13bdc5f83ebd"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c94b2e39-31ce-4494-abb0-6f23918e21f3"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d9b0c2d5-eb8c-4bfa-93a4-c4ad93562e69"
+					"name" "string" "PuffLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "0e82b9e6-6ed2-4064-9363-f694d7062ba5"
+					"name" "string" "JawD"
+					"value" "float" "0.5547263622"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "f00ddec0-eef7-4634-973e-bfb01b9445c0"
+			"name" "string" "p_aa2"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "cf5fc806-b4db-48a3-b927-11d0d755dd5b"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6378483772"
+					"rightValue" "float" "0.616060853"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "92affdef-5317-492b-b1ec-9afbcc05e593"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.8475498557"
+					"rightValue" "float" "0.8475498557"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8081266c-30dc-414d-ab13-0c597c4e9ac4"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.2174999863"
+					"rightValue" "float" "0.2174999863"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "86c34aba-a19a-4f68-9c4d-bdf9980ef8b7"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.1650000066"
+					"rightValue" "float" "0.1377750039"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7c5fed25-9f95-4147-9d2c-ea7d99afc701"
+					"name" "string" "JawV"
+					"value" "float" "0.8504477739"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fedb1399-fd36-4794-8d0e-0d69afaef812"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5946019888"
+					"rightValue" "float" "0.5946019888"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2ba4a37e-f304-411d-b9dd-eb84228f069a"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.574626863"
+					"rightValue" "float" "0.574626863"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6615dc46-42c2-41c6-803e-58df2cb99906"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.1691542268"
+					"rightValue" "float" "0.1691542268"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8b56694f-29ea-4bc7-8536-56e4dd2b6a52"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1890547276"
+					"rightValue" "float" "0.1890547276"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "53655d0b-3f41-44ae-b570-b21200ce9bfb"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.7924998999"
+					"rightValue" "float" "0.7924998999"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9cfc2f21-0d0a-48f2-a21e-7710283b60b9"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.7786069512"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f251fcf6-6329-41aa-80a3-aefd0bdfe29b"
+					"name" "string" "TongueD"
+					"value" "float" "0.7238805294"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "75b2dbc0-aee7-449c-b688-40ccc4b0c5fd"
+					"name" "string" "TongueWide"
+					"value" "float" "0.5024875402"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "e025ad93-e27b-4e14-a00e-5766baf8eb6f"
+			"name" "string" "p_ax2"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "fad2bc04-676f-4ac6-bfea-37f754a6d606"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6733198166"
+					"rightValue" "float" "0.6733198166"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "febbe168-763e-4552-b886-67e51723f980"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.7234212756"
+					"rightValue" "float" "0.7234212756"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6707a906-0a84-471d-a1ba-57f408f37f55"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3316449821"
+					"rightValue" "float" "0.3316449821"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e0583bf7-7f39-461f-bd6d-2f7aa573a7e9"
+					"name" "string" "JawV"
+					"value" "float" "0.7770925164"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "184fc003-32cf-4dc1-8e48-8b9ee61ec687"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.1627056748"
+					"rightValue" "float" "0.1627056748"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7b546c5f-5e1c-43a3-b6c8-4310e35d2a28"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6821535826"
+					"rightValue" "float" "0.6842848659"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "28c6a4d0-fad3-4eaa-bd07-ef6cca2774c9"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5984915495"
+					"rightValue" "float" "0.5984915495"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b5d0433d-0b9c-45e7-8c1a-1cb20f8ac3ff"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.5701882839"
+					"rightValue" "float" "0.5701882839"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "bc12cf11-ca28-4ab8-bd80-941bd00d5e9e"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.2370515764"
+					"rightValue" "float" "0.2370515764"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f47c4cd2-73f4-444f-a31b-a730c252bc06"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1861214787"
+					"rightValue" "float" "0.1861214787"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "61902ef5-f316-42fe-87fa-c2bf5ac5fcc0"
+					"name" "string" "JawD"
+					"value" "float" "0.6292346716"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "986ab4cf-ae56-4280-a755-e2eca798ee00"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "62c52d40-1380-4b05-8582-b675652b792c"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "78db5af7-edde-46e9-bd87-898253853747"
+					"name" "string" "PuffLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "82c6ddd1-2c6f-4569-a0e9-e3925624b722"
+					"name" "string" "TongueV"
+					"value" "float" "0.0111442795"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8add53c6-c44a-4099-9724-a977e8555fc0"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.5824676752"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "08216421-6a7d-4071-9a52-fba38323885e"
+					"name" "string" "TongueD"
+					"value" "float" "0.6315025091"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "64d707a6-6a3f-4541-8306-fbdf90331d70"
+			"name" "string" "p_d2"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "169ec6ea-4479-411f-aa25-6d18f040c9eb"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6802487969"
+					"rightValue" "float" "0.6802487969"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f393c350-6c29-409a-90d2-c5fe1cc007e0"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.7679477334"
+					"rightValue" "float" "0.7679477334"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d5651a03-a764-43b5-a437-9bd643930902"
+					"name" "string" "JawD"
+					"value" "float" "0.6393034458"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d1674106-152b-446a-bb6d-0a1827a1ed05"
+					"name" "string" "JawV"
+					"value" "float" "0.5846517086"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "af476425-c667-45f9-bdf8-285a13d6e342"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.5754477382"
+					"rightValue" "float" "0.5730984211"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b9e1a5c4-e595-418d-9034-0dd5fcacf261"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4ea60c40-e0f2-4530-ab0c-e55ba6ee0d61"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.2682213783"
+					"rightValue" "float" "0.2682213783"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fc8335c9-9e0d-48aa-a42a-91279a435b0e"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.2180223763"
+					"rightValue" "float" "0.2180223763"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d890dd8a-7819-49c0-b6ca-1efb6757d430"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.3822264075"
+					"rightValue" "float" "0.3822264075"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6857f86a-15c5-43bc-9a0c-c2e16d5846c9"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.3647761047"
+					"rightValue" "float" "0.3647761047"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6314c867-6f3b-47b1-ad5a-69a7d75ec258"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "716f2dda-f9d4-46ed-bd00-0b07fcf3c9a4"
+					"name" "string" "TongueD"
+					"value" "float" "0.5414303541"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f407cadf-2f2b-40df-bf2d-21b6cee13601"
+					"name" "string" "TongueV"
+					"value" "float" "0.4603980184"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6d48cef2-1070-4f94-9e89-fd15bd51a055"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9bf40357-0965-40a7-8a15-d5abaaa4ad5d"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "8ae01937-b365-4a09-9cbd-a99da6a9e743"
+			"name" "string" "p_g2"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "5d4a5139-eac9-4309-b729-d32e44941636"
+					"name" "string" "JawD"
+					"value" "float" "0.68152982"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7d7934de-363f-4122-ab5c-e3cd64d982d2"
+					"name" "string" "JawV"
+					"value" "float" "0.6049253345"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d1631df8-295c-4fe7-bf9c-f92ea2d24cbe"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6102985144"
+					"rightValue" "float" "0.6102985144"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "51eb5d0b-cf32-47c5-a054-fb4eb5045c49"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.618221283"
+					"rightValue" "float" "0.618221283"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1f23cd86-d031-4c33-82b3-d6f8503614b1"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.7827985287"
+					"rightValue" "float" "0.7827985287"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9448f67a-f776-45e5-af12-d51bde5f530d"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3557711542"
+					"rightValue" "float" "0.3557711542"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "34e27111-6d15-4a55-9c18-3936336d9eec"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.2319776118"
+					"rightValue" "float" "0.2319776118"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "546a12f6-6a82-418f-ae3a-5b6aec2e0bf0"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5"
+					"rightValue" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4cbf40a6-5003-4421-84d8-1d4d4e59d256"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.6434701085"
+					"rightValue" "float" "0.6434701085"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "413e1555-a9a5-4a08-9a7a-321dd8d3a28d"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.0358706266"
+					"rightValue" "float" "0.0358706266"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7520ae25-ead1-4da4-bd11-161f4608f22d"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.2636815906"
+					"rightValue" "float" "0.2636815906"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "998b5e29-5d10-49db-995b-3da1fa2cfdc8"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0.3299999833"
+					"rightValue" "float" "0.3299999833"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "29ec3d9c-b2ec-4ed6-a572-25355ea0bd24"
+					"name" "string" "TongueV"
+					"value" "float" "0.3582089841"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7844ba63-5fdf-4b09-b59d-4687ba1f93ac"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.9875621796"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ff479ab7-4661-4340-a5f6-2e38cb33ad4d"
+					"name" "string" "TongueD"
+					"value" "float" "0.4601990283"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "a118d554-7707-4d1c-b613-25ac667edf72"
+			"name" "string" "p_h"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "3ff9554e-3519-4f07-970c-4090e44fafe9"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6038374901"
+					"rightValue" "float" "0.6038374901"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "67050c09-6cf5-4c2a-85c1-4192988b8402"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.2272042185"
+					"rightValue" "float" "0.2272042185"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6e980dec-3167-440e-8f5a-fbebf5000c68"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1791044772"
+					"rightValue" "float" "0.1791044772"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "57901faf-723f-4503-8941-75f5202a9add"
+					"name" "string" "JawV"
+					"value" "float" "0.621945262"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a7badda1-41ad-43fd-bc38-4e76e0b00fde"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6407732964"
+					"rightValue" "float" "0.6319683194"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4d050ab8-1ea1-4aae-abc0-c7ddb778fb7b"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.7424226999"
+					"rightValue" "float" "0.7424226999"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "891e8857-37fd-49a3-a406-1bc5b8530b5b"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3178870976"
+					"rightValue" "float" "0.3178870976"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7425a8c2-4ba3-4e34-81e5-1e4a3b14c33c"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5730500221"
+					"rightValue" "float" "0.5730500221"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "049dde66-6c6e-4c28-890d-06c7982d5987"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.5173369646"
+					"rightValue" "float" "0.5173369646"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "cb8d318b-53d4-467e-91b7-e1a985dc1103"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3579168916"
+					"rightValue" "float" "0.3478408456"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "80ba1ed9-0ed5-485b-8f5d-2acf81a1360b"
+					"name" "string" "JawD"
+					"value" "float" "0.6592039466"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fd733a72-0bf9-4b8e-8b1d-9d1272d3d2d3"
+					"name" "string" "TongueV"
+					"value" "float" "0.3233830929"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "38cb594b-cc1c-4d2c-871d-ceffcb7d37d6"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.7338308692"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7ec57adf-d0f3-4dac-b068-45b80434a4bd"
+					"name" "string" "TongueD"
+					"value" "float" "0.4054726064"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b0833188-7491-46e4-a04f-9391c9740233"
+					"name" "string" "TongueWide"
+					"value" "float" "0.4875621796"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "4e7b17fc-5446-4177-89fe-60ad8aca228b"
+			"name" "string" "p_hh2"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "b82cfef4-be72-4ace-9f57-e445224e0440"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6038374901"
+					"rightValue" "float" "0.6038374901"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b8e523a9-a6c8-4c8d-bc54-d11b0c76eeb5"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.2272042185"
+					"rightValue" "float" "0.2272042185"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f3dda5db-424c-4e4f-b159-e0a72e7c7815"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1791044772"
+					"rightValue" "float" "0.1791044772"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "202522c4-1f9b-4c9c-9388-df4f56d1c64d"
+					"name" "string" "JawV"
+					"value" "float" "0.621945262"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "184b1040-5171-4184-8d42-b2a986e78e19"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6407732964"
+					"rightValue" "float" "0.6319683194"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d9accee0-febe-44f2-8d60-01ff80c258ef"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.7424226999"
+					"rightValue" "float" "0.7424226999"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f7384dc8-c6fb-4dbf-b3ba-714e73c552da"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3178870976"
+					"rightValue" "float" "0.3178870976"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a0ef9ecb-e405-448f-aebc-5e48004502ea"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5730500221"
+					"rightValue" "float" "0.5730500221"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f7fdb55f-f31b-4f94-8782-63b252fd3370"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.5173369646"
+					"rightValue" "float" "0.5173369646"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "0b566f06-f900-4e19-9c85-f550febc87ec"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3579168916"
+					"rightValue" "float" "0.3478408456"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "135e79c2-28fe-4caa-be0c-764c4f3df9b4"
+					"name" "string" "JawD"
+					"value" "float" "0.6592039466"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e90670cb-8e40-4285-bc0d-550f1ee10c84"
+					"name" "string" "TongueV"
+					"value" "float" "0.3233830929"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e8b4cbde-3f9e-4a74-8f90-edf4761e83d4"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.7338308692"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a1e27f7f-a336-48f3-a70f-3cbe609ddb34"
+					"name" "string" "TongueD"
+					"value" "float" "0.4054726064"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "912e1f73-4608-429e-95cc-49650c2ca2f8"
+					"name" "string" "TongueWide"
+					"value" "float" "0.4875621796"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "092bb91c-f8c9-4b6b-9daa-5563c9fe94c4"
+			"name" "string" "p_ih2"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "05fec100-a473-4893-a19f-12c1a550af91"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.628713131"
+					"rightValue" "float" "0.628713131"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "bdd2aa2d-aa16-4851-a32c-6518e7374c8b"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5"
+					"leftValue" "float" "0.3427627087"
+					"rightValue" "float" "0.3427627087"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "830babd2-5b3c-46f0-98d8-4c63b2d2614c"
+					"name" "string" "JawV"
+					"value" "float" "0.6517959833"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c77f7391-59d9-4645-bdae-718b1b1aaebc"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.6507235169"
+					"rightValue" "float" "0.64191854"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "08e32e16-b7aa-46fe-894f-73a5714320c9"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.7921739221"
+					"rightValue" "float" "0.7921739221"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4c5174cf-8087-41ad-b8a8-12f19f743100"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.3827925026"
+					"rightValue" "float" "0.3727164567"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e9feed4d-977f-4ea9-b980-85e6052a06c9"
+					"name" "string" "JawD"
+					"value" "float" "0.6243780851"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "95db92cf-dfaf-4bc2-baef-34757108b8bf"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.6029007435"
+					"rightValue" "float" "0.6029007435"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4779b720-15e3-4127-88be-7a30b589798c"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.5670881867"
+					"rightValue" "float" "0.5670881867"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2e6ec1d7-7e83-466f-9fc1-b2d054dd656f"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.2172539681"
+					"rightValue" "float" "0.2172539681"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "73b36541-8de4-4f80-bd87-9a2ad6adda54"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1741293371"
+					"rightValue" "float" "0.1741293371"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f4661261-313a-410c-9451-ab41d8e4bba9"
+					"name" "string" "TongueV"
+					"value" "float" "0.248756215"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "48ae18a6-a2a2-42a2-bde3-2bff4f3b92c6"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.7736318111"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "47319b4e-71a1-4d51-87fb-6c87e9b3d028"
+					"name" "string" "TongueD"
+					"value" "float" "0.4950248301"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9ae5d46a-fdf4-4512-9f3f-5903195164d5"
+					"name" "string" "TongueWide"
+					"value" "float" "0.4875621796"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "415dbc99-45ab-4fee-a78c-ad805697408b"
+			"name" "string" "p_j"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "f38f9e96-0b31-4c76-830c-ae79aa3cdbb8"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6258233786"
+					"rightValue" "float" "0.6258233786"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "47f67f05-27f9-4a33-a928-0e6d398df523"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.3379278779"
+					"rightValue" "float" "0.3379278779"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c6250efb-2752-4631-a531-95a213b80a72"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.1947761029"
+					"rightValue" "float" "0.1947761029"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "970a6dcd-3bb5-49fb-a32b-ab8f6c991f53"
+					"name" "string" "JawV"
+					"value" "float" "0.5488010049"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "67ce11f6-351d-42e8-831a-b0ec6c13c5fc"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7943532467"
+					"rightValue" "float" "0.7943532467"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c1be2542-01ab-49cd-bcec-13cc57956c1e"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.6795473099"
+					"rightValue" "float" "0.6795473099"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "274a249e-a1b1-448d-aea4-25a33bb24e14"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.5774925947"
+					"rightValue" "float" "0.5774925947"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "affbaa62-066e-476e-b998-7be5f7665dca"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.6667039394"
+					"rightValue" "float" "0.6667039394"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "bba4d996-1c34-456e-b620-8ed3e6fb4931"
+					"name" "string" "JawD"
+					"value" "float" "0.6302288771"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "65279e6c-33eb-4f4d-a07d-ec231bf19205"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.8030746579"
+					"rightValue" "float" "0.8030746579"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "95199485-7f40-4c2a-b310-0df7c3cc789c"
+			"name" "string" "p_er2"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "571bcc07-298e-4224-a0ad-c82adb53c1bd"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.5799999833"
+					"rightValue" "float" "0.5799999833"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "33788298-c356-496c-b2a5-74d739aba35c"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.3482587039"
+					"rightValue" "float" "0.3482587039"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2b304138-08f8-47d4-98a5-a72e5339f132"
+					"name" "string" "JawD"
+					"value" "float" "0.6174004674"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "078fb44b-6bdf-4acd-a701-432448c56b50"
+					"name" "string" "JawV"
+					"value" "float" "0.6101244092"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5682059e-029a-49a2-aa8c-58607c46f5f4"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.7180224061"
+					"rightValue" "float" "0.7180224061"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "503f3a9e-67ac-41fd-ac34-5ddbfeaccec6"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.4291293323"
+					"rightValue" "float" "0.4291293323"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "83bfbfe1-71ca-43d6-93f7-62b45e0f7907"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.642873168"
+					"rightValue" "float" "0.642873168"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4238aefe-179d-44da-a4c2-3fb10cba0626"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.3290298581"
+					"rightValue" "float" "0.3290298581"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "3a76b6c1-f276-4bc7-8d8f-89b00edbbdee"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.6351493001"
+					"rightValue" "float" "0.6351493001"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6c194f1d-dc67-4413-8a1b-7d310a5825e4"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.5905224085"
+					"rightValue" "float" "0.5905224085"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "23f94329-e7a6-45ef-bfd6-7d70c7373094"
+			"name" "string" "p_r2"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "50edddd7-0230-43cc-8e8b-5ad88c94c74b"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.5798512101"
+					"rightValue" "float" "0.5798512101"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "1f587cce-b767-4aff-9828-7cba4fb3695c"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.6830000281"
+					"rightValue" "float" "0.6830000281"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c8ae6663-d304-483c-a4b4-1714d0629c48"
+					"name" "string" "JawD"
+					"value" "float" "0.587305963"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ea4ac0e3-c8de-4541-b7d4-7932c0de7c2c"
+					"name" "string" "JawV"
+					"value" "float" "0.6257866621"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fe7b17e5-6c53-403f-b073-806dde7f8b7d"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.580013752"
+					"rightValue" "float" "0.580013752"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4d3d4195-0bb0-41b5-ba20-e065aafdff8e"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.2143368572"
+					"rightValue" "float" "0.2143368572"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2aa4ea4c-8a20-4982-ad51-81267c5e004c"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.7525914907"
+					"rightValue" "float" "0.7525914907"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e82c29db-7939-40a7-9dc1-ef758fe4ddca"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.2595074475"
+					"rightValue" "float" "0.2595074475"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "56bc813b-2ed7-4d4f-9089-c99b995030cb"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.5643638372"
+					"rightValue" "float" "0.5643638372"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b3b3384f-1b23-459e-962f-c051c5b35da7"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.7119443417"
+					"rightValue" "float" "0.7119443417"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "d587e685-cdd2-494a-a881-92a3e1beeb1c"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "21cd801a-f7b7-409c-9e0f-e3f540d568b5"
+			"name" "string" "p_r3"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "986922c5-f7fb-4e2f-abd8-bb1fb5e2585a"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.5799999833"
+					"rightValue" "float" "0.5799999833"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9d56b17b-bfd9-44e3-a945-4e2dec1d457e"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ef195127-8436-4c13-adda-33b000cc3963"
+					"name" "string" "JawD"
+					"value" "float" "0.5974999666"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "83d2282f-84d2-4e5f-895b-cc18f564150a"
+					"name" "string" "JawV"
+					"value" "float" "0.5749999881"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "58c85d0a-e211-47c0-a84b-a403eb65e678"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.8224999905"
+					"rightValue" "float" "0.8224999905"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4c6f2c99-bee4-4d29-838f-31d2ef6382ce"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.0074999747"
+					"rightValue" "float" "0.0074999747"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "177b705b-5e2f-4a3a-a375-4845f125f7c1"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.717500031"
+					"rightValue" "float" "0.717500031"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "413b374f-6e16-4a9c-8711-935923612501"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.2474999875"
+					"rightValue" "float" "0.2474999875"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "ba1a421f-a608-4bc5-a2ca-077d78454437"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.4550000131"
+					"rightValue" "float" "0.4550000131"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "cec7d2d0-1fd9-4adc-8742-220bf35ccd46"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.657499969"
+					"rightValue" "float" "0.657499969"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "3eb8901f-6eab-4b13-8936-fc13aa90032c"
+			"name" "string" "p_l2"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "8a56589d-7773-40aa-aa44-81c27c774aae"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.6255224347"
+					"rightValue" "float" "0.6255224347"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a25df0e6-19b2-467b-9dd2-370a456c568d"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0.0845771134"
+					"rightValue" "float" "0.0845771134"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9f9592c4-f096-4a3b-919e-b308eda4845c"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.0696517378"
+					"rightValue" "float" "0.0696517378"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c9125ead-2ea6-47bc-8f33-e2d72dc2e293"
+					"name" "string" "JawV"
+					"value" "float" "0.6791790724"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "11badc73-d25e-429d-9bd4-74b2ba1d5012"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.640124321"
+					"rightValue" "float" "0.6377750039"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "e82b5e8b-481a-496c-a4c3-e5ab895ff25e"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.777897954"
+					"rightValue" "float" "0.777897954"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "bc17a820-0041-4e93-95f7-f6b0d649f11a"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.3921766281"
+					"rightValue" "float" "0.3921766281"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "de379ab1-0144-49ef-9cff-c3e2242de9cf"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.4045771062"
+					"rightValue" "float" "0.4045771062"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4a60344f-ee12-4fe6-b4aa-fa90eba152ef"
+					"name" "string" "JawD"
+					"value" "float" "0.6592039466"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2ce099d7-b417-4c15-a4e2-ec4dea4ce001"
+					"name" "string" "Smile"
+					"leftValue" "float" "0.3478233814"
+					"rightValue" "float" "0.3478233814"
+					"multilevel" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8dc09d0d-590d-41e7-a238-cafa52955f8f"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0.2379228622"
+					"rightValue" "float" "0.2379228622"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b5f405cd-72f2-4c30-b8c5-9fb6dfacfaa8"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "cf07d1bd-f373-4054-9bf9-addd395667e2"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7c0e8136-01b1-4418-aabe-4e81e5970864"
+					"name" "string" "TongueV"
+					"value" "float" "0.6146268845"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "96aeac87-f3cc-402f-9382-e2d3d8554fcc"
+					"name" "string" "TongueCurl"
+					"value" "float" "0.4950248599"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5826636f-acfd-4077-ba9a-4ace5632ef6d"
+					"name" "string" "TongueD"
+					"value" "float" "0.574626863"
+				}
+			]
+			"procedural" "int" "0"
+		},
+		"DmePreset"
+		{
+			"id" "elementid" "e379857f-c961-4747-9e24-cf190d42fcdf"
+			"name" "string" "p_silence"
+			"controlValues" "element_array" 
+			[
+				"DmElement"
+				{
+					"id" "elementid" "b2eac376-ec2b-4aff-842a-3785cb329834"
+					"name" "string" "OuterSquint"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "14d92072-f4a5-4d3e-86ca-c6c45d4b3289"
+					"name" "string" "BrowOutV"
+					"leftValue" "float" "0.0002582848"
+					"rightValue" "float" "0.0002624061"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f39e451a-7b2d-4f81-a9f4-86b5854734bf"
+					"name" "string" "NoseV"
+					"leftValue" "float" "0.751078248"
+					"rightValue" "float" "0.7473586202"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9963468d-5103-4802-9a37-b50ff3f85877"
+					"name" "string" "NostrilFlare"
+					"leftValue" "float" "0.6892515421"
+					"rightValue" "float" "0.6955146194"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "812441fc-ac0d-4859-a432-458514880108"
+					"name" "string" "CheekV"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "6de5cdfb-0464-4d48-ad4c-bc8ae7ce47cd"
+					"name" "string" "CheekH"
+					"leftValue" "float" "0.011613965"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c05c9bb7-ba22-4057-b8dd-ab0abaae21cf"
+					"name" "string" "JawH"
+					"value" "float" "0.5178138614"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "8de7db90-7891-4acd-a7d0-607db1489929"
+					"name" "string" "LipLoV"
+					"leftValue" "float" "0.5568864942"
+					"rightValue" "float" "0.5568864942"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c910758a-83f2-4ed2-8877-46e6313b3fd6"
+					"name" "string" "Smile"
+					"multilevel" "float" "0.5064941645"
+					"leftValue" "float" "0.0023846093"
+					"rightValue" "float" "0.0023996867"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "fdbe5641-c175-4854-9f53-4c05cb1d96f2"
+					"name" "string" "Platysmus"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a503f8dd-d38c-42e1-8162-a737ee8a4056"
+					"name" "string" "LipCnrTwst"
+					"leftValue" "float" "0.4574999809"
+					"rightValue" "float" "0.4047200084"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7107ef50-edf5-4715-9e3b-228b3e67bb6c"
+					"name" "string" "PuffLipLo"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a05b474c-b1bc-412a-ac69-5be65f4711f4"
+					"name" "string" "eyes_rightleft"
+					"value" "float" "0.4949331582"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c6a5be46-4547-4eb4-8642-58374a513ca2"
+					"name" "string" "InnerSquint"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "4a75af98-d6be-44b3-8166-fa981efc5813"
+					"name" "string" "BrowInV"
+					"leftValue" "float" "0.4399999976"
+					"rightValue" "float" "0.4405584633"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "7f623b44-693d-4396-8d99-611c60de23f2"
+					"name" "string" "JawD"
+					"value" "float" "0.5"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "c369a6b4-6477-47ee-b7bd-6c27c3f3d1b1"
+					"name" "string" "JawV"
+					"value" "float" "0.4745232463"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "bc5d4593-1cc3-4496-ba89-45662a41d997"
+					"name" "string" "FoldLipLo"
+					"leftValue" "float" "0.4944728315"
+					"rightValue" "float" "0.4943927228"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "41a07449-9507-4614-839a-f3a2def21a5d"
+					"name" "string" "PuckerLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b7dfe8ca-97a1-4364-84cb-9d2ed5faa5b5"
+					"name" "string" "Frown"
+					"leftValue" "float" "0.637850821"
+					"rightValue" "float" "0.6524999738"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "2facbc5c-879a-46f5-9e94-2f3307984130"
+					"name" "string" "LipsV"
+					"leftValue" "float" "0.4583649933"
+					"rightValue" "float" "0.4583649933"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5855db3e-e74a-4a28-a36f-3477215231bf"
+					"name" "string" "LipUpV"
+					"leftValue" "float" "0.5757474303"
+					"rightValue" "float" "0.5757474303"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "b97089ce-76f4-42dc-9d05-02f82a2e6c97"
+					"name" "string" "FoldLipUp"
+					"leftValue" "float" "0.5314561129"
+					"rightValue" "float" "0.5318120718"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "be784d00-0238-49cf-9557-50715d29712e"
+					"name" "string" "PuckerLipLo"
+					"leftValue" "float" "0.0003714114"
+					"rightValue" "float" "0.0003875298"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "9dfd0c83-9c3c-4b70-a7a5-19c17020a298"
+					"name" "string" "Dimple"
+					"leftValue" "float" "0.0000023616"
+					"rightValue" "float" "0.0000024966"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "f90fec44-3ff1-4dc1-8873-c9b6fc0d3c4b"
+					"name" "string" "LipStick"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "da94db8b-0169-4771-9b30-d3190ed1b702"
+					"name" "string" "PuffLipUp"
+					"leftValue" "float" "0"
+					"rightValue" "float" "0"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "a4fd8daa-a62f-4cdd-9f86-939cc8940dd9"
+					"name" "string" "ScalpD"
+					"leftValue" "float" "0.7303896546"
+					"rightValue" "float" "0.7375677824"
+				},
+				"DmElement"
+				{
+					"id" "elementid" "5f8e6874-8ae9-4821-bf19-0b4246f0a0d3"
+					"name" "string" "eyes_updown"
+					"value" "float" "0.5169473886"
+				}
+			]
+			"procedural" "int" "0"
+		}
+	]
+	"visible" "bool" "1"
+	"readonly" "bool" "0"
+}
+

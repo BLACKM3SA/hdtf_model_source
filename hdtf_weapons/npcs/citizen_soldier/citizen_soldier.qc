@@ -4,12 +4,12 @@ $modelname "Humans\Citizen_Soldier.mdl"
 
 $bodygroup "Body"
 {
-	studio "citizen_soldier_Body.smd"
+	studio "soldier_Body_2022.smd"
 }
 
 $lod 10
 {
-	replacemodel "citizen_soldier_Body.smd" "citizen_soldier_Body_lod1.smd"
+	replacemodel "soldier_Body_2022.smd" "citizen_soldier_Body_lod1.smd"
 	replacebone "ValveBiped.Bip01_R_Finger4" "ValveBiped.Bip01_R_Hand"
 	replacebone "ValveBiped.Bip01_R_Finger41" "ValveBiped.Bip01_R_Finger4"
 	replacebone "ValveBiped.Bip01_R_Finger42" "ValveBiped.Bip01_R_Finger41"
@@ -25,7 +25,7 @@ $lod 10
 }
 $lod 30
 {
-	replacemodel "citizen_soldier_Body.smd" "citizen_soldier_Body_lod2.smd"
+	replacemodel "soldier_Body_2022.smd" "citizen_soldier_Body_lod2.smd"
 	replacebone "ValveBiped.Bip01_R_Finger4" "ValveBiped.Bip01_R_Hand"
 	replacebone "ValveBiped.Bip01_R_Finger41" "ValveBiped.Bip01_R_Finger4"
 	replacebone "ValveBiped.Bip01_R_Finger42" "ValveBiped.Bip01_R_Finger41"
@@ -41,7 +41,7 @@ $lod 30
 }
 $lod 60
 {
-	replacemodel "citizen_soldier_Body.smd" "citizen_soldier_Body_lod3.smd"
+	replacemodel "soldier_Body_2022.smd" "citizen_soldier_Body_lod3.smd"
 	replacebone "ValveBiped.Bip01_R_Finger4" "ValveBiped.Bip01_R_Hand"
 	replacebone "ValveBiped.Bip01_R_Finger41" "ValveBiped.Bip01_R_Finger4"
 	replacebone "ValveBiped.Bip01_R_Finger42" "ValveBiped.Bip01_R_Finger41"
@@ -57,7 +57,7 @@ $lod 60
 }
 $lod 90
 {
-	replacemodel "citizen_soldier_Body.smd" "citizen_soldier_Body_lod4.smd"
+	replacemodel "soldier_Body_2022.smd" "citizen_soldier_Body_lod4.smd"
 	replacebone "ValveBiped.Bip01_R_Finger4" "ValveBiped.Bip01_R_Hand"
 	replacebone "ValveBiped.Bip01_R_Finger41" "ValveBiped.Bip01_R_Finger4"
 	replacebone "ValveBiped.Bip01_R_Finger42" "ValveBiped.Bip01_R_Finger41"
@@ -73,7 +73,7 @@ $lod 90
 }
 $lod 120
 {
-	replacemodel "citizen_soldier_Body.smd" "citizen_soldier_Body_lod5.smd"
+	replacemodel "soldier_Body_2022.smd" "citizen_soldier_Body_lod5.smd"
 	replacebone "ValveBiped.Bip01_R_Finger4" "ValveBiped.Bip01_R_Hand"
 	replacebone "ValveBiped.Bip01_R_Finger41" "ValveBiped.Bip01_R_Finger4"
 	replacebone "ValveBiped.Bip01_R_Finger42" "ValveBiped.Bip01_R_Finger41"
@@ -89,7 +89,7 @@ $lod 120
 }
 $shadowlod
 {
-	replacemodel "citizen_soldier_Body.smd" "citizen_soldier_Body_lod6.smd"
+	replacemodel "soldier_Body_2022.smd" "citizen_soldier_Body_lod6.smd"
 	replacebone "ValveBiped.Bip01_R_Finger4" "ValveBiped.Bip01_R_Hand"
 	replacebone "ValveBiped.Bip01_R_Finger41" "ValveBiped.Bip01_R_Finger4"
 	replacebone "ValveBiped.Bip01_R_Finger42" "ValveBiped.Bip01_R_Finger41"
@@ -110,6 +110,13 @@ $bodygroup "it_chrismas"
 	studio xms_santa_hat_soldier
 }
 
+$bodygroup "helmet"
+{
+	studio soldier_helmet_2022
+	studio tf2_soldier_helmet
+	blank
+}
+
 $surfaceprop "flesh"
 
 $contents "solid"
@@ -119,6 +126,7 @@ $illumposition -0.006 -0.29 36.586
 $mostlyopaque
 
 $cdmaterials "models\Citizen\Soldier\"
+$cdmaterials "models\shared\"
 
 $texturegroup "skinfamilies"
 {
