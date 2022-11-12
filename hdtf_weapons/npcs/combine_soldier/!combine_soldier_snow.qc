@@ -45,16 +45,12 @@ $shadowlod
 	nofacial
 }
 
-$bodygroup "it_chrismas"
+$bodygroup "head_equipment"
 {
 	blank
 	studio xms_santa_hat_soldier
-}
-
-$bodygroup "helmet"
-{
-	blank
 	studio tf2_soldier_helmet
+	studio ghostly_gibus
 }
 
 $surfaceprop "flesh"

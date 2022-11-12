@@ -104,16 +104,12 @@ $shadowlod
 	nofacial
 }
 
-$bodygroup "it_chrismas"
-{
-	blank
-	studio xms_santa_hat_soldier
-}
-
-$bodygroup "helmet"
+$bodygroup "head_equipment"
 {
 	studio soldier_helmet_2022
+	studio xms_santa_hat_soldier
 	studio tf2_soldier_helmet
+	studio ghostly_gibus
 	blank
 }
 
