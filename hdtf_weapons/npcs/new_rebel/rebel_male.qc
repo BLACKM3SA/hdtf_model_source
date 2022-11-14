@@ -56,10 +56,13 @@ $bodygroup "gloves"
 	studio "hands_gloved_full.smd"
 }
 
-$bodygroup "it_chrismas"
+$bodygroup "head_equipment"
 {
 	blank
 	studio xms_santa_hat_soldier
+	//studio tf2_soldier_helmet
+	//studio ghostly_gibus
+	blank
 }
 
 $surfaceprop "flesh"
