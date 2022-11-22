@@ -338,18 +338,8 @@ $sequence "reload_end" {
 ////////////////////////////////
 /////FOR WHEN RECHAMBER IS IMPLEMENTED
 ////////////////////////////////
-//$sequence "reload_end_pump" {
-//	"v_spas_anims\rechamber.smd"
-//	activity "ACT_VM_RELOAD_EMPTY" -1
-//	{ event AE_CL_PLAYSOUND 0 "Weapon870.ReloadEnd" }
-//	fadein 0.2
-//	fadeout 0.2
-//	snap
-//	fps 60
-//}
-
 $sequence "reload_end_pump" {
-	"v_spas_anims\bindpose.smd"
+	"v_spas_anims\rechamber.smd"
 	activity "ACT_VM_RELOAD_EMPTY" -1
 	{ event AE_CL_PLAYSOUND 0 "Weapon870.ReloadEnd" }
 	fadein 0.2
@@ -357,3 +347,13 @@ $sequence "reload_end_pump" {
 	snap
 	fps 60
 }
+
+//$sequence "reload_end_pump" {
+//	"v_spas_anims\bindpose.smd"
+//	activity "ACT_VM_RELOAD_EMPTY" -1
+//	{ event AE_CL_PLAYSOUND 0 "Weapon870.ReloadEnd" }
+//	fadein 0.2
+//	fadeout 0.2
+//	snap
+//	fps 60
+//}
