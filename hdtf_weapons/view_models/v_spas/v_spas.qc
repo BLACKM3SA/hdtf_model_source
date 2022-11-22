@@ -251,7 +251,6 @@ $sequence "iron_in" {
 	fadein 0.2
 	fadeout 0.2
 	fps 64
-	snap
 	frame 0 22
 }
 
