@@ -53,6 +53,34 @@ $bodygroup "head_equipment"
 	studio xms_santa_hat_soldier
 	studio tf2_soldier_helmet
 	studio ghostly_gibus
+	blank
+	blank
+	studio protogen_helmet
+}
+
+$bodygroup "gun"
+{
+	blank
+	studio "gun.smd"
+	studio "gun2.smd"
+}
+
+$bodygroup "backbag"
+{
+	blank
+	studio "backbag.smd"
+}
+
+$bodygroup "bags1"
+{
+	blank
+	studio "bags1.smd"
+}
+
+$bodygroup "bags2"
+{
+	blank
+	studio "bags2.smd"
 }
 
 $surfaceprop "flesh"
@@ -66,6 +94,7 @@ $eyeposition 0 0 73
 $opaque
 
 $cdmaterials "models\Combine_Soldier\"
+$cdmaterials "models\characters\Heavy_Soldiers\"
 $cdmaterials "models\shared\"
 
 $texturegroup "skinfamilies"

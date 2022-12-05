@@ -246,52 +246,73 @@ $model "Head" "Head.smd" {
 	%AU13R = right_cheek_puffer * max(0, (1 - %mouth * 3))
 	%AU13L = left_cheek_puffer * max(0, (1 - %mouth * 3))
 }
+
+$bodygroup "head_equipment"
+{
+	studio helmet
+	studio xms_santa_hat_soldier
+	studio tf2_soldier_helmet
+	studio ghostly_gibus
+	blank
+	blank
+	studio protogen_helmet
+}
+
 $bodygroup "vest"
 {
 	studio "vest.smd"
 }
+
 $bodygroup "backpack"
 {
 	studio "backpack.smd"
 	blank
 }
+
 $bodygroup "gun"
 {
 	studio "gun.smd"
 	studio "gun2.smd"
 	blank
 }
-$bodygroup "helmet"
+
+$bodygroup "helmet - dont use"
 {
+	blank
 	studio "helmet.smd"
 	studio "helmet2.smd"
-	blank
 }
-$bodygroup "mic"
+
+$bodygroup "mic - dont use"
 {
-	studio "mic.smd"
 	blank
+	studio "mic.smd"
 }
+
 $bodygroup "mask"
 {
 	studio "mask.smd"
 	blank
 }
+
 $bodygroup "backbag"
 {
 	studio "backbag.smd"
 	blank
 }
+
 $bodygroup "bags1"
 {
 	studio "bags1.smd"
 	blank
 }
+
 $bodygroup "bags2"
 {
 	studio "bags2.smd"
 	blank
 }
+
 $bodygroup "Body"
 {
 	studio "Body.smd"
@@ -307,6 +328,7 @@ $illumposition 0 3.012 36.261
 $mostlyopaque
 
 $cdmaterials "models\characters\Heavy_Soldiers\"
+$cdmaterials "models\shared\"
 
 $attachment "eyes" "ValveBiped.Bip01_Head1" 4.79 -3.53 0 rotate 0 -80.1 -90
 $attachment "mouth" "ValveBiped.Bip01_Head1" 0.7 -5.2 0 rotate 0 -80 -90
