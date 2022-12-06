@@ -16,7 +16,7 @@ $contents "solid"
 
 $illumposition 0 -22.622 47.291
 
-$cdmaterials "models\props_vehicles\"
+$cdmaterials "models\vehicles\hdtf\l4d2_4x4\"
 
 $cbox 0 0 0 0 0 0
 

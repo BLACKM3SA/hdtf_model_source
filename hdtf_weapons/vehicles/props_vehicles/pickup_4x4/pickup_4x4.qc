@@ -21,7 +21,19 @@ $contents "solid"
 
 $illumposition 0 10.265 49.972
 
-$cdmaterials "models\props_vehicles\"
+$cdmaterials "models\vehicles\hdtf\l4d2_4x4\"
+
+$texturegroup "skinfamilies"
+{
+	{ "pickuptruck"         	}
+	{ "pickuptruck2" 	}
+	{ "pickuptruck3"		}
+	{ "pickuptruck4"		}
+	{ "pickuptruck5"		}
+	{ "pickuptruck6"		}
+	{ "pickuptruck7"		}
+	{ "pickuptruck8"		}
+}
 
 $cbox 0 0 0 0 0 0
 
