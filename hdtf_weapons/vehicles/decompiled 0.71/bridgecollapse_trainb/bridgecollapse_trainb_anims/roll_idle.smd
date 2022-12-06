@@ -1,0 +1,9 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "train02_root" -1
+end
+skeleton
+  time 0
+    0 53.937500 75.750000 -2.361328 1.583628 -0.084037 1.004103
+end

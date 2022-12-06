@@ -1,0 +1,9 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "camera_joint" -1
+end
+skeleton
+  time 0
+    0 1.513672 -66.875000 1690.000000 0.000000 0.000000 -2.201139
+end

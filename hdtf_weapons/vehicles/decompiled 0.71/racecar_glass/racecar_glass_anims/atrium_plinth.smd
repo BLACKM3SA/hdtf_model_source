@@ -1,0 +1,9 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "body_axisandRotation" -1
+end
+skeleton
+  time 0
+    0 -173.750000 225.375000 81.812500 1.780351 -0.023661 -0.798559
+end

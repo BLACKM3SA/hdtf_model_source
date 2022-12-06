@@ -1,0 +1,9 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "Handle_Bone" -1
+end
+skeleton
+  time 0
+    0 -21.437500 23.125000 57.218750 1.570792 0.000003 -0.000003
+end

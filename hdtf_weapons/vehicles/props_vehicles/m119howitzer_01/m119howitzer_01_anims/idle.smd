@@ -1,0 +1,11 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "Main_Gun_Recoil" -1
+  1 "Main_Bone" -1
+end
+skeleton
+  time 0
+    0 2.236328 33.375000 49.281250 1.538252 0.000003 -0.000003
+    1 0.011276 0.057709 4.019531 1.563492 0.000003 -0.000003
+end
