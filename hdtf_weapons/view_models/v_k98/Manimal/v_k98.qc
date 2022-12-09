@@ -30,6 +30,8 @@ $attachment "scopeView" "K98_Body" 0 15.3 2.97 rotate 0 -90 0
 
 $cbox 0 0 0 0 0 0
 
+$origin 0 2 0
+
 $bbox -6.297 -19.15 -20.196 48.549 12.505 2
 
 
@@ -78,7 +80,7 @@ $sectionframes 30 324
 
 $sequence "idle" {
 	"v_k98_anims\idle.smd"
-	activity "ACT_VM_IDLE" -1
+	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 60
@@ -87,7 +89,7 @@ $sequence "idle" {
 
 $sequence "idle2" {
 	"v_k98_anims\idle.smd"
-	activity "ACT_VM_IDLE" -1
+	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 60
@@ -96,29 +98,20 @@ $sequence "idle2" {
 
 $sequence "idle3" {
 	"v_k98_anims\idle.smd"
-	activity "ACT_VM_IDLE" -1
+	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 60
 	loop
 }
 
-$sequence "idle4" {
-	"v_k98_anims\idle.smd"
-	activity "ACT_VM_IDLE" -1
-	fadein 0.2
-	fadeout 0.2
-	fps 60
-	loop
-}
-
-$sequence "idle5" {
+$sequence "idle8" {
 	"v_k98_anims\idle2.smd"
-	activity "ACT_VM_IDLE" -1
-	fadein 0.2
-	fadeout 0.2
+	activity "ACT_VM_IDLE" 1
+	fadein 0.1
+	fadeout 0.1
 	fps 60
-	loop
+	snap
 }
 
 $sequence "idle to low" {
