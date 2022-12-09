@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons/v_k98.mdl"
+$modelname "weapons/v_k98_noscope.mdl"
 
 $bodygroup "Weapon"
 {
-	studio "mesh.smd"
+	studio "mesh_unscope.smd"
 }
 $bodygroup "Arms"
 {
@@ -170,7 +170,7 @@ $sequence "holster" {
 	activity "ACT_VM_HOLSTER" -1
 	{ event AE_CL_PLAYSOUND 0 "WeaponK98.Holster" }
 	fadein 0.2
-    fadeout 0.2
+	fadeout 0.2
 	fps 60
 }
 
@@ -190,26 +190,26 @@ $sequence "fire" {
 }
 
 $sequence "idle to ads" {
-	"v_k98_anims\aim.smd"
+	"v_k98_anims\aim_unscope.smd"
 	activity "ACT_VM_IDLE_TO_IRONSIGHTS" -1
 	fadein 0.2
 	fadeout 0.2
 	fps 64
-	frame 0 34
+	frame 0 28
 }
 
 $sequence "idle ads" {
-	"v_k98_anims\aim.smd"
+	"v_k98_anims\aim_unscope.smd"
 	activity "ACT_VM_IDLE_IRONSIGHTS" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 54
 	loop
-	frame 34 234
+	frame 28 228
 }
 
 $sequence "fire ads" {
-	"v_k98_anims\aim.smd"
+	"v_k98_anims\aim_unscope.smd"
 	activity "ACT_VM_PRIMARYATTACK_IRONSIGHTS" 1
 	{ event AE_MUZZLEFLASH 0 "556MM muzzle" }
 	{ event 6001 40 "4" }
@@ -221,16 +221,16 @@ $sequence "fire ads" {
 	fadeout 0.2
 	snap
 	fps 60
-	frame 234 318
+	frame 228 312
 }
 
 $sequence "ads to idle" {
-	"v_k98_anims\aim.smd"
+	"v_k98_anims\aim_unscope.smd"
 	activity "ACT_VM_IRONSIGHTS_TO_IDLE" -1
 	fadein 0.2
 	fadeout 0.2
 	fps 64
-	frame 318 346
+	frame 312 338
 }
 
 $sequence "idle to sprint" {
