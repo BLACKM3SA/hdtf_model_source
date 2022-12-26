@@ -60,8 +60,10 @@ $bodygroup "head_equipment"
 {
 	blank
 	studio xms_santa_hat_soldier
-	//studio tf2_soldier_helmet
-	//studio ghostly_gibus
+	blank
+	blank
+	blank
+	blank
 	blank
 }
 
@@ -76,9 +78,9 @@ $eyeposition 0 0 73
 $opaque
 
 $cdmaterials "models\citizen\rebel\"
-$cdmaterials "models\characters\drill_sergeant\"
 $cdmaterials "models\Humans\Male\Group03\"
 $cdmaterials "models\Humans\Male\"
+$cdmaterials "models\shared\"
 
 $texturegroup skinfamilies {
 	{	"rebel_mask.vmt"	}

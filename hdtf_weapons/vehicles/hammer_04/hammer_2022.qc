@@ -1,6 +1,6 @@
 // Created by Crowbar 0.71
 
-$modelname "vehicles/hdtf/hammer_2022.mdl"
+$modelname "vehicles/hdtf/hammer_2022_base.mdl"
 
 $bodygroup "vehicle"
 {
@@ -33,7 +33,6 @@ $bodygroup "Door - Passenger Right"
 
 $bodygroup "Roof"
 {
-	studio "roof_HMG.smd"
 	studio "roof_solid.smd"
 	studio "roof_hatch.smd"
 	blank
@@ -60,9 +59,6 @@ $illumposition 2.5 0 62.266
 $noforcedfade
 
 $cdmaterials "models\vehicles\hdtf\hammer_2022\"
-$cdmaterials "models\weapons\hdtf\50cal\"
-$cdmaterials "models\weapons\hdtf\hands\"
-$cdmaterials "models\vehicles\hdtf\hammer\"
 
 $texturegroup "skinfamilies"
 {
@@ -649,7 +645,8 @@ $sequence "wheel_rr_height" {
 	hidden
 }
 
-$collisionmodel "hammer_02_physics.smd"
+//$collisionmodel "hmmwv_roof-doors-hardback_physics.smd"
+$collisionmodel "hmmwv_roof-doors-hardback_physics.smd"
 {
 	$mass 220
 	$inertia 1
