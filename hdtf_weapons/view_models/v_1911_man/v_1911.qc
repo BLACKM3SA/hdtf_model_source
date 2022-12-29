@@ -1,3 +1,5 @@
+// Created by Crowbar 0.68
+
 $modelname "weapons/v_1911.mdl"
 
 $bodygroup "Weapon"
@@ -76,6 +78,34 @@ $definebone "ValveBiped.Bip01_L_Finger02" "ValveBiped.Bip01_L_Finger01" 0.101646
 $definebone "ValveBiped.Bip01_L_Finger2" "ValveBiped.Bip01_L_Hand" -0.418743 5.014101 -0.082189 -0.149282 -0.516194 -3.089977 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_L_Finger21" "ValveBiped.Bip01_L_Finger2" -0.019196 1.869034 0 -0.000003 0.000006 5.246578 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_L_Finger22" "ValveBiped.Bip01_L_Finger21" 0.029804 1.294529 0 0 0.000007 0.333115 0 0 0 0 0 0
+
+$poseparameter "pose_depleted" 0 1 loop 0
+
+$animation "a_normal" "v_1911_anims\idle.smd" {
+  frames 0 0
+}
+
+$animation "a_empty" "v_1911_anims\slide_poses.smd" {
+  frames 1 1
+  subtract "a_normal" 0
+}
+
+$animation "a_full" "v_1911_anims\slide_poses.smd" {
+  frames 0 0
+  subtract "a_normal" 0
+}
+
+$sequence "empty_power" {
+  "a_full"
+  "a_empty"
+  autoplay
+  blend "pose_depleted" 0 1
+  blendwidth 2
+  delta
+  fadein 0.2
+  fadeout 0.2
+  hidden
+}
 
 
 $sequence "bindpose" {
@@ -169,10 +199,32 @@ $sequence "fire_1" {
 	fps 60
 }
 
+$sequence "fire_last" {
+	"v_1911_anims\fire_last.smd"
+	activity "ACT_VM_PRIMARYATTACK_SPECIAL" 1
+	{ event AE_MUZZLEFLASH 0 "45MM muzzle" }
+	{ event 6001 0 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 60
+}
 
 $sequence "iron_fire" {
 	"v_1911_anims\aim.smd"
 	activity "ACT_VM_PRIMARYATTACK_IRONSIGHTS" -1
+	{ event AE_MUZZLEFLASH 0 "45MM muzzle" }
+	{ event 6001 0 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 60
+	frame 222 252
+}
+
+$sequence "fire_last_iron" {
+	"v_1911_anims\aim_last.smd"
+	activity "ACT_VM_PRIMARYATTACK_IRONSIGHTS_SPECIAL" 1
 	{ event AE_MUZZLEFLASH 0 "45MM muzzle" }
 	{ event 6001 0 "0" }
 	fadein 0.2
