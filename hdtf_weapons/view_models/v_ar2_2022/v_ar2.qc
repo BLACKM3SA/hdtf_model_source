@@ -1,7 +1,11 @@
+// Created by Crowbar 0.71
+
 $modelname "weapons/v_ar2.mdl"
 
-$model "Weapon" "mesh.smd"
-
+$bodygroup "Weapon"
+{
+	studio "mesh.smd"
+}
 $bodygroup "Arms"
 {
 	studio "mitchell_arms.smd"
@@ -19,7 +23,7 @@ $illumposition 0 0 0
 $cdmaterials "models\weapons\hdtf\hands\"
 $cdmaterials "models\weapons\hdtf\ar2\"
 
-$attachment "muzzle" "main" 0.30 1.50 15.00 rotate -90 0 0
+$attachment "muzzle" "main" 0 -17.77 1.28 rotate 0 -90 0
 
 $cbox 0 0 0 0 0 0
 
@@ -216,6 +220,7 @@ $sequence "reload" {
 	activity "ACT_VM_RELOAD" 1
 	{ event AE_CL_PLAYSOUND 0 "WeaponAR2.ReloadRotate" }
 	{ event AE_CL_PLAYSOUND 42 "WeaponAR2.ReloadPush" }
+	{ event AE_WPN_FULLCLIP1 43 }
 	fadein 0.2
 	fadeout 0.2
 	snap
