@@ -1,8 +1,8 @@
-$modelname "shells\shell_556.mdl"
+$modelname "weapons/casings/556.mdl"
 
 $bodygroup "studio"
 {
-	studio "556_reference.smd"
+	studio "5.56MM_BALL.smd"
 }
 
 
@@ -10,20 +10,21 @@ $surfaceprop "default"
 
 $contents "solid"
 
-$illumposition 0 -0.847 0
+$illumposition 0 0.002 0.543
 
-$cdmaterials "models\shells\556\"
+//$cdmaterials "Models\Weapons\rifle_shell\"
+$cdmaterials "Models\Weapons\"
 
 $cbox 0 0 0 0 0 0
 
-$bbox -0.18 -0.222 -0.217 1.873 0.222 0.217
+$bbox -2.265 -0.584 -0.05 2.262 0.584 1.136
 
-$definebone "_556_mesh" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
-$attachment "smoke" "_556_mesh" 0.00 0.00 1.90 rotate -0 0 0
+$definebone "Cylinder02" "" 0 0.001609 0.543281 0.000002 179.999855 -0.000005 0 0 0 0 0 0
+$attachment "smoke" "Cylinder02" 2.40 0.00 0.00 rotate -0 0 -0
 
 
-$sequence "idle" {
-	"shell_556_anims\idle.smd"
+$sequence "shell" {
+	"rifleshell_anims\shell.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
