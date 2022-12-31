@@ -1,5 +1,7 @@
 // Created by Crowbar 0.71
 
+$include "../weapon_stage_macros.qci" 
+
 $modelname "weapons/v_skorpion.mdl"
 
 $bodygroup "Weapon"
@@ -311,26 +313,19 @@ $sequence "from sprint" {
 
 $sequence "reload empty" {
 	"v_skorpion_anims\reload_empty.smd"
-	activity "ACT_VM_RELOAD_EMPTY" -1
-	{ event AE_WPN_STAGE_EMPTY_MAGIN 40 "1" }
-	
+	activity "ACT_VM_RELOAD_EMPTY" -1	
 	{ event AE_WPN_THROWMAG 46 "SKORPION mag_throw" }
 	
 	{ event AE_CL_PLAYSOUND 38 "WeaponSkorpion.MagOut" }
 	
 	{ event AE_CL_PLAYSOUND 61 "WeaponSkorpion.MagInserting" }
 	
-	{ event AE_WPN_STAGE_EMPTY_MAGIN 69 "0" }
-	
-	{ event AE_WPN_STAGE_BOLTRELEASE 70 "1" }
-	
 	{ event AE_CL_PLAYSOUND 69 "WeaponSkorpion.MagIn" }
 	
 	{ event AE_CL_PLAYSOUND 98 "WeaponSkorpion.BoltRelease" }
 	
-	{ event AE_WPN_STAGE_BOLTRELEASE 98 "0" }
+	$reload_empty_stage 40 69 70 98 99
 	
-	{ event AE_WPN_FULLCLIP1 99 }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -340,19 +335,15 @@ $sequence "reload empty" {
 $sequence "reload" {
 	"v_skorpion_anims\reload.smd"
 	activity "ACT_VM_RELOAD" -1
-	{ event AE_WPN_STAGE_MAGIN 42 "1" }
-	
-	{ event AE_WPN_STAGE_ONEBULLET 43 }
 	
 	{ event AE_CL_PLAYSOUND 40 "WeaponSkorpion.MagOut" }
 	
 	{ event AE_CL_PLAYSOUND 60 "WeaponSkorpion.MagInserting" }
 	
-	{ event AE_WPN_STAGE_MAGIN 69 "0" }
-	
-	{ event AE_WPN_FULLCLIP1 70 }
-	
 	{ event AE_CL_PLAYSOUND 69 "WeaponSkorpion.MagIn" }
+	
+	$reload_stage 42 69 43 70
+	
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -362,9 +353,8 @@ $sequence "reload" {
 $sequence "reload_magin_stage" {
 	"v_skorpion_anims\reload_magin_stage.smd"
 	activity "ACT_VM_STAGE_MAGIN" -1
-	{ event AE_WPN_STAGE_MAGIN 41 "0" }
 	
-	{ event AE_WPN_FULLCLIP1 42 }
+	$reload_magin_stage 41 42
 	
 	{ event AE_CL_PLAYSOUND 36 "WeaponSkorpion.MagInserting" }
 	
@@ -378,21 +368,15 @@ $sequence "reload_magin_stage" {
 $sequence "reload_empty_magin_stage" {
 	"v_skorpion_anims\reload_empty_magin_stage.smd"
 	activity "ACT_VM_STAGE_EMPTY_MAGIN" -1
-	{ event AE_WPN_STAGE_EMPTY_MAGIN 41 "0" }
-	
-	{ event AE_WPN_STAGE_BOLTRELEASE 42 "1" }
 	
 	{ event AE_CL_PLAYSOUND 36 "WeaponSkorpion.MagInserting" }
 	
 	{ event AE_CL_PLAYSOUND 41 "WeaponSkorpion.MagIn" }
 	
-	{ event AE_WPN_STAGE_BOLTRELEASE 70 "0" }
-	
-	{ event AE_WPN_FULLCLIP1 71 }
-	
 	{ event AE_CL_PLAYSOUND 70 "WeaponSkorpion.BoltRelease" }
 	
-	{ event AE_WPN_STAGE_MAGIN 41 "0" } //DO THIS ON MAGIN TO FIX BOLT RELEASE
+	$reload_empty_magin_stage 41 41 42 70 71 
+	
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -402,13 +386,11 @@ $sequence "reload_empty_magin_stage" {
 $sequence "reload_empty_bolt_stage" {
 	"v_skorpion_anims\reload_empty_bolt_stage.smd"
 	activity "ACT_VM_STAGE_BOLTRELEASE" -1
-	{ event AE_WPN_STAGE_BOLTRELEASE 22 "0" }
-	
-	{ event AE_WPN_FULLCLIP1 23 }
 	
 	{ event AE_CL_PLAYSOUND 22 "WeaponSkorpion.BoltRelease" }
 	
-	{ event AE_WPN_STAGE_MAGIN 1 "0" }
+	$reload_empty_bolt_stage 22 23
+	
 	fadein 0.2
 	fadeout 0.2
 	snap
