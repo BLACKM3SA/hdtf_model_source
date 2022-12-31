@@ -14,7 +14,7 @@ $contents "solid"
 $illumposition 0 0.045 0.779
 
 //$cdmaterials "models\weapons\shell\"
-$cdmaterials "models\weapons\hdtf\doublebarrel\"
+$cdmaterials "Models\Weapons\"
 
 
 $cbox 0 0 0 0 0 0
