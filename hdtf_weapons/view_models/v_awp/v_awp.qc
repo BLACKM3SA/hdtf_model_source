@@ -147,7 +147,7 @@ $sequence "fire" {
 	"v_awp_anims\fire.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event AE_MUZZLEFLASH 0 "556MM muzzle" }
-	{ event 6001 16 "4" }
+	{ event 6001 16 "8" }
 	{ event AE_CL_PLAYSOUND 8 "WeaponAWP.BoltUp" }
 	{ event AE_CL_PLAYSOUND 14 "WeaponAWP.BoltBack" }
 	{ event AE_CL_PLAYSOUND 21 "WeaponAWP.BoltForward" }
@@ -180,7 +180,7 @@ $sequence "fire ads" {
 	"v_awp_anims\fire ads.smd"
 	activity "ACT_VM_PRIMARYATTACK_IRONSIGHTS" 1
 	{ event AE_MUZZLEFLASH 0 "556MM muzzle" }
-	{ event 6001 16 "4" }
+	{ event 6001 16 "8" }
 	{ event AE_CL_PLAYSOUND 8 "WeaponAWP.BoltUp" }
 	{ event AE_CL_PLAYSOUND 14 "WeaponAWP.BoltBack" }
 	{ event AE_CL_PLAYSOUND 21 "WeaponAWP.BoltForward" }

@@ -44,7 +44,7 @@ $sequence "attack1" {
 	"w_ak47_anims\attack1.smd"
 	activity "ACT_RANGE_ATTACK_AR2" -1
 	{ event 3002 0 "0" }
-	{ event 6010 0 "1" }
+	{ event 6010 0 "7" }
 	{ event AE_MUZZLEFLASH 0 "762MM muzzle" }
 	fadein 0.2
 	fadeout 0.2

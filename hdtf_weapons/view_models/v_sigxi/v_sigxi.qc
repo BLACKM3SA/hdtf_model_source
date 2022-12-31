@@ -135,7 +135,7 @@ $sequence "fire" {
 	"v_sigxi_anims\fire.smd"
 	activity "ACT_VM_PRIMARYATTACK" -1
 	{ event AE_MUZZLEFLASH 0 "762MM muzzle" }
-	{ event 6001 0 "1" }
+	{ event 6001 0 "7" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -146,7 +146,7 @@ $sequence "fire_iron" {
 	"v_sigxi_anims\fire_iron.smd"
 	activity "ACT_VM_PRIMARYATTACK_IRONSIGHTS" -1
 	{ event AE_MUZZLEFLASH 0 "762MM muzzle" }
-	{ event 6001 0 "1" }
+	{ event 6001 0 "7" }
 	fadein 0.2
 	fadeout 0.2
 	snap
