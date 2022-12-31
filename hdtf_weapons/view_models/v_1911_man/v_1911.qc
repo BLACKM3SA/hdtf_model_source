@@ -192,7 +192,7 @@ $sequence "fire_1" {
 	"v_1911_anims\fire1.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event AE_MUZZLEFLASH 0 "45MM muzzle" }
-	{ event 6001 0 "0" }
+	{ event 6001 0 "9" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -203,7 +203,7 @@ $sequence "fire_last" {
 	"v_1911_anims\fire_last.smd"
 	activity "ACT_VM_PRIMARYATTACK_SPECIAL" 1
 	{ event AE_MUZZLEFLASH 0 "45MM muzzle" }
-	{ event 6001 0 "0" }
+	{ event 6001 0 "9" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -214,7 +214,7 @@ $sequence "iron_fire" {
 	"v_1911_anims\aim.smd"
 	activity "ACT_VM_PRIMARYATTACK_IRONSIGHTS" -1
 	{ event AE_MUZZLEFLASH 0 "45MM muzzle" }
-	{ event 6001 0 "0" }
+	{ event 6001 0 "9" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -226,7 +226,7 @@ $sequence "fire_last_iron" {
 	"v_1911_anims\aim_last.smd"
 	activity "ACT_VM_PRIMARYATTACK_IRONSIGHTS_SPECIAL" 1
 	{ event AE_MUZZLEFLASH 0 "45MM muzzle" }
-	{ event 6001 0 "0" }
+	{ event 6001 0 "9" }
 	fadein 0.2
 	fadeout 0.2
 	snap
