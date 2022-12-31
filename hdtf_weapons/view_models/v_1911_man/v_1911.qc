@@ -265,10 +265,24 @@ $sequence "reload" {
 	"v_1911_anims\reload.smd"
 	activity "ACT_VM_RELOAD" -1
 	{ event AE_CL_PLAYSOUND 0 "Weapon1911.ReloadStart" }
+	
 	{ event AE_CL_PLAYSOUND 12 "Weapon1911.MagTransition" }
+	
 	{ event AE_CL_PLAYSOUND 36 "Weapon1911.MagOut" }
+	
 	{ event AE_CL_PLAYSOUND 60 "Weapon1911.MagIn" }
+	
 	{ event AE_CL_PLAYSOUND 114 "Weapon1911.ReloadEnd" }
+	
+	//////Reload stage Shit
+	{ event AE_WPN_STAGE_MAGIN 34 "1" }
+	
+	{ event AE_WPN_STAGE_ONEBULLET 35 }
+	
+	{ event AE_WPN_STAGE_MAGIN 70 "0" }
+	
+	{ event AE_WPN_FULLCLIP1 71 }
+	
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -284,13 +298,91 @@ $sequence "reload_empty" {
 	{ event AE_CL_PLAYSOUND 32 Weapon1911.MagTransition" }
 	{ event AE_CL_PLAYSOUND 50 "Weapon1911.MagIn" }
 	{ event AE_CL_PLAYSOUND 76 "Weapon1911.MagTap" }
-	{ event AE_CL_PLAYSOUND 101 "Weapon1911.SlideRelease" }
+	{ event AE_CL_PLAYSOUND 102 "Weapon1911.SlideRelease" }
 	{ event AE_CL_PLAYSOUND 120 "Weapon1911.ReloadEnd" }
+	
+	//////Reload stage Shit
+	{ event AE_WPN_STAGE_EMPTY_MAGIN 17 "1" }
+	
+	{ event AE_WPN_STAGE_EMPTY_MAGIN 58 "0" }
+	
+	{ event AE_WPN_STAGE_BOLTRELEASE 59 "1" }
+	
+	{ event AE_WPN_STAGE_BOLTRELEASE 104 "0" }
+	
+	{ event AE_WPN_FULLCLIP1 105 }
+	
 	fadein 0.2
 	fadeout 0.2
 	snap
 	fps 60
 }
+
+$sequence "reload_magin_stage" {
+	"v_1911_anims\reload_magin_stage.smd"
+	activity "ACT_VM_STAGE_MAGIN" -1
+	
+	{ event AE_CL_PLAYSOUND 0 "Weapon1911.ReloadStart" }
+	
+	{ event AE_CL_PLAYSOUND 40 "Weapon1911.MagIn" }
+	
+	{ event AE_WPN_STAGE_MAGIN 41 "0" }
+
+	{ event AE_WPN_FULLCLIP1 41 }
+	
+	{ event AE_CL_PLAYSOUND 56 "Weapon1911.ReloadEnd" }
+
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 60
+}
+
+$sequence "reload_empty_magin_stage" {
+	"v_1911_anims\reload_empty_magin_stage.smd"
+	activity "ACT_VM_STAGE_EMPTY_MAGIN" -1
+	
+	{ event AE_CL_PLAYSOUND 32 "Weapon1911.MagIn" }
+	
+	{ event AE_CL_PLAYSOUND 58 "Weapon1911.MagTap" }
+	
+	{ event AE_WPN_STAGE_EMPTY_MAGIN 40 "0" }
+	
+	{ event AE_WPN_STAGE_BOLTRELEASE 41 "1" }
+	
+	{ event AE_CL_PLAYSOUND 85 "Weapon1911.SlideRelease" }
+
+	{ event AE_WPN_STAGE_BOLTRELEASE 86 "0" }
+	
+	{ event AE_WPN_STAGE_MAGIN 40 "0" } //DO THIS ON MAGIN EMPTY TO FIX BOLT RELEASE
+	
+	{ event AE_WPN_FULLCLIP1 86 }
+	
+	{ event AE_CL_PLAYSOUND 102 "Weapon1911.ReloadEnd" }
+
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 60
+}
+
+$sequence "reload_empty_bolt_stage" {
+	"v_1911_anims\reload_empty_bolt_stage.smd"
+	activity "ACT_VM_STAGE_BOLTRELEASE" -1
+	{ event AE_WPN_STAGE_BOLTRELEASE 16 "0" }
+	
+	{ event AE_WPN_STAGE_MAGIN 1 "0" }
+	
+	{ event AE_WPN_FULLCLIP1 17 }
+	
+	{ event AE_CL_PLAYSOUND 16 "Weapon1911.SlideRelease" }
+	
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 60
+}
+
 
 $sequence "sprint_start" {
 	"v_1911_anims\sprint.smd"
@@ -321,3 +413,19 @@ $sequence "sprint_end" {
 	frame 46 74
 	snap
 }
+
+/////STAGE LOAD EVENTS
+//
+//{ event AE_WPN_STAGE_MAGIN 0 "0" }
+//{ event AE_WPN_STAGE_EMPTY_MAGIN 0 "0" }
+//{ event AE_WPN_STAGE_BOLTRELEASE 0 "0" }
+//{ event AE_WPN_STAGE_ONEBULLET 0 }
+//
+
+//ACT_VM_STAGE_EMPTY_MAGIN
+//ACT_VM_STAGE_MAGIN
+//ACT_VM_STAGE_BOLTRELEASE
+
+/////MAG LOAD EVENTS !!!
+///{ event AE_WPN_FULLCLIP1 0 }
+///{ event AE_WPN_FULLCLIP2 0 }
