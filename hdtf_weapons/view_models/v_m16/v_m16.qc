@@ -1,11 +1,36 @@
-// Created by Crowbar 0.71
-
 $modelname "weapons/v_m16.mdl"
 
 $bodygroup "Weapon"
 {
-	studio "mesh.smd"
+	studio "m16.smd"
 }
+$bodygroup "Magazines"
+{
+	studio "magazines.smd"
+	blank
+}
+
+$bodygroup "grenade"
+{
+	studio "grenade.smd"
+	studio "grenade_shell.smd"
+	blank
+}
+
+$bodygroup "Barrel"
+{
+	studio "barrel_m203.smd"
+//	studio "barrel_carbine.smd"
+}
+
+$bodygroup "Sight"
+{
+//	studio "sight_carryhandle.smd"
+	studio "sight_acog_new.smd"
+//	studio "sight_acog_old.smd"
+//	blank
+}
+
 $bodygroup "Arms"
 {
 	studio "mitchell_arms.smd"
@@ -13,6 +38,7 @@ $bodygroup "Arms"
 	studio "mitchell_arms_survivor.smd"
 }
 
+$origin 0.02 0.00 -0.10
 
 $surfaceprop "default"
 
@@ -390,6 +416,9 @@ $sequence "reload m203" {
 	activity "ACT_VM_RELOAD_SPECIAL" -1
 	{ event AE_CL_PLAYSOUND 0 "WeaponM16.M203ReloadStart" }
 	{ event AE_CL_PLAYSOUND 20 "WeaponM16.M203Open" }
+	{ event AE_CL_BODYGROUP_SET_VALUE 20   "grenade 1" }
+	{ event 6001 42 "6" }
+	{ event AE_CL_BODYGROUP_SET_VALUE 42   "grenade 0" }
 	{ event AE_CL_PLAYSOUND 78 "WeaponM16.M203Insert" }
 	{ event AE_CL_PLAYSOUND 116 "WeaponM16.M203Close" }
 	{ event AE_CL_PLAYSOUND 127 "WeaponM16.M203ReloadEnd" }

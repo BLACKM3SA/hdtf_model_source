@@ -1,8 +1,8 @@
-$modelname "shells\shell_9mm.mdl"
+$modelname "weapons/casings/9mm.mdl"
 
 $bodygroup "studio"
 {
-	studio "9mm_reference.smd"
+	studio "9MM.smd"
 }
 
 
@@ -10,20 +10,21 @@ $surfaceprop "default"
 
 $contents "solid"
 
-$illumposition 0 -0.258 0
+$illumposition -0.008 -0.001 0.548
 
-$cdmaterials "models\shells\9mm\"
+//$cdmaterials "Models\Weapons\pistol_shell\"
+$cdmaterials "Models\Weapons\"
 
 $cbox 0 0 0 0 0 0
 
-$bbox -0.189 -0.208 -0.203 0.705 0.208 0.203
+$bbox -0.935 -0.548 0 0.936 0.532 1.095
 
-$definebone "_9mm_mesh2" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
-$attachment "smoke" "_9mm_mesh2" 0.00 0.00 0.70 rotate -0 0 0
+$definebone "shell" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
+$attachment "smoke" "shell" -1.00 0.50 0.00 rotate 0 0 0
 
 
-$sequence "idle" {
-	"shell_9mm_anims\idle.smd"
+$sequence "shell" {
+	"shell_anims\shell.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

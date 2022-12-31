@@ -1,0 +1,28 @@
+$definemacro reload_empty_stage startofmaginframe endofmaginframe startofboltreleaseframe endofboltreleaseframe weaponfullclipframe \\
+	{ event AE_WPN_STAGE_EMPTY_MAGIN $startofmaginframe$ "1" } \\
+	{ event AE_WPN_STAGE_EMPTY_MAGIN $endofmaginframe$ "0" } \\
+	{ event AE_WPN_STAGE_BOLTRELEASE $startofboltreleaseframe$ "1" } \\
+	{ event AE_WPN_STAGE_BOLTRELEASE $endofboltreleaseframe$ "0" } \\
+	{ event AE_WPN_FULLCLIP1 $weaponfullclipframe$ } \\
+	
+$definemacro reload_stage startofmaginframe endofmaginframe weapononebulletframe weaponfullclipframe \\
+	{ event AE_WPN_STAGE_MAGIN $startofmaginframe$ "1" } \\
+	{ event AE_WPN_STAGE_MAGIN $endofmaginframe$ "0" } \\
+	{ event AE_WPN_STAGE_ONEBULLET $weapononebulletframe$ } \\
+	{ event AE_WPN_FULLCLIP1 $weaponfullclipframe$ } \\
+	
+$definemacro reload_magin_stage endofmaginframe weaponfullclipframe \\
+	{ event AE_WPN_STAGE_MAGIN $endofmaginframe$ "0" } \\
+	{ event AE_WPN_FULLCLIP1 $weaponfullclipframe$ } \\
+	
+$definemacro reload_empty_magin_stage endofmaginframe endofemptymaginframe startofboltreleaseframe endofboltreleaseframe weaponfullclipframe \\
+	{ event AE_WPN_STAGE_MAGIN $endofmaginframe$ "0" } //DO THIS ON MAGIN TO FIX BOLT RELEASE \\
+	{ event AE_WPN_STAGE_EMPTY_MAGIN $endofemptymaginframe$ "0" } \\
+	{ event AE_WPN_STAGE_BOLTRELEASE $startofboltreleaseframe$ "1" } \\
+	{ event AE_WPN_STAGE_BOLTRELEASE $endofboltreleaseframe$ "0" } \\
+	{ event AE_WPN_FULLCLIP1 $weaponfullclipframe$ } \\
+	
+$definemacro reload_empty_bolt_stage endofboltreleaseframe weaponfullclipframe \\
+	{ event AE_WPN_STAGE_BOLTRELEASE $endofboltreleaseframe$ "0" } \\
+	{ event AE_WPN_FULLCLIP1 $weaponfullclipframe$ } \\
+	{ event AE_WPN_STAGE_MAGIN 1 "0" }
