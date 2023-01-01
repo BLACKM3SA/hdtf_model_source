@@ -24,7 +24,7 @@ $cdmaterials "models\weapons\hdtf\hands\"
 $cdmaterials "models\weapons\hdtf\rem870\"
 
 $attachment "muzzle" "weapon" 0 0.8 17.4 rotate -90 0 0
-$attachment "1" "weapon" -0.58 0.8 2.03 rotate 0 180 -180
+$attachment "1" "weapon" 0.00 0.50 -3.50 rotate 10 -180 180
 
 $cbox 0 0 0 0 0 0
 
@@ -178,7 +178,7 @@ $sequence "iron_fire_1" {
 $sequence "pump_1" {
 	"v_rem870_anims\pump_1.smd"
 	activity "ACT_SHOTGUN_PUMP" -1
-	{ event 6001 0 "2" }
+	{ event 6001 5 "2" }
 	{ event AE_CL_PLAYSOUND 0 "Weapon870.PumpBack" }
 	{ event AE_CL_PLAYSOUND 10 "Weapon870.PumpForward" }
 	fadein 0.2
@@ -189,7 +189,7 @@ $sequence "pump_1" {
 $sequence "iron_pump" {
 	"v_rem870_anims\iron_pump.smd"
 	activity "ACT_VM_RELOAD_SPECIAL" -1
-	{ event 6001 0 "2" }
+	{ event 6001 5 "2" }
 	{ event AE_CL_PLAYSOUND 0 "Weapon870.PumpBack" }
 	{ event AE_CL_PLAYSOUND 10 "Weapon870.PumpForward" }
 	fadein 0.2
