@@ -4,10 +4,15 @@ $include "../weapon_stage_macros.qci"
 
 $modelname "weapons/v_skorpion.mdl"
 
-$bodygroup magazine
+$bodygroup Weapon
 {
 	studio "mesh.smd"
+}
+
+$bodygroup magazine
+{
 	studio "mag.smd"
+	blank
 }
 
 $bodygroup "Arms"
