@@ -2,10 +2,12 @@
 
 $modelname "weapons/v_hl2_pistol.mdl"
 
-$bodygroup "Weapon"
+$bodygroup magazine
 {
 	studio "mesh.smd"
+	studio "mag.smd"
 }
+
 $bodygroup "Arms"
 {
 	studio "mitchell_arms.smd"
@@ -35,14 +37,14 @@ $origin 0 -1.5 0
 
 $definebone "PistolMagazine" "" -3.379173 -15.979801 -4.729594 -0.750346 -0.680960 3.301727 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000
 $definebone "Weapon" "" -3.157306 -18.508410 -3.377731 -0.072995 0.027960 -0.212682 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
-$definebone "Pistolbody" "Weapon" 0.006746 2.372751 -0.354942 -0.000000 0.000000 0.000172 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$definebone "PistolTrigger" "Pistolbody" 0.000001 -1.734852 0.795319 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$definebone "Pistolslidecatch" "Pistolbody" 0.634971 -0.836123 0.694988 0.000000 0.000000 -0.000057 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$definebone "Slide" "Weapon" 0.000211 0.629906 1.304186 -0.000000 0.000000 0.000172 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000
+$definebone "Pistolbody" "Weapon" 0.006746 2.372753 -0.354942 -0.000000 0.000000 0.000172 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+$definebone "PistolTrigger" "Pistolbody" 0.000001 -1.734850 0.795319 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+$definebone "Pistolslidecatch" "Pistolbody" 0.634971 -0.836121 0.694988 0.000000 0.000000 -0.000057 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+$definebone "Slide" "Weapon" 0.000211 0.629910 1.304186 -0.000000 0.000000 0.000172 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
 $definebone "Pistolslide" "Slide" 0.001138 -0.366133 0.202689 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
-$definebone "Bullet" "PistolMagazine" 0.003409 -0.640362 2.461582 0.000000 -0.000057 -0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 -0.000000
+$definebone "Bullet" "PistolMagazine" 0.003409 -0.640360 2.461582 0.000000 -0.000057 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000
 $definebone "Mag2" "" -1.724701 7.133731 -11.799966 -1.008291 0.987149 0.495609 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000
-$definebone "Bullet2" "Mag2" 0.003409 -0.640363 2.461582 0.000000 -0.000057 0.000286 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "Bullet2" "Mag2" 0.003409 -0.640364 2.461581 0.000000 -0.000057 0.000344 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
 $definebone "ValveBiped.Bip01_Spine4" "" -0.001071 0.017517 -7.878445 0.364115 -0.030596 85.964297 -0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
 $definebone "ValveBiped.Bip01_R_Clavicle" "ValveBiped.Bip01_Spine4" -2.617122 4.425218 0.505428 -75.413294 -127.202931 -140.141468 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
 $definebone "ValveBiped.Bip01_R_UpperArm" "ValveBiped.Bip01_R_Clavicle" -0.000000 5.583009 0.000000 -0.000000 -7.055574 -2.967634 0.000000 0.000001 0.000000 -0.000000 0.000000 0.000000
@@ -106,6 +108,7 @@ $sequence "empty_power" {
   autoplay
   blend "pose_depleted" 0 1
   blendwidth 2
+  predelta
   delta
   fadein 0.1
   fadeout 0.1
@@ -184,6 +187,7 @@ $sequence "holster" {
 $sequence "shoot1" {
 	"v_hl2_pistol_anims\fire.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event 6001 0 "0" }
 	{ event AE_MUZZLEFLASH 0 "9MM muzzle" }
 	fadein 0.2
 	fadeout 0.2
@@ -194,6 +198,7 @@ $sequence "shoot1" {
 $sequence "shoot_iron1" {
 	"v_hl2_pistol_anims\aim.smd"
 	activity "ACT_VM_PRIMARYATTACK_IRONSIGHTS" 1
+	{ event 6001 0 "0" }
 	{ event AE_MUZZLEFLASH 0 "9MM muzzle" }
 	fadein 0.2
 	fadeout 0.2
@@ -205,6 +210,7 @@ $sequence "shoot_iron1" {
 $sequence "shoot_last1" {
 	"v_hl2_pistol_anims\fire_last.smd"
 	activity "ACT_VM_PRIMARYATTACK_SPECIAL" 1
+	{ event 6001 0 "0" }
 	{ event AE_MUZZLEFLASH 0 "9MM muzzle" }
 	fadein 0.2
 	fadeout 0.2
@@ -215,6 +221,7 @@ $sequence "shoot_last1" {
 $sequence "shoot_last_iron1" {
 	"v_hl2_pistol_anims\aim.smd"
 	activity "ACT_VM_PRIMARYATTACK_IRONSIGHTS_SPECIAL" 1
+	{ event 6001 0 "0" }
 	{ event AE_MUZZLEFLASH 0 "9MM muzzle" }
 	fadein 0.2
 	fadeout 0.2
@@ -285,7 +292,7 @@ $sequence "to idle from sprint" {
 }
 
 $sequence "reload empty" {
-	"v_hl2_pistol_anims\reload_empty_layered.smd"
+	"v_hl2_pistol_anims\reload_empty.smd"
 	activity "ACT_VM_RELOAD_EMPTY" -1
 	{ event AE_WPN_THROWMAG 21 "HL2PISTOL mag_throw" }
 	{ event AE_CL_PLAYSOUND 0 "WeaponHL2Pistol.ReloadEmpty" }
@@ -308,7 +315,7 @@ $sequence "reload empty" {
 }
 
 $sequence "reload half" {
-	"v_hl2_pistol_anims\reload_layer.smd"
+	"v_hl2_pistol_anims\reload.smd"
 	activity "ACT_VM_RELOAD" -1
 	{ event AE_CL_PLAYSOUND 0 "WeaponHL2Pistol.Reload" }
 	
