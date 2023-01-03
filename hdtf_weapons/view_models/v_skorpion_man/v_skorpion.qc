@@ -181,7 +181,7 @@ $sequence "firstdraw" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 60
+	fps 58
 }
 
 $sequence "holster" {
@@ -266,7 +266,6 @@ $sequence "to ads" {
 	fadeout 0.2
 	fps 60
 	frame 0 22
-	snap
 }
 
 $sequence "idle ads" {
@@ -274,7 +273,6 @@ $sequence "idle ads" {
 	activity "ACT_VM_IDLE_IRONSIGHTS" -1
 	fadein 0.2
 	fadeout 0.2
-	snap
 	fps 60
 	loop
 	frame 22 222
@@ -287,7 +285,6 @@ $sequence "from ads" {
 	fadeout 0.2
 	fps 60
 	frame 276 298
-	snap
 }
 
 $sequence "to sprint" {
