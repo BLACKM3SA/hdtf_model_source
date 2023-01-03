@@ -2,10 +2,15 @@
 
 $modelname "weapons/v_hl2_pistol.mdl"
 
-$bodygroup magazine
+$bodygroup Weapon
 {
 	studio "mesh.smd"
+}
+
+$bodygroup magazine
+{
 	studio "mag.smd"
+	blank
 }
 
 $bodygroup "Arms"
