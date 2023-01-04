@@ -2,10 +2,15 @@
 
 $modelname "weapons/v_hl2_pistol.mdl"
 
-$bodygroup magazine
+$bodygroup Weapon
 {
 	studio "mesh.smd"
+}
+
+$bodygroup magazine
+{
 	studio "mag.smd"
+	blank
 }
 
 $bodygroup "Arms"
@@ -235,7 +240,6 @@ $sequence "to ads" {
 	activity "ACT_VM_IDLE_TO_IRONSIGHTS" -1
 	fadein 0.2
 	fadeout 0.2
-	snap
 	frame 0 22 
 	fps 64
 }
@@ -245,7 +249,6 @@ $sequence "idle ads" {
 	activity "ACT_VM_IDLE_IRONSIGHTS" -1
 	fadein 0.2
 	fadeout 0.2
-	snap
 	frame 22 222
 	fps 60
 	loop
@@ -256,7 +259,6 @@ $sequence "to idle from ads" {
 	activity "ACT_VM_IRONSIGHTS_TO_IDLE" -1
 	fadein 0.2
 	fadeout 0.2
-	snap
 	frame 272 294
 	fps 64
 }
