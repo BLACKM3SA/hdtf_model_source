@@ -163,6 +163,7 @@ $sequence "draw" {
 	"v_m16_anims\draw.smd"
 	activity "ACT_VM_DRAW" -1
 	{ event AE_CL_PLAYSOUND 0 "WeaponM16.Draw" }
+	{ event AE_CL_BODYGROUP_SET_VALUE 1   "magazines 0" }
 	{ event AE_CL_PLAYSOUND 25 "WeaponM16.SafetyOff" }
 	fadein 0.2
 	fadeout 0.2
@@ -174,6 +175,7 @@ $sequence "draw first" {
 	"v_m16_anims\draw first.smd"
 	activity "ACT_VM_DEPLOY" -1
 	{ event AE_CL_PLAYSOUND 0 "WeaponM16.Draw" }
+	{ event AE_CL_BODYGROUP_SET_VALUE 1   "magazines 0" }
 	{ event AE_CL_PLAYSOUND 37 "WeaponM16.MagOut" }
 	{ event AE_CL_PLAYSOUND 126 "WeaponM16.MagHit" }
 	{ event AE_CL_PLAYSOUND 152 "WeaponM16.MagInserting" }
