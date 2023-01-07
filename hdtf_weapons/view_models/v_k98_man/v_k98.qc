@@ -11,7 +11,6 @@ $bodygroup "Arms"
 	studio "mitchell_arms.smd"
 	studio "mitchell_arms_coat.smd"
 	studio "mitchell_arms_survivor.smd"
-	studio "camp_hands.smd"
 }
 
 
