@@ -281,12 +281,32 @@ $sequence "idle to sprint" {
 
 $sequence "sprint" {
 	"v_parkourhands_anims\sprint.smd"
-	activity "ACT_VM_SPRINT_IDLE" -1
+	activity "ACT_VM_SPRINT_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 60
 	loop
 	frame 14 50
+}
+
+$sequence "sprint2" {
+	"v_parkourhands_anims\sprint.smd"
+	activity "ACT_VM_SPRINT_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 60
+	loop
+	frame 14 50
+}
+
+$sequence "sprint4" {
+	"v_parkourhands_anims\sprint.smd"
+	activity "ACT_VM_SPRINT_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 60
+	loop
+	frame 52 88
 }
 
 $sequence "sprint to idle" {
@@ -295,5 +315,5 @@ $sequence "sprint to idle" {
 	fadein 0.2
 	fadeout 0.2
 	fps 60
-	frame 50 64
+	frame 88 100
 }
