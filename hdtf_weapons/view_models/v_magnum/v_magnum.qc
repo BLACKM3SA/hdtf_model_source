@@ -1,5 +1,3 @@
-// Created by Crowbar 0.71
-
 $modelname "weapons/v_magnum.mdl"
 
 $bodygroup "Weapon"
@@ -48,6 +46,11 @@ $bodygroup "bullet6"
 	blank
 }
 
+$bodygroup "Sight"
+{
+//	studio "sight_acog_new.smd"
+	blank
+}
 
 $surfaceprop "default"
 
@@ -57,9 +60,11 @@ $illumposition 0 0 0
 
 $cdmaterials "models\weapons\hdtf\hands\"
 $cdmaterials "models\weapons\hdtf\magnum\"
+$cdmaterials "models\weapons\hdtf\m16a2\"
 
 $attachment "muzzle" "weapon" 0 1.05 7.45 rotate -90 0 0
 $attachment "eject" "bullet_2" 0 0 0 rotate 0 -90 0
+$attachment "scopeView" "weapon" 0.00 1.50 7.00 rotate 0 90 -180
 
 $cbox 0 0 0 0 0 0
 
